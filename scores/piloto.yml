@@ -6,12 +6,21 @@ score:
   intro
   base base base c1
   base base c2
-  base base base c3
-  base1b base1b base1b c3b
-  base1b base1b base1b c4
-  base1b base1b base1b base1b
-  ib2_1 ib2_2
-  b2 b2 b2 b2
+  base base base c1
+  base base c2
+  base base base base
+  ---
+  v3as v3as v3as v3as
+  base2 base2 base2 cb2
+  base2 base2 base2 cb2
+  base2 base2 base2 cb2
+  v3as v3as v3as finBase2
+  ---
+  base base base base
+  ib3_1 ib3_2
+  ---
+  base3 base3 base3 c4
+  base3 base3 base3 c4
   fin
 
 sections:
@@ -36,7 +45,7 @@ sections:
 
   base:
     name: Base
-    color: "#004000"
+    color: "#006000"
     tracks:
       #   "1---2---3---4---"
       DD: "                "
@@ -54,7 +63,7 @@ sections:
 
   c1:
     name: Corte 1
-    color: "#006000"
+    color: "#2d472d"
     tracks:
       #   "1---2---3---4---
       DD: "1 2 3 4 5       "
@@ -72,7 +81,7 @@ sections:
 
   c2:
     name: Corte 2
-    color: "#00A000"
+    color: "#004000"
     tracks:
       #   "1---2---3---4---1---2---3---4---
       DD: "X   X   X   X                   "
@@ -88,15 +97,15 @@ sections:
       S2: "    X       X  XX  XX  XX  XXXXX"
       S1: "X       X      XX  XX  XX  XXXXX"
 
-  c3:
-    name: Corte 3
+  v3as:
+    name: Variación 3as
     color: "#00F000"
     tracks:
       #   "1---2---3---4---"
       DD: "                "
       AP: "                "
       CH: "X--XX--XX--XX--X"
-      AG: ""
+      AG: "                "
       CC: "X --X --X --X - "
       CV: "                "
       TB: "X  X  X   X  X  "
@@ -106,26 +115,8 @@ sections:
       S2: "    X       X   "
       S1: "X       X       "
 
-  base1b:
-    name: Base 1B
-    color: "#000050"
-    tracks:
-      #   "1---2---3---4---"
-      DD: "                "
-      AP: "                "
-      CH: "X--XX--XX--XX--X"
-      AG: "X - X - X- -X - "
-      CC: "X --X --X --X - "
-      CV: "                "
-      TB: ""
-      RP: "X  X  X   X  X  "
-      CX: "X--X--X---X--X--"
-      S3: "      X       X "
-      S2: "    X       X   "
-      S1: "X       X       "
-
-  c3b:
-    name: Corte 3B
+  base2:
+    name: Base 2
     color: "#0000A0"
     tracks:
       #   "1---2---3---4---"
@@ -135,41 +126,60 @@ sections:
       AG: "X - X - X- -X - "
       CC: "X --X --X --X - "
       CV: "                "
-      TB: ""
+      TB: "                "
       RP: "X  X  X   X  X  "
       CX: "X--X--X---X--X--"
-      S3: "X  XX  XXX XXX X"
+      S3: "      X       X "
       S2: "    X       X   "
       S1: "X       X       "
 
-  c4:
-    name: Corte 4
-    color: "#da7203"
+  cb2:
+    name: Corte Base 2
+    color: "#000050"
     tracks:
-      #   "1---2---3---4---
-      DD: "X X X X         "
+      #   "1---2---3---4---"
+      DD: "                "
       AP: "                "
-      CH: "X--XX--XX X X X "
-      AG: "X --X --X X X X "
-      CC: "X --X --X X X X "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "                "
       CV: "                "
-      TB: "X  X  X X X X X "
-      RP: "X  X  X X X X X "
-      CX: "X--X--X-X X X X "
-      S3: "      X X X X X "
-      S2: "    X   X X X X "
-      S1: "X       X X X X "
+      TB: "                "
+      RP: "X  X  X   X  X  "
+      CX: "X--X--X---X--X--"
+      S3: "X       XX  XX  "
+      S2: "X       XX  XX  "
+      S1: "X       XX  XX  "
 
-  ib2_1:
-    name: Entrada Base 2 (1/2)
-    color: "#c309e0"
+  finBase2:
+    name: Fin Base 2
+    color: "#0000E0"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "X --X --X --X - "
+      CV: "                "
+      TB: "                "
+      RP: "X  X  X   X  X  "
+      CX: "X--X--X---X--X--"
+      S3: "X X X X XX XX X "
+      S2: "X X X X XX XX X "
+      S1: "X X X X XX XX X "
+      #   "1---2---3---4---"
+
+  ib3_1:
+    name: Entrada Base 3 (1/2)
+    color: "#950abd"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "XX  XX  XX  XX                  "
       AP: "                                "
-      CH: "X--XX--XX--XX--XXX  XX  XX  XX  "
-      AG: "X --X --X --X - XX  XX  XX  XX  "
-      CC: "X --X --X --X - XX  XX  XX  XX  "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X --X --X --X - X --X --X --X - "
+      CC: "X --X --X --X - X --X --X --X - "
       CV: "                                "
       TB: "X  X  X   X  X  XX  XX  XX  XX  "
       RP: "X  X  X   X  X  XX  XX  XX  XX  "
@@ -178,9 +188,9 @@ sections:
       S2: "    X       X       X       X   "
       S1: "X       X       X       X       "
 
-  ib2_2:
-    name: Entrada Base 2 (2/2)
-    color: "#e009b3"
+  ib3_2:
+    name: Entrada Base 3 (2/2)
+    color: "#ab08db"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
@@ -196,9 +206,9 @@ sections:
       S2: "XX  XX  XX  XX  X               "
       S1: "XX  XX  XX  XX  X               "
 
-  b2:
-    name: Base 2
-    color: "#a80a87"
+  base3:
+    name: Base 3
+    color: "#e009b3"
     tracks:
       #   "1---2---3---4---"
       DD: "                "
@@ -210,10 +220,27 @@ sections:
       TB: "X  X  X   X  X  "
       RP: "X  X  X   X  X  "
       CX: "X--X--X---X--X--"
-      S3: "XXXXXXXXX     X "
+      S3: "X     X XXXXXXXX"
       S2: "    X       X   "
       S1: "X       X       "
 
+  c4:
+    name: Corte 4
+    color: "#a80a87"
+    tracks:
+      #   "1---2---3---4---
+      DD: "X X X X         "
+      AP: "                "
+      CH: "X--XX--XX X X X "
+      AG: "X --X --X X X X "
+      CC: "X --X --X X X X "
+      CV: "                "
+      TB: "X  X  X X X X X "
+      RP: "X  X  X X X X X "
+      CX: "X--X--X-X X X X "
+      S3: "      X X X X X "
+      S2: "    X   X X X X "
+      S1: "X       X X X X "
 
   fin:
     name: Fin
