@@ -4,17 +4,21 @@ name: Funky
 bpm: 110
 score:
   intro
+  ---
   b44 b44 b44 c1
   b44 b44 b44 b44
   b44 b44 intro
+  ---
   b44 b44 b44 c1
   b44 b44 b44 b44
   b44 b44 intro
+  ---
   i24 i24
   b24 b24 b24 b24  intro
   b68 b68 b68 b68  intro
   b24 b24 b24 b24  intro
   b68 b68 b68 b68  intro
+  ---
   fin
 
 sections:
