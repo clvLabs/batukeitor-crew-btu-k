@@ -14,9 +14,9 @@ score:
   base2 base2 base2 cb2
   base2 base2 base2 cb2
   base2 base2 base2 cb2
-  v3as v3as v3as finBase2
+  v3asfb2 v3asfb2 v3asfb2 finBase2
   ---
-  base base base base
+  baseAG baseAG baseAG baseAG
   ib3_1 ib3_2
   ---
   base3 base3 base3 c4
@@ -55,7 +55,7 @@ sections:
       CC: "X --X --X --X - "
       CV: "                "
       TB: "X  X  X   X  X  "
-      RP: "X  X  X   X  X  "
+      RP: "X  X  X   X  X X"
       CX: "X--X--X---X--X--"
       S3: "      X       X "
       S2: "    X       X   "
@@ -69,7 +69,7 @@ sections:
       DD: "1 2 3 4 5       "
       AP: "                "
       CH: "X         X  X  "
-      AG: "X         X  X  "
+      AG: "                "
       CC: "X         X  X  "
       CV: "                "
       TB: "X         X  X  "
@@ -87,7 +87,7 @@ sections:
       DD: "X   X   X   X                   "
       AP: "                                "
       CH: "X--XX--XX--XX--XX  XX  XX  XXXXX"
-      AG: "               XX  XX  XX  XXXXX"
+      AG: "                                "
       CC: "X --X --X --X -XX  XX  XX  XXXXX"
       CV: "                                "
       TB: "X  X  X   X  X XX  XX  XX  XXXXX"
@@ -109,7 +109,7 @@ sections:
       CC: "X --X --X --X - "
       CV: "                "
       TB: "X  X  X   X  X  "
-      RP: "X  X  X   X  X  "
+      RP: "X  X  X   X  X X"
       CX: "X--X--X---X--X--"
       S3: "X  XX  XXX XXX X"
       S2: "    X       X   "
@@ -127,7 +127,7 @@ sections:
       CC: "X --X --X --X - "
       CV: "                "
       TB: "                "
-      RP: "X  X  X   X  X  "
+      RP: "X  X  X   X  X X"
       CX: "X--X--X---X--X--"
       S3: "      X       X "
       S2: "    X       X   "
@@ -142,7 +142,7 @@ sections:
       AP: "                "
       CH: "X--XX--XX--XX--X"
       AG: "X - X - X- -X - "
-      CC: "                "
+      CC: "X --X --X --X - "
       CV: "                "
       TB: "                "
       RP: "X  X  X   X  X  "
@@ -150,6 +150,24 @@ sections:
       S3: "X       XX  XX  "
       S2: "X       XX  XX  "
       S1: "X       XX  XX  "
+
+  v3asfb2:
+    name: Variación Fin Base 2
+    color: "#00f0e5"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "X --X --X --X - "
+      CV: "                "
+      TB: "                "
+      RP: "X  X  X   X  X X"
+      CX: "X--X--X---X--X--"
+      S3: "X  XX  XXX XXX X"
+      S2: "    X       X   "
+      S1: "X       X       "
 
   finBase2:
     name: Fin Base 2
@@ -163,12 +181,29 @@ sections:
       CC: "X --X --X --X - "
       CV: "                "
       TB: "                "
-      RP: "X  X  X   X  X  "
+      RP: "X  X  X   X  X X"
       CX: "X--X--X---X--X--"
       S3: "X X X X XX XX X "
       S2: "X X X X XX XX X "
       S1: "X X X X XX XX X "
+
+  baseAG:
+    name: Base (agogós)
+    color: "#3060a0"
+    tracks:
       #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "X --X --X --X - "
+      CV: "                "
+      TB: "                "
+      RP: "X  X  X   X  X X"
+      CX: "X--X--X---X--X--"
+      S3: "      X       X "
+      S2: "    X       X   "
+      S1: "X       X       "
 
   ib3_1:
     name: Entrada Base 3 (1/2)
@@ -181,7 +216,7 @@ sections:
       AG: "X --X --X --X - X --X --X --X - "
       CC: "X --X --X --X - X --X --X --X - "
       CV: "                                "
-      TB: "X  X  X   X  X  XX  XX  XX  XX  "
+      TB: "                                "
       RP: "X  X  X   X  X  XX  XX  XX  XX  "
       CX: "X--X--X---X--X--X-XX--X---X--X--"
       S3: "      X       X       X       X "
@@ -199,7 +234,7 @@ sections:
       AG: "XX  XX  XX  XX  X               "
       CC: "XX  XX  XX  XX  X               "
       CV: "                                "
-      TB: "XX  XX  XX  XX  X               "
+      TB: "                                "
       RP: "XX  XX  XX  XX  X               "
       CX: "XX  XX  XX  XX  X               "
       S3: "XX  XX  XX  XX  X     XX  X   X "
@@ -210,15 +245,15 @@ sections:
     name: Base 3
     color: "#e009b3"
     tracks:
-      #   "1---2---3---4---"
+      #   "1---2---3---4---"s
       DD: "                "
       AP: "                "
       CH: "X--XX--XX--XX--X"
-      AG: "X --X --X --X - "
+      AG: "                "
       CC: "X --X --X --X - "
       CV: "                "
       TB: "X  X  X   X  X  "
-      RP: "X  X  X   X  X  "
+      RP: "X  X  X   X  X X"
       CX: "X--X--X---X--X--"
       S3: "X     X XXXXXXXX"
       S2: "    X       X   "
@@ -232,7 +267,7 @@ sections:
       DD: "X X X X         "
       AP: "                "
       CH: "X--XX--XX X X X "
-      AG: "X --X --X X X X "
+      AG: "                "
       CC: "X --X --X X X X "
       CV: "                "
       TB: "X  X  X X X X X "
