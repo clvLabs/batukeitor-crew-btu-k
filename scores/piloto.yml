@@ -14,10 +14,10 @@ score:
   base2 base2 base2 cb2
   base2 base2 base2 cb2
   base2 base2 base2 cb2
-  v3asfb2 v3asfb2 v3asfb2 finBase2
+  v3asfin v3asfin v3asfin finBase2
   ---
-  baseAG baseAG baseAG baseAG
-  ib3_1 ib3_2
+  base2AG base2AG base2AG base2AG
+  introb3
   ---
   base3 base3 base3 c4
   base3 base3 base3 c4
@@ -151,8 +151,8 @@ sections:
       S2: "X       XX  XX  "
       S1: "X       XX  XX  "
 
-  v3asfb2:
-    name: Variación Fin Base 2
+  v3asfin:
+    name: Variación 3as Fin Base 2
     color: "#00f0e5"
     tracks:
       #   "1---2---3---4---"
@@ -187,8 +187,8 @@ sections:
       S2: "X X X X XX XX X "
       S1: "X X X X XX XX X "
 
-  baseAG:
-    name: Base (agogós)
+  base2AG:
+    name: Base 2 (agogós)
     color: "#3060a0"
     tracks:
       #   "1---2---3---4---"
@@ -205,41 +205,23 @@ sections:
       S2: "    X       X   "
       S1: "X       X       "
 
-  ib3_1:
-    name: Entrada Base 3 (1/2)
+  introb3:
+    name: Entrada Base 3
     color: "#950abd"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "XX  XX  XX  XX                  "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "X --X --X --X - X --X --X --X - "
-      CC: "X --X --X --X - X --X --X --X - "
-      CV: "                                "
-      TB: "                                "
-      RP: "X  X  X   X  X  XX  XX  XX  XX  "
-      CX: "X--X--X---X--X--X-XX--X---X--X--"
-      S3: "      X       X       X       X "
-      S2: "    X       X       X       X   "
-      S1: "X       X       X       X       "
-
-  ib3_2:
-    name: Entrada Base 3 (2/2)
-    color: "#ab08db"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "XX  XX  XX  XX  X               "
-      AG: "XX  XX  XX  XX  X               "
-      CC: "XX  XX  XX  XX  X               "
-      CV: "                                "
-      TB: "                                "
-      RP: "XX  XX  XX  XX  X               "
-      CX: "XX  XX  XX  XX  X               "
-      S3: "XX  XX  XX  XX  X     XX  X   X "
-      S2: "XX  XX  XX  XX  X               "
-      S1: "XX  XX  XX  XX  X               "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "XX  XX  XX  XX                                                  "
+      AP: "                                                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--XXX  XX  XX  XX  X               "
+      AG: "X --X --X --X - X --X --X --X - XX  XX  XX  XX  X               "
+      CC: "X --X --X --X - X --X --X --X - XX  XX  XX  XX  X               "
+      CV: "                                                                "
+      TB: "                                                                "
+      RP: "X  X  X   X  X  XX  XX  XX  XX  XX  XX  XX  XX  X               "
+      CX: "X--X--X---X--X--X-XX--X---X--X--XX  XX  XX  XX  X               "
+      S3: "      X       X       X       X XX  XX  XX  XX  X     XX  X   X "
+      S2: "    X       X       X       X   XX  XX  XX  XX  X               "
+      S1: "X       X       X       X       XX  XX  XX  XX  X               "
 
   base3:
     name: Base 3

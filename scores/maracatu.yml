@@ -3,9 +3,7 @@ name: Maracatú
 
 bpm: 115
 score:
-  intro1 intro1
-  intro2 intro2
-  finIntro
+  intro
   ---
   base base base base
   base base base c1
@@ -19,59 +17,24 @@ score:
 
 sections:
 
-  intro1:
-    name: Intro (1/2)
+  intro:
+    name: Intro
     color: "#c3a012"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "                                "
-      AG: "X - X - X- -X - X - X - X- -X - "
-      CC: "                                "
-      CV: "                                "
-      TB: "                                "
-      RP: "                                "
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
-      S1: "                                "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                                                                "
+      AP: "                                                                                                                "
+      CH: "                                X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --X --"
+      AG: "X - X - X- -X - X - X - X- -X - X - X - X- -X - X - X - X- -X - X - X - X- -X - X - X - X- -X - X - X - X- -X - "
+      CC: "                                 X  X X  X  X X  X  X X  X  X X  X  X X  X  X X  X  X X  X  X X  X  X X  X  X X "
+      CV: "                                                                                                                "
+      TB: "                                                                                                                "
+      RP: "                                                                                                X X X X  X X XXX"
+      CX: "                                                                                                X X X X  X X XXX"
+      S3: "                                                                                                X X X X  X X XXX"
+      S2: "                                                                                                X X X X  X X XXX"
+      S1: "                                                                                                X X X X  X X XXX"
 
-  intro2:
-    name: Intro (2/2)
-    color: "#e3bb1b"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X --X --X --X --X --X --X --X --"
-      AG: "X - X - X- -X - X - X - X- -X - "
-      CC: " X  X X  X  X X  X  X X  X  X X "
-      CV: "                                "
-      TB: "                                "
-      RP: "                                "
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
-      S1: "                                "
-
-  finIntro:
-    name: Fin intro
-    color: "#ffcc00"
-    tracks:
-      #   "1---2---3---4---"
-      DD: "                "
-      AP: "                "
-      CH: "X --X --X --X --"
-      AG: "X - X - X- -X - "
-      CC: " X  X X  X  X X "
-      CV: "                "
-      TB: "                "
-      RP: "X X X X  X X XXX"
-      CX: "X X X X  X X XXX"
-      S3: "X X X X  X X XXX"
-      S2: "X X X X  X X XXX"
-      S1: "X X X X  X X XXX"
 
   base:
     name: Base

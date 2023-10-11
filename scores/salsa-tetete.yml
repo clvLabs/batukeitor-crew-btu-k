@@ -3,142 +3,111 @@ name: Salsa + Magalenha (tetete)
 
 bpm: 95
 score:
-  intro1 intro2 intro3
-  baseS baseS baseS baseS
-  baseS baseS crescendo crescendo
+  intro
+  bs bs bs bs
+  bs bs bs bs
+  crs crs crs crs
   ---
-  baseT baseT baseT tetete
-  baseT baseT baseT tetete
+  bt bt bt bt
+  ttt bt ttt bt
+  ttt bt ttt bt
+  bt bt bt bt
   fin
 
 sections:
 
-  intro1:
-    name: Intro (1/3)
+  intro:
+    name: Intro
     color: "#c3a012"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "1   2   3   y                   "
-      AP: "                                "
-      CH: "                                "
-      AG: "                                "
-      CC: "                                "
-      CV: "               X  X X   X  X   X"
-      TB: "                                "
-      RP: "                                "
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
-      S1: "                                "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "1   2   3   y                                                                                   "
+      AP: "                                                                                                "
+      CH: "                                X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "                                                X - X - X- -X - X - X - X- -X - X - X - X- -X - "
+      CC: "                                              - X --X --X --X - X --X --X --X - X --X --X --X - "
+      CV: "               X  X X   X  X   X  X X   X  X   X  X X   X  X   X  X X   X  X   X  X X   X  X   X"
+      TB: "                                                                                                "
+      RP: "                                                               X  X X   X  X   X  X X   X  X  XX"
+      CX: "                                                                               X--X-X---X--X---X"
+      S3: "                                                                                        X  X  X "
+      S2: "                                                                                        X  X  X "
+      S1: "                                                                                        X  X  X "
 
-  intro2:
-    name: Intro (2/3)
-    color: "#e3bb1b"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "                X - X - X- -X - "
-      CC: "              - X --X --X --X - "
-      CV: "  X X   X  X   X  X X   X  X   X"
-      TB: "                                "
-      RP: "                               X"
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
-      S1: "                                "
-
-  intro3:
-    name: Intro (3/3)
-    color: "#faca0c"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "X - X - X- -X - X - X - X- -X - "
-      CC: "X --X --X --X - X --X --X --X - "
-      CV: "  X X   X  X   X  X X   X  X   X"
-      TB: "                                "
-      RP: "  X X   X  X   X  X X   X  X  XX"
-      CX: "               X--X-X---X--X---X"
-      S3: "                        X  X  X "
-      S2: "                        X  X  X "
-      S1: "                        X  X  X "
-
-  baseS:
+  bs:
     name: Base Salsa
+    timeSignature: 2/4
     color: "#006000"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "X - X - X- -X - X - X - X- -X - "
-      CC: "X --X --X --X - X --X --X --X - "
-      CV: "  X X   X  X   X  X X   X  X   X"
-      TB: "                                "
-      RP: "  X X   X  X   X  X X   X  X   X"
-      CX: "--X-X---X--X---X--X-X---X--X---X"
-      S3: "      X       X       X       X "
-      S2: "X       X       X       X       "
-      S1: "   X       X       X       X    "
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "X --X --X --X - "
+      CV: "  X X   X  X   X"
+      TB: "                "
+      RP: "  X X   X  X   X"
+      CX: "--X-X---X--X---X"
+      S3: "      X       X "
+      S2: "X       X       "
+      S1: "   X       X    "
 
-  crescendo:
-    name: Crescendo (ba-tu-ka-ba-tu-ka)
+  crs:
+    name: Ba-tu-ka
+    timeSignature: 2/4
     color: "#2d472d"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X  X  X X  X  X X  X  X X  X  X "
-      AG: "X  X  X X  X  X X  X  X X  X  X "
-      CC: "X  X  X X  X  X X  X  X X  X  X "
-      CV: "                                "
-      TB: "X  X  X X  X  X X  X  X X  X  X "
-      RP: "X  X  X X  X  X X  X  X X  X  X "
-      CX: "X  X  X X  X  X X  X  X X  X  X "
-      S3: "X  X  X X  X  X X  X  X X  X  X "
-      S2: "X  X  X X  X  X X  X  X X  X  X "
-      S1: "X  X  X X  X  X X  X  X X  X  X "
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X  X  X X  X  X "
+      AG: "X  X  X X  X  X "
+      CC: "X  X  X X  X  X "
+      CV: "                "
+      TB: "X  X  X X  X  X "
+      RP: "X  X  X X  X  X "
+      CX: "X  X  X X  X  X "
+      S3: "X  X  X X  X  X "
+      S2: "X  X  X X  X  X "
+      S1: "X  X  X X  X  X "
 
-  baseT:
+  bt:
     name: Base Tetete
+    timeSignature: 2/4
     color: "#0000A0"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "X - X - X- -X - X - X - X- -X - "
-      CC: "X --X --X --X - X --X --X --X - "
-      CV: "                                "
-      TB: "  XX  X   XX  X   XX  X   XX  X "
-      RP: " XXX  X  XXX  X  XXX  X  XXX  X "
-      CX: "-XXX--X--XXX--X--XXX--X--XXX--X-"
-      S3: "      X       X       X       X "
-      S2: "X       X       X       X       "
-      S1: "   XX      XX      XX      XX   "
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X--XX--XX--XX--X"
+      AG: "X - X - X- -X - "
+      CC: "X --X --X --X - "
+      CV: "                "
+      TB: "  XX  X   XX  X "
+      RP: " XXX  X  XXX  X "
+      CX: "-XXX--X--XXX--X-"
+      S3: "      X       X "
+      S2: "X       X       "
+      S1: "   XX      XX   "
 
-
-  tetete:
+  ttt:
     name: Tetete
     color: "#a80a87"
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X               X--XX--XX--XX--X"
-      AG: "                X - X - X- -X - "
-      CC: "X               X --X --X --X - "
-      CV: "                                "
-      TB: "X                 XX  X   XX  X "
-      RP: "X                XXX  X  XXX  X "
-      CX: "X                XXX--X--XXX--X-"
-      S3: "X                     X       X "
-      S2: "X               X       X       "
-      S1: "X                 XX      XX    "
+      #   "1---2---3---4---"
+      DD: "                "
+      AP: "                "
+      CH: "X               "
+      AG: "                "
+      CC: "X               "
+      CV: "                "
+      TB: "X               "
+      RP: "X               "
+      CX: "X               "
+      S3: "X               "
+      S2: "X               "
+      S1: "X               "
 
   fin:
     name: Fin
