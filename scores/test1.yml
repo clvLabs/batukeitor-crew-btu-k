@@ -1,0 +1,164 @@
+# Batukeitor score
+# Basada en: https://www.youtube.com/watch?v=5uxEdalFXD8
+name: Sin nombre
+
+bpm: 120
+score:
+  intro intro intro intro
+  ---
+  base1 c1
+  base1 c1
+  ---
+  base2 base2
+  base2 base2
+  ---
+  base1 c1
+  base1 c1
+  ---
+  base3 base3
+  base3 base3
+  ---
+  falsofin
+  ---
+  base1 c1
+  base1 c1
+  ---
+  base3
+  fin
+
+
+sections:
+
+  intro:
+    name: Intro
+    color: "#c3a012"
+    timeSignature: 6/8
+    tracks:
+      #   "1-----2-----1-----2-----"
+      DD: "                        "
+      AP: "                        "
+      CH: "                        "
+      AG: "                        "
+      CC: "                        "
+      CV: "                        "
+      TB: "                        "
+      RP: "XxxxxxXxxxxxX           "
+      CX: "X-----X-----X           "
+      S3: "                        "
+      S2: "                        "
+      S1: "                        "
+
+  base1:
+    name: Base 1
+    color: "#a0c312"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "                                "
+      AG: "                                "
+      CC: "                                "
+      CV: "                                "
+      TB: "                                "
+      #   "1---2---1---2---1---2---1---2---"
+      RP: "XXXXXXXXXXXXXXXXX     XXX       "
+      CX: "----X-------X-------X-------X---"
+      S3: "X X X   X X X   X X X   X X X   "
+      S2: "X X X   X X X   X X X   X X X   "
+      S1: "X X X   X X X - X X X   X X X - "
+
+  c1:
+    name: Complemento 1
+    color: "#0c6913"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X - X - X- -X - X - X - X- -X - "
+      CC: " X  X X  X  X X  X  X X  X  X X "
+      CV: "                                "
+      TB: "X  X  X   X X   X  X  X   X X   "
+      RP: "                                "
+      CX: "                                "
+      S3: "X X X   X X X   X X X   X X X   "
+      S2: "X X X   X X X   X X X   X X X   "
+      S1: "X X X   X X X - X X X   X X X - "
+
+  base2:
+    name: Base 2
+    color: "#12adc3"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X - X - X- -X - X - X - X- -X - "
+      CC: " X  X X  X  X X  X  X X  X  X X "
+      CV: "                                "
+      TB: "X  X  X   X X   X  X  X   X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
+      CX: "X  X  X   X X   X  X  X   X X   "
+      S3: "X X X X X X X X X   X X X   X X "
+      S2: "X X X X X X X X X   X X X   X X "
+      S1: "X X X X X X X X X   X X X   X X "
+
+  base3:
+    name: Base 3
+    color: "#c312a2"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X X             X X             "
+      CC: "X X             X X             "
+      CV: "                                "
+      TB: "X X             X X             "
+      RP: "X X             X X             "
+      CX: "X X             X X             "
+      S3: "X X X   X X X   X X X   X X X   "
+      S2: "X X X   X X X   X X X   X X X   "
+      S1: "X X X   X X X - X X X   X X X - "
+
+  falsofin:
+    name: FalsoFin
+    color: "#a35656"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X     XXX                       "
+      AG: "X     XXX                       "
+      CC: "X     XXX                       "
+      CV: "                                "
+      TB: "X     XXX                       "
+      RP: "X     XXX                       "
+      CX: "X     XXX                       "
+      S3: "X     XXX            XX   X  XXX"
+      S2: "X     XXX                       "
+      S1: "X     XXX                       "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX   "
+      AG: "X X             X X         X   "
+      CC: "X X             X X         X   "
+      CV: "                                "
+      TB: "X X             X X         X   "
+      RP: "X X             X X         X   "
+      CX: "X X             X X         X   "
+      S3: "X X X   X X X   X X X   X X X   "
+      S2: "X X X   X X X   X X X   X X X   "
+      S1: "X X X   X X X - X X X   X X X   "
