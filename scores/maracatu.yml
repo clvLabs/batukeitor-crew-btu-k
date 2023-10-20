@@ -50,9 +50,9 @@ sections:
       TB: "                "
       RP: "X   X X  X  X X "
       CX: "X---X-X--X--X-X-"
-      S3: "X       XX XX   "
-      S2: "X       XX XX   "
-      S1: "X       XX XX   "
+      S3: "X       XX  XX  "
+      S2: "X       XX  XX  "
+      S1: "X       XX  XX  "
 
   c1:
     name: Corte 1
@@ -87,8 +87,8 @@ sections:
       RP: " X  X X  X  X X "
       CX: "-X--X-X--X--X-X-"
       S3: "X  XX  XXX XXX X"
-      S2: "X       XX XX   "
-      S1: "X       XX XX   "
+      S2: "X       XX  XX  "
+      S1: "X       XX  XX  "
 
   fin:
     name: Fin
@@ -99,7 +99,7 @@ sections:
       DD: "        "
       AP: "        "
       CH: "X       "
-      AG: "        "
+      AG: "X       "
       CC: "X       "
       CV: "        "
       TB: "        "
