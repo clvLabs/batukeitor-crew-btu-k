@@ -255,7 +255,7 @@ sections:
       TB: "X  X  X X X X X "
       RP: "X  X  X X X X X "
       CX: "X--X--X-X X X X "
-      S3: "      X X X X X "
+      S3: "X     X X X X X "
       S2: "    X   X X X X "
       S1: "X       X X X X "
 
