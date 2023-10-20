@@ -1,7 +1,7 @@
 # Batukeitor score
 name: Salsa + Magalenha (tetete)
 
-bpm: 95
+bpm: 105
 score:
   intro
   bs bs bs bs
@@ -50,8 +50,8 @@ sections:
       RP: "  X X   X  X   X"
       CX: "--X-X---X--X---X"
       S3: "      X       X "
-      S2: "X       X       "
-      S1: "   X       X    "
+      S2: "   X       X    "
+      S1: "X       X       "
 
   crs:
     name: Ba-tu-ka
@@ -88,8 +88,8 @@ sections:
       RP: " XXX  X  XXX  X "
       CX: "-XXX--X--XXX--X-"
       S3: "      X       X "
-      S2: "X       X       "
-      S1: "   XX      XX   "
+      S2: "   XX      XX   "
+      S1: "X       X       "
 
   ttt:
     name: Tetete
