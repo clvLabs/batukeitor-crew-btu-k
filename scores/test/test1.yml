@@ -1,6 +1,6 @@
 # Batukeitor score
 # Basada en: https://www.youtube.com/watch?v=5uxEdalFXD8
-name: Sin nombre
+name: Test 1
 
 bpm: 120
 score:
@@ -140,7 +140,7 @@ sections:
       TB: "X     XXX                       "
       RP: "X     XXX                       "
       CX: "X     XXX                       "
-      S3: "X     XXX            XX   X  XXX"
+      S3: "X     XXX           XXXXX     XX"
       S2: "X     XXX                       "
       S1: "X     XXX                       "
 
