@@ -1,0 +1,191 @@
+# Batukeitor score
+name: 6/8
+
+bpm: 130
+score:
+  intro_fin
+  intro_cx intro_cx intro_cx llamada
+  ---
+  anim anim anim anim
+  intro_fin cbase
+  ---
+  base base base culebrica
+  base base base c1
+  base base base base
+  base base base c1
+  base base base intro_fin
+  ---
+  fin
+
+sections:
+
+  intro_fin:
+    name: Intro / fin
+    color: "#c3a012"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                        "
+      AP: "                        "
+      CH: "X X   X X   X X   X X   "
+      AG: "                        "
+      CC: "X X   X X   X X   X X   "
+      CV: "                        "
+      TB: "X X   X X   X X   X X   "
+      RP: "X X   X X   X X   X X   "
+      CX: "X X   X X   X X   X X   "
+      S3: "X X   X X   X X   X X   "
+      S2: "X X   X X   X X   X X   "
+      S1: "X X   X X   X X   X X   "
+
+  intro_cx:
+    name: Intro Caixa
+    color: "#4657c7"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                                                "
+      AP: "                                                "
+      CH: "X                                               "
+      AG: "                                                "
+      CC: "X                                               "
+      CV: "                                                "
+      TB: "X                                               "
+      RP: "X                                               "
+      CX: "X - X - X X X X - X - X X - X - X X - X - X - X "
+      S3: "X                                               "
+      S2: "X                                               "
+      S1: "X                                               "
+
+  llamada:
+    name: Llamada
+    color: "#1633f2"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                                                            "
+      AP: "                                                            "
+      CH: "X                                                           "
+      AG: "                                                            "
+      CC: "X                                                           "
+      CV: "                                                            "
+      TB: "X                                                           "
+      RP: "X                                                           "
+      CX: "X - X - X X X X - X - X X - X -    XX X X X X - X X - X -   "
+      S3: "X                                                           "
+      S2: "X                                                           "
+      S1: "X                                                           "
+
+  anim:
+    name: Animación
+    color: "#00A000"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                        "
+      AP: "                        "
+      CH: "                        "
+      AG: "                        "
+      CC: "X     X     X     X     "
+      CV: "                        "
+      TB: "X     X     X     X     "
+      RP: "X - X - X X - X - X - X "
+      CX: "-     -     -     -     "
+      S3: "        X X         X X "
+      S2: "      X           X     "
+      S1: "X           X           "
+
+  cbase:
+    name: Cambio a base
+    color: "#c3c312"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "      2     3     y     "
+      AP: "                        "
+      CH: "X                       "
+      AG: "                        "
+      CC: "X                       "
+      CV: "                        "
+      TB: "X                       "
+      RP: "X                       "
+      CX: "X                       "
+      S3: "X                       "
+      S2: "X                       "
+      S1: "X                       "
+
+  base:
+    name: Base
+    color: "#007000"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                        "
+      AP: "                        "
+      CH: "X - - - - - X - - - - - "
+      AG: "                        "
+      CC: "X   X   X X   X   X   X "
+      CV: "                        "
+      TB: "X   X   X X   X   X   X "
+      RP: "X - X - X X - X - X - X "
+      CX: "X - X - X X - X - X - X "
+      S3: "        X X         X X "
+      S2: "      X           X     "
+      S1: "X           X           "
+
+  culebrica:
+    name: Culebrica
+    color: "#007070"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                        "
+      AP: "                        "
+      CH: "X X X X X X X X X X X X "
+      AG: "                        "
+      CC: "X X X X X X X X X X X X "
+      CV: "                        "
+      TB: "X X X X X X X X X X X X "
+      RP: "X X X X X X X X X X X X "
+      CX: "X X X X X X X X X X X X "
+      S3: "X X X X X X X X X X X X "
+      S2: "X X X X X X X X X X X X "
+      S1: "X X X X X X X X X X X X "
+
+  c1:
+    name: Corte 1
+    color: "#0c31a2"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                        "
+      AP: "                        "
+      CH: "X X X   X X X   X X X   "
+      AG: "                        "
+      CC: "X X X   X X X   X X X   "
+      CV: "                        "
+      TB: "X X X   X X X   X X X   "
+      RP: "X X X   X X X   X X X   "
+      CX: "X X X   X X X   X X X   "
+      S3: "X X X   X X X   X X X   "
+      S2: "X X X   X X X   X X X   "
+      S1: "X X X   X X X   X X X   "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---"
+      DD: "        "
+      AP: "        "
+      CH: "X       "
+      AG: "        "
+      CC: "X       "
+      CV: "        "
+      TB: "X       "
+      RP: "X       "
+      CX: "X       "
+      S3: "X       "
+      S2: "X       "
+      S1: "X       "
