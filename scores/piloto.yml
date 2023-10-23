@@ -16,7 +16,7 @@ score:
   base2 base2 base2 cb2
   v3asfin v3asfin v3asfin finBase2
   ---
-  base2AG base2AG base2AG base2AG
+  base base base base
   introb3
   ---
   base3 base3 base3 c4
@@ -84,7 +84,7 @@ sections:
     color: "#004000"
     tracks:
       #   "1---2---3---4---1---2---3---4---
-      DD: "X   X   X   X                   "
+      DD: "1   2   3   y                   "
       AP: "                                "
       CH: "X--XX--XX--XX--XX  XX  XX  XXXXX"
       AG: "                                "
@@ -187,24 +187,6 @@ sections:
       S2: "X X X X XX XX X "
       S1: "X X X X XX XX X "
 
-  base2AG:
-    name: Base 2 (agogós)
-    color: "#3060a0"
-    tracks:
-      #   "1---2---3---4---"
-      DD: "                "
-      AP: "                "
-      CH: "X--XX--XX--XX--X"
-      AG: "X - X - X- -X - "
-      CC: "X --X --X --X - "
-      CV: "                "
-      TB: "                "
-      RP: "X  X  X   X  X X"
-      CX: "X--X--X---X--X--"
-      S3: "      X       X "
-      S2: "    X       X   "
-      S1: "X       X       "
-
   introb3:
     name: Entrada Base 3
     color: "#950abd"
@@ -213,12 +195,12 @@ sections:
       DD: "XX  XX  XX  XX                                                  "
       AP: "                                                                "
       CH: "X--XX--XX--XX--XX--XX--XX--XX--XXX  XX  XX  XX  X               "
-      AG: "X --X --X --X - X --X --X --X - XX  XX  XX  XX  X               "
+      AG: "                                                                "
       CC: "X --X --X --X - X --X --X --X - XX  XX  XX  XX  X               "
       CV: "                                                                "
-      TB: "                                                                "
+      TB: "X  X  X   X  X  X  X  X   X  X  XX  XX  XX  XX  X               "
       RP: "X  X  X   X  X  XX  XX  XX  XX  XX  XX  XX  XX  X               "
-      CX: "X--X--X---X--X--X-XX--X---X--X--XX  XX  XX  XX  X               "
+      CX: "X--X--X---X--X--XX--XX--XX--XX--XX  XX  XX  XX  X               "
       S3: "      X       X       X       X XX  XX  XX  XX  X     XX  X   X "
       S2: "    X       X       X       X   XX  XX  XX  XX  X               "
       S1: "X       X       X       X       XX  XX  XX  XX  X               "
