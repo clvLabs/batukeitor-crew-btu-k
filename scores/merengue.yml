@@ -42,8 +42,8 @@ sections:
       RP: "XX  X X X   X X "
       CX: "--X---X-XX XX X "
       S3: "XX  X X X   X X "
-      S2: "X       X       "
-      S1: "    X       X   "
+      S2: "    X       X   "
+      S1: "X       X       "
 
   fin:
     name: Fin
