@@ -28,12 +28,8 @@ sections:
     color: "#c3a012"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
       CH: "X   X   X   X   X X X X X-X-X-X-"
-      AG: "                                "
       CC: "X   X   X   X   X X X X XXXXXXXX"
-      CV: "                                "
       TB: "X   X   X   X   X X X X XXXXXXXX"
       RP: "X   X   X   X   X X X X XXXXXXXX"
       CX: "X   X   X   X   X X X X XXXXXXXX"
@@ -46,12 +42,8 @@ sections:
     color: "#006000"
     tracks:
       #   "1---2---3---4---"
-      DD: "                "
-      AP: "                "
       CH: "X--XX--XX--XX--X"
-      AG: "                "
       CC: "X --X --X --X - "
-      CV: "                "
       TB: "    X  X X  X  X"
       RP: "    X  X X  X  X"
       CX: "----X--X-X--X--X"
@@ -64,12 +56,7 @@ sections:
     color: "#004000"
     tracks:
       #   "1---2---3---4---"
-      DD: "                "
-      AP: "                "
-      CH: "                "
-      AG: "                "
       CC: "      X       XX"
-      CV: "                "
       TB: "      X       XX"
       RP: "XXXXX X XXXXX XX"
       CX: "XXXXX X XXXXX XX"
@@ -83,18 +70,7 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---"
-      DD: "                "
-      AP: "                "
-      CH: "                "
-      AG: "                "
-      CC: "                "
-      CV: "                "
-      TB: "                "
-      RP: "                "
       CX: "----X-------X---"
-      S3: "                "
-      S2: "                "
-      S1: "                "
 
   b24:
     name: Base 2/4
@@ -102,12 +78,8 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---"
-      DD: "                "
-      AP: "                "
       CH: "X   X   X   X   "
-      AG: "                "
       CC: "  XX  XX  XX  XX"
-      CV: "                "
       TB: "X   X   X   X   "
       RP: "X   X   X   X   "
       CX: "X---X---X---X---"
@@ -120,13 +92,9 @@ sections:
     color: "#9d09ff"
     timeSignature: 6/8
     tracks:
-      #   "1-----2-----1-----2-----"
-      DD: "                        "
-      AP: "                        "
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X     X     X     X     "
-      AG: "                        "
       CC: "  X X   X X   X X   X X "
-      CV: "                        "
       TB: "X     X     X     X     "
       RP: "X     X     X     X     "
       CX: "X - - X - - X - - X - - "
@@ -140,12 +108,8 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---"
-      DD: "        "
-      AP: "        "
       CH: "X       "
-      AG: "        "
       CC: "X       "
-      CV: "        "
       TB: "X       "
       RP: "X       "
       CX: "X       "

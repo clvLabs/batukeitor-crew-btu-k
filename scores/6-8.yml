@@ -25,12 +25,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                        "
-      AP: "                        "
       CH: "X X   X X   X X   X X   "
-      AG: "                        "
       CC: "X X   X X   X X   X X   "
-      CV: "                        "
       TB: "X X   X X   X X   X X   "
       RP: "X X   X X   X X   X X   "
       CX: "X X   X X   X X   X X   "
@@ -44,12 +40,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                                                "
-      AP: "                                                "
       CH: "X                                               "
-      AG: "                                                "
       CC: "X                                               "
-      CV: "                                                "
       TB: "X                                               "
       RP: "X                                               "
       CX: "X - X - X X X X - X - X X - X - X X - X - X - X "
@@ -63,12 +55,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                                                            "
-      AP: "                                                            "
       CH: "X                                                           "
-      AG: "                                                            "
       CC: "X                                                           "
-      CV: "                                                            "
       TB: "X                                                           "
       RP: "X                                                           "
       CX: "X - X - X X X X - X - X X - X -    XX X X X X - X X - X -   "
@@ -82,12 +70,7 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                        "
-      AP: "                        "
-      CH: "                        "
-      AG: "                        "
       CC: "X     X     X     X     "
-      CV: "                        "
       TB: "X     X     X     X     "
       RP: "X - X - X X - X - X - X "
       CX: "-     -     -     -     "
@@ -102,11 +85,8 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       DD: "      2     3     y     "
-      AP: "                        "
       CH: "X                       "
-      AG: "                        "
       CC: "X                       "
-      CV: "                        "
       TB: "X                       "
       RP: "X                       "
       CX: "X                       "
@@ -120,12 +100,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                        "
-      AP: "                        "
       CH: "X - - - - - X - - - - - "
-      AG: "                        "
       CC: "X   X   X X   X   X   X "
-      CV: "                        "
       TB: "X   X   X X   X   X   X "
       RP: "X - X - X X - X - X - X "
       CX: "X - X - X X - X - X - X "
@@ -139,12 +115,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                        "
-      AP: "                        "
       CH: "X X X X X X X X X X X X "
-      AG: "                        "
       CC: "X X X X X X X X X X X X "
-      CV: "                        "
       TB: "X X X X X X X X X X X X "
       RP: "X X X X X X X X X X X X "
       CX: "X X X X X X X X X X X X "
@@ -158,12 +130,8 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      DD: "                        "
-      AP: "                        "
       CH: "X X X   X X X   X X X   "
-      AG: "                        "
       CC: "X X X   X X X   X X X   "
-      CV: "                        "
       TB: "X X X   X X X   X X X   "
       RP: "X X X   X X X   X X X   "
       CX: "X X X   X X X   X X X   "
@@ -177,12 +145,8 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---"
-      DD: "        "
-      AP: "        "
       CH: "X       "
-      AG: "        "
       CC: "X       "
-      CV: "        "
       TB: "X       "
       RP: "X       "
       CX: "X       "
