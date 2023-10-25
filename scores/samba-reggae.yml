@@ -4,38 +4,162 @@ name: Samba Reggae
 
 bpm: 95
 score:
-  intro
+  in-s1s2 in-s1s2
+  in-s3 in-s3
+  in-cx in-cx
+  in-s3-var in-s3-var
+  in-ch in-ch
+  in-tb in-tb
+  in-ag in-ag
+  in-cc in-cc
+  in-rp c1
+  ---
   base base base base
-  intro base base base
-  intro base base base
-  intro
+  base base c1
+  base base c1
   end
 
 sections:
 
-  intro:
-    name: Intro
-    color: "#c3a012"
+  in-s1s2:
+    name: Intro S1-S2
+    color: "#001000"
+    timeSignature: 2/4
     tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      RP: " XX  XX          XXX  X         "
-      CX: "X   X   X  X  X X     X         "
-      S3: "X   X   X  X  X X     X XXXXXXXX"
-      S2: "X   X   X  X  X X     X         "
-      S1: "X   X   X  X  X X     X         "
+      #   "1---2---3---4---"
+      S2: "    X       X   "
+      S1: "X       X       "
 
+  in-s3:
+    name: Intro S3
+    color: "#003000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      S3: "  X       X  X X"
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-cx:
+    name: Intro CX
+    color: "#005000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CX: "--X---X---X---X-"
+      S3: "  X       X  X X"
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-s3-var:
+    name: Intro S3-Variación
+    color: "#007000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-ch:
+    name: Intro CH
+    color: "#009000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-tb:
+    name: Intro TB
+    color: "#00B000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      TB: "  X   X  X X  X "
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-ag:
+    name: Intro AG
+    color: "#00D000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      AG: "XX -X -   - X --"
+      TB: "  X   X  X X  X "
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-cc:
+    name: Intro CC
+    color: "#00F000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      AG: "XX -X -   - X --"
+      CC: "  XX  X  X X  X "
+      TB: "  X   X  X X  X "
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
+
+  in-rp:
+    name: Intro RP - Llamada
+    color: "#22FF22"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      AG: "XX -X -   - X --"
+      CC: "  XX  X  X X  X "
+      TB: "  X   X  X X  X "
+      RP: "XXXXXXXXX X XXXX"
+      CX: "--X---X---X---X-"
+      S3: "  X XXXXXXXXX   "
+      S2: "    X       X   "
+      S1: "X       X       "
 
   base:
     name: Base
-    color: "#004000"
+    color: "#009000"
+    timeSignature: 2/4
     tracks:
       #   "1---2---3---4---"
+      CH: "X--XX--XX--XX--X"
+      AG: "XX -X -   - X --"
+      CC: "  XX  X  X X  X "
+      TB: "  X   X  X X  X "
       RP: " XXX  X   XX  X "
       CX: "--X---X---X---X-"
       S3: "  X XXXXXXXXX   "
       S2: "    X       X   "
       S1: "X       X       "
 
+  c1:
+    name: Corte 1
+    color: "#c3a012"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      TB: "  X   X  X X  X                 "
+      RP: " XX  XX          XXX  X         "
+      CX: "X   X   X  X  X X     X         "
+      S3: "X   X   X  X  X X     X XXXXXXXX"
+      S2: "X   X   X  X  X X     X         "
+      S1: "X   X   X  X  X X     X         "
 
   end:
     name: End
@@ -43,6 +167,10 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---"
+      CH: "X       "
+      AG: "X       "
+      CC: "X       "
+      TB: "X       "
       RP: "X       "
       CX: "X       "
       S3: "X       "
