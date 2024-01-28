@@ -1,0 +1,85 @@
+# Batukeitor score
+name: Jordi-01
+
+bpm: 90
+score:
+  intro-s1s2
+  intro-s3
+  intro-cx
+  intro-ch
+  ---
+  base base base base
+  ---
+  fin
+
+
+
+sections:
+
+  intro-s1s2:
+    name: Intro S1/S2
+    color: "#1d2404"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  intro-s3:
+    name: Intro S3
+    color: "#323d06"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      S3: "XXXXX       XXXXXXXXX           "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  intro-cx:
+    name: Intro CX
+    color: "#4b5c08"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      CX: "--XX--X---XX--X---XX--X---XX--X-"
+      S3: "XXXXX       XXXXXXXXX           "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  intro-ch:
+    name: Intro CH
+    color: "#758f0d"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      CH: "--X XX- --X XX- --X XX- --X XX- "
+      CX: "--XX--X---XX--X---XX--X---XX--X-"
+      S3: "XXXXX       XXXXXXXXX           "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  base:
+    name: Base
+    color: "#a0c312"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      CH: "--X XX- --X XX- --X XX- --X XX- "
+      RP: " X  X  X  X   X  X  X  X  X   X "
+      CX: "--XX--X---XX--X---XX--X---XX--X-"
+      S3: "XXXXX       XXXXXXXXX           "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---"
+      CH: "X"
+      RP: "X"
+      CX: "X"
+      S3: "X"
+      S2: "X"
+      S1: "X"

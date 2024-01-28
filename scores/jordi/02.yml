@@ -1,0 +1,154 @@
+# Batukeitor score
+name: Jordi-02
+
+bpm: 100
+score:
+  intro-rp
+  intro intro intro intro-fin
+  ---
+  base base
+  c1
+  ---
+  base base
+  ic8 ic8 ic8 ic8
+  c8 c8 c8 c8 c8 c8 c8 c8
+  batuka
+  ---
+  base base
+  c1
+  ---
+  fin
+
+
+sections:
+
+  intro-rp:
+    name: Intro RP
+    color: "#1d2404"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                1   2   3   y   "
+      RP: "X  X  X X  X  X X  X  X X  X  X "
+
+  intro:
+    name: Intro
+    color: "#323d06"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      RP: "X  X  X X  X  X "
+      AG: "X             X "
+      CH: "X             X "
+      TB: "X             X "
+      CX: "X             X "
+      S3: "X             X "
+      S2: "X             X "
+      S1: "X             X "
+
+  intro-fin:
+    name: Intro (fin)
+    color: "#4b5c08"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      RP: "X X             "
+      AG: "X               "
+      CH: "X               "
+      TB: "X               "
+      CX: "X               "
+      S3: "X   XXXXXXXXXXXX"
+      S2: "X               "
+      S1: "X               "
+
+  base:
+    name: Base
+    color: "#006000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      AG: "XX -- X X - -   XX -- X X - -   "
+      CH: "--X XX- --X XX- --X XX- --X XX- "
+      RP: "  XX  X   XX  X   XX  XX  XX  X "
+      TB: "  XX  X   XX  X   XX  XX  XX  X "
+      CX: "--XX--X---XX--X---XX--X---XX--X-"
+      S3: "XXXXXXXXXXXXX   XXXXXXXXXXXXX   "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
+
+  c1:
+    name: Corte 1
+    color: "#512cb0 "
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "X X  X XX X X   "
+      CH: "X X  X XX X X   "
+      RP: "X X  X XX X X   "
+      TB: "X X  X XX X X   "
+      CX: "X X  X XX X X   "
+      S3: "X X  X XX X X   "
+      S2: "X X  X XX X X   "
+      S1: "X X  X XX X X   "
+
+  ic8:
+    name: Intro cuenta 8
+    color: "#2d47ff"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "X X ---X ---X --"
+      CH: "                "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "                "
+      S2: "                "
+      S1: "                "
+
+  c8:
+    name: Cuenta 8
+    color: "#2d9dff"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      DD: "X               "
+      AG: "X X ---X ---X --"
+      CH: "--X XX- --X XX- "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "                "
+      S2: "                "
+      S1: "                "
+
+  batuka:
+    name: Baaatuka-hey!
+    color: "#2dffff"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---"
+      DD: "                X     X X   X   "
+      AG: "                X               "
+      CH: "                X               "
+      RP: "                X               "
+      TB: "                X               "
+      CX: "                X               "
+      S3: "X X XXXXXXXXXXXXX               "
+      S2: "                X               "
+      S1: "                X               "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---"
+      AG: "X"
+      CH: "X"
+      RP: "X"
+      TB: "X"
+      CX: "X"
+      S3: "X"
+      S2: "X"
+      S1: "X"
