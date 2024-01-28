@@ -52,7 +52,7 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---1---2---1---2---"
-      CH: "--X XX- --X XX- --X XX- --X XX- "
+      CH: "- --X XX- --X XX- --X XX- --X XX"
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "XXXXX       XXXXXXXXX           "
       S2: "    X       X       X       X   "
@@ -64,7 +64,7 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---1---2---1---2---"
-      CH: "--X XX- --X XX- --X XX- --X XX- "
+      CH: "- --X XX- --X XX- --X XX- --X XX"
       RP: " X  X  X  X   X  X  X  X  X   X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "XXXXX       XXXXXXXXX           "
