@@ -12,7 +12,7 @@ score:
   base base
   ic8 ic8 ic8 ic8
   c8 c8 c8 c8 c8 c8 c8 c8
-  batuka
+  crescendo batuka
   ---
   base base
   c1
@@ -121,21 +121,37 @@ sections:
       S2: "                "
       S1: "                "
 
-  batuka:
-    name: Baaatuka-hey!
+  crescendo:
+    name: Crescendo
     color: "#2dffff"
     timeSignature: 2/4
     tracks:
-      #   "1---2---1---2---1---2---1---2---"
-      DD: "                X     X X   X   "
-      AG: "                X               "
-      CH: "----------------X               "
-      RP: "                X               "
-      TB: "                X               "
-      CX: "                X               "
-      S3: "X X XXXXXXXXXXXXX               "
-      S2: "                X               "
-      S1: "                X               "
+      #   "1---2---1---2---"
+      DD: "                "
+      AG: "XXXXXXXXXXXXXXXX"
+      CH: "XXXXXXXXXXXXXXXX"
+      RP: "XXXXXXXXXXXXXXXX"
+      TB: "XXXXXXXXXXXXXXXX"
+      CX: "XXXXXXXXXXXXXXXX"
+      S3: "XXXXXXXXXXXXXXXX"
+      S2: "XXXXXXXXXXXXXXXX"
+      S1: "XXXXXXXXXXXXXXXX"
+
+  batuka:
+    name: Baaatuka-hey!
+    color: "#ff9d00"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      DD: "X     X X   X   "
+      AG: "X               "
+      CH: "X               "
+      RP: "X               "
+      TB: "X               "
+      CX: "X               "
+      S3: "X               "
+      S2: "X               "
+      S1: "X               "
 
   fin:
     name: Fin
