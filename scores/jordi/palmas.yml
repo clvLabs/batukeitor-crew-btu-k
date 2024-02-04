@@ -1,0 +1,47 @@
+# Batukeitor score
+name: Jordi-Ejercicio palmas
+
+bpm: 100
+score:
+  corcheas semicorcheas
+  corcheas tresillos
+  semicorcheas-2
+
+
+sections:
+
+  corcheas:
+    name: Corcheas
+    color: "#c3a012"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      CX: "    X       X   "
+      S1: "X       X       "
+
+  semicorcheas:
+    name: Semicorcheas
+    color: "#323d06"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      CX: "  X   X   X   X "
+      S1: "X   X   X   X   "
+
+  tresillos:
+    name: Tresillos
+    color: "#1633f2"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CX: "  X X   X X   X X   X X "
+      S1: "X     X     X     X     "
+
+  semicorcheas-2:
+    name: Semicorcheas 2
+    color: "#00A000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      CX: "  X X   X X   X "
+      S1: "X     X     X   "
