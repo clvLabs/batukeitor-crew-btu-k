@@ -3,32 +3,47 @@ name: Jordi-Samba Afro
 
 bpm: 100
 score:
-  intro-rp
+  crescendo-intro
   intro intro intro intro-fin
   ---
   base base
   c1
   ---
   base base
-  ic8 ic8 ic8 ic8
-  c8 c8 c8 c8 c8 c8 c8 c8
-  crescendo batuka
+  c2 c2 c2 c2
+  1234 1234 1234 1234
+  batuka
   ---
   base base
-  c1
+  c3s1 base
+  c3s2 base
+  c3s3 base
+  c3t crescendo
   ---
+  base base
+  c4
+  ---
+  base base
+  fin
 
 
 sections:
 
-  intro-rp:
-    name: Intro RP
+  crescendo-intro:
+    name: Crescendo/intro
     color: "#1d2404"
     timeSignature: 2/4
     tracks:
-      #   "1---2---1---2---1---2---1---2---"
-      DD: "                1   2   3   y   "
-      RP: "X  X  X X  X  X X  X  X X  X  X "
+      #   "1---2---1---2---1---2---1---2---1---2---1---2---"
+      DD: "                                1   2   3   y   "
+      RP: "X X X X X X X X X                               "
+      AG: "X X X X X X X X X                               "
+      CH: "X X X X X X X X X                               "
+      TB: "X X X X X X X X X                               "
+      CX: "X X X X X X X X X--X--X-X--X--X-X--X--X-X--X--X-"
+      S3: "X X X X X X X X X                               "
+      S2: "X X X X X X X X X                               "
+      S1: "X X X X X X X X X                               "
 
   intro:
     name: Intro
@@ -36,11 +51,11 @@ sections:
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---"
-      RP: "X  X  X X  X  X "
+      RP: "X             X "
       AG: "X             X "
       CH: "X             X "
       TB: "X             X "
-      CX: "X             X "
+      CX: "X--X--X-X--X--X-"
       S3: "X             X "
       S2: "X             X "
       S1: "X             X "
@@ -71,27 +86,27 @@ sections:
       RP: "  XX  X   XX  X   XX  XX  XX  X "
       TB: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
-      S3: "XXXXXXXXXXXXX   XXXXXXXXXXXXX   "
-      S2: "    X       X       X       X   "
-      S1: "X       X       X       X       "
+      S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
+      S2: "    X       X X     X       X X "
+      S1: "X X     X       X X     X       "
 
   c1:
     name: Corte 1
-    color: "#512cb0 "
+    color: "#e5ff00"
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---"
-      AG: "X X  X XX X X   "
-      CH: "X X  X XX X X   "
-      RP: "X X  X XX X X   "
-      TB: "X X  X XX X X   "
-      CX: "X X  X XX X X   "
-      S3: "X X  X XX X X   "
+      AG: "X X  X XX X     "
+      CH: "X X  X XX X     "
+      RP: "X X  X XX X     "
+      TB: "X X  X XX X     "
+      CX: "X X  X XX X     "
+      S3: "X X  X XX X XXXX"
       S2: "X X  X XX X X   "
       S1: "X X  X XX X X   "
 
-  ic8:
-    name: Intro cuenta 8
+  c2:
+    name: Corte 2
     color: "#2d47ff"
     timeSignature: 2/4
     tracks:
@@ -105,8 +120,8 @@ sections:
       S2: "                "
       S1: "                "
 
-  c8:
-    name: Cuenta 8
+  1234:
+    name: 1..2..3..4..
     color: "#2d9dff"
     timeSignature: 2/4
     tracks:
@@ -121,25 +136,9 @@ sections:
       S2: "                "
       S1: "                "
 
-  crescendo:
-    name: Crescendo
-    color: "#2dffff"
-    timeSignature: 2/4
-    tracks:
-      #   "1---2---1---2---"
-      DD: "                "
-      AG: "XXXXXXXXXXXXXXXX"
-      CH: "XXXXXXXXXXXXXXXX"
-      RP: "XXXXXXXXXXXXXXXX"
-      TB: "XXXXXXXXXXXXXXXX"
-      CX: "XXXXXXXXXXXXXXXX"
-      S3: "XXXXXXXXXXXXXXXX"
-      S2: "XXXXXXXXXXXXXXXX"
-      S1: "XXXXXXXXXXXXXXXX"
-
   batuka:
     name: Baaatuka-hey!
-    color: "#ff9d00"
+    color: "#6eb9fa"
     timeSignature: 2/4
     tracks:
       #   "1---2---1---2---"
@@ -153,17 +152,107 @@ sections:
       S2: "X               "
       S1: "X               "
 
+  c3s1:
+    name: Corte 3 - Surdos 1ª
+    color: "#f2670a"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "                "
+      CH: "                "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "                "
+      S2: "                "
+      S1: "XX XX XX X XX X "
+
+  c3s2:
+    name: Corte 3 - Surdos 2ª
+    color: "#f58a42"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "                "
+      CH: "                "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "                "
+      S2: "XX XX XX X XX X "
+      S1: "XX XX XX X XX X "
+
+  c3s3:
+    name: Corte 3 - Surdos 3ª
+    color: "#f2aa79"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "                "
+      CH: "                "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "XX XX XX X XX X "
+      S2: "XX XX XX X XX X "
+      S1: "XX XX XX X XX X "
+
+  c3t:
+    name: Corte 3 - TODOS
+    color: "#f2c7aa"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "XX XX XX X XX X "
+      CH: "XX XX XX X XX X "
+      RP: "XX XX XX X XX X "
+      TB: "XX XX XX X XX X "
+      CX: "XX XX XX X XX X "
+      S3: "XX XX XX X XX X "
+      S2: "XX XX XX X XX X "
+      S1: "XX XX XX X XX X "
+
+  crescendo:
+    name: Crescendo
+    color: "#f09595"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "X X X X X X X X "
+      CH: "X X X X X X X X "
+      RP: "XXXXXXXXXXXXXXXX"
+      TB: "X X X X X X X X "
+      CX: "XXXXXXXXXXXXXXXX"
+      S3: "X X X X X X X X "
+      S2: "X X X X X X X X "
+      S1: "X X X X X X X X "
+
+  c4:
+    name: Corte 4
+    color: "#754fd6"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      AG: "        X X     "
+      CH: "        X X     "
+      RP: "        X X     "
+      TB: "        X X     "
+      CX: "        X X     "
+      S3: "   X XX         "
+      S2: "X           X   "
+      S1: "X           X   "
+
   fin:
     name: Fin
     color: "#AA0000"
     timeSignature: 2/4
     tracks:
-      #   "1---2---"
-      AG: "X"
-      CH: "X"
-      RP: "X"
-      TB: "X"
-      CX: "X"
-      S3: "X"
-      S2: "X"
-      S1: "X"
+      #   "1---2---1---2---1---2---1---2---"
+      AG: "                  X  X          "
+      CH: "                  X  X          "
+      RP: "                  X  X          "
+      TB: "                  X  X          "
+      CX: "    XXXX    XXXX                "
+      S3: "X X     X X     X  X  X         "
+      S2: "X X     X X     X  X  X         "
+      S1: "X X     X X     X  X  X         "
