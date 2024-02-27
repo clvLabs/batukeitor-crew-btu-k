@@ -32,9 +32,9 @@ sections:
   crescendo-intro:
     name: Crescendo/intro
     color: "#1d2404"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---1---2---1---2---1---2---1---2---"
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---"
       DD: "                                1   2   3   y   "
       RP: "X X X X X X X X X                               "
       AG: "X X X X X X X X X                               "
@@ -48,9 +48,9 @@ sections:
   intro:
     name: Intro
     color: "#323d06"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       RP: "X             X "
       AG: "X             X "
       CH: "X             X "
@@ -63,9 +63,9 @@ sections:
   intro-fin:
     name: Intro (fin)
     color: "#4b5c08"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       RP: "X X             "
       AG: "X               "
       CH: "X               "
@@ -78,9 +78,9 @@ sections:
   base:
     name: Base
     color: "#006000"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---1---2---1---2---"
+      #   "1---2---3---4---1---2---3---4---"
       AG: "XX -- X X - -   XX -- X X - -   "
       CH: "- --X XX- --X XX- --X XX- --X XX"
       RP: "  XX  X   XX  X   XX  XX  XX  X "
@@ -93,9 +93,9 @@ sections:
   c1:
     name: Corte 1
     color: "#e5ff00"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "X X  X XX X     "
       CH: "X X  X XX X     "
       RP: "X X  X XX X     "
@@ -108,9 +108,9 @@ sections:
   c2:
     name: Corte 2
     color: "#2d47ff"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "X X ---X ---X --"
       CH: "                "
       RP: "                "
@@ -123,9 +123,9 @@ sections:
   1234:
     name: 1..2..3..4..
     color: "#2d9dff"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       DD: "X               "
       AG: "X X ---X ---X --"
       CH: "X---X---X---X---"
@@ -139,9 +139,9 @@ sections:
   batuka:
     name: Baaatuka-hey!
     color: "#6eb9fa"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       DD: "X     X X   X   "
       AG: "X               "
       CH: "X               "
@@ -155,9 +155,9 @@ sections:
   c3s1:
     name: Corte 3 - Surdos 1ª
     color: "#f2670a"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "                "
       CH: "                "
       RP: "                "
@@ -170,9 +170,9 @@ sections:
   c3s2:
     name: Corte 3 - Surdos 2ª
     color: "#f58a42"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "                "
       CH: "                "
       RP: "                "
@@ -185,9 +185,9 @@ sections:
   c3s3:
     name: Corte 3 - Surdos 3ª
     color: "#f2aa79"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "                "
       CH: "                "
       RP: "                "
@@ -200,9 +200,9 @@ sections:
   c3t:
     name: Corte 3 - TODOS
     color: "#f2c7aa"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "XX XX XX X XX X "
       CH: "XX XX XX X XX X "
       RP: "XX XX XX X XX X "
@@ -215,9 +215,9 @@ sections:
   crescendo:
     name: Crescendo
     color: "#f09595"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "X X X X X X X X "
       CH: "X X X X X X X X "
       RP: "XXXXXXXXXXXXXXXX"
@@ -230,9 +230,9 @@ sections:
   c4:
     name: Corte 4
     color: "#754fd6"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---"
+      #   "1---2---3---4---"
       AG: "        X X     "
       CH: "        X X     "
       RP: "        X X     "
@@ -245,9 +245,9 @@ sections:
   fin:
     name: Fin
     color: "#AA0000"
-    timeSignature: 2/4
+    timeSignature: 4/4
     tracks:
-      #   "1---2---1---2---1---2---1---2---"
+      #   "1---2---3---4---1---2---3---4---"
       AG: "                  X  X          "
       CH: "                  X  X          "
       RP: "                  X  X          "
