@@ -1,0 +1,181 @@
+# Batukeitor score
+name: Matador
+
+bpm: 105
+score:
+  intro
+  base base
+  ---
+  c1-s c1-t c1-c
+  base base
+  ---
+  c2-1 c2
+  base base
+  ---
+  c3-1 c3-cx c3-rp
+  base base
+  ---
+  fin
+
+
+sections:
+  intro:
+    name: Intro
+    color: "#c3a012"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "1   2   3   y                                   "
+      RP: "                                                "
+      CH: "                                                "
+      TB: "                                                "
+      CX: "             ---X  X   X  X X---X  X   X  X     "
+      S3: "                                            XXXX"
+      S2: "                                            XXXX"
+      S1: "                                            XXXX"
+
+  base:
+    name: Base
+    color: "#006000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      CX: "X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--"
+      S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
+      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+      S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+
+  c1-s:
+    name: Corte 1 - Intro surdos
+    color: "#008000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "                                                                "
+      RP: "                                                                "
+      TB: "                                                                "
+      CX: "                                                                "
+      S3: "  XX X XX         XX X XX         XX X XX         XX X XX       "
+      S2: "X           XXXXX           XXXXX           XXXXX           XXXX"
+      S1: "X           XXXXX           XXXXX           XXXXX           XXXX"
+
+  c1-t:
+    name: Corte 1 - Todos
+    color: "#00A000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---    "
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
+      CX: "X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--X--X--X---X-    "
+      S3: "  XX X XX         XX X XX         XX X XX         XX X XX   XXXX"
+      S2: "X           XXXXX           XXXXX           XXXXX           XXXX"
+      S1: "X           XXXXX           XXXXX           XXXXX           XXXX"
+
+  c1-c:
+    name: Corte 1 - Cierre
+    color: "#00F000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "  X       X   XX  XX  XX  XX    "
+      RP: "  X       X   XX  XX  XX  XX    "
+      TB: "  X       X   XX  XX  XX  XX    "
+      CX: "  X       X   XX  XX  XX  XX    "
+      S3: "X   XXXXX   X   X   X   X   XXXX"
+      S2: "X   XXXXX   X   X   X   X   XXXX"
+      S1: "X   XXXXX   X   X   X   X   XXXX"
+
+  c2-1:
+    name: Corte 2 - Intro
+    color: "#1513ab"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      CX: "X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--"
+      S3: "                                                                "
+      S2: "                                                                "
+      S1: "                                                                "
+
+
+  c2:
+    name: Corte 2
+    color: "#3937bf"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X       "
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X         "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X         "
+      CX: "X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--X--X--X--       "
+      S3: "X               X               X       X       XXXXXXXXX   XXXX"
+      S2: "X               X               X       X       X   X   X   XXXX"
+      S1: "X               X               X       X       X   X   X   XXXX"
+
+
+  c3-1:
+    name: Corte 3 - Intro
+    color: "#950abd"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "                                                                "
+      RP: "                                                                "
+      TB: "                                                                "
+      CX: "                                                                "
+      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+
+  c3-cx:
+    name: Corte 3 - Entrada CX/CH
+    color: "#a422c9"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      RP: "                                                                "
+      TB: "                                                                "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
+      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+
+  c3-rp:
+    name: Corte 3 - Llamada RP
+    color: "#e009b3"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
+      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
+      TB: "                                                                "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
+      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXX   X   X   XXXX"
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   XXXX"
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   XXXX"
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X"
+      RP: "X"
+      TB: "X"
+      CX: "X"
+      S3: "X"
+      S2: "X"
+      S1: "X"
