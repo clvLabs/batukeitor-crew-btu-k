@@ -72,7 +72,7 @@ sections:
       DD: "                                                1   2   3   y   "
       CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---    "
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
-      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
+      TB: "  XX X XX X       XX X XX         XX X XX X       XX X XX       "
       CX: "X--X--X---X--X--X--X--X---X--X--X--X--X---X--X--X--X--X---X-    "
       S3: "  XX X XX         XX X XX         XX X XX         XX X XX   XXXX"
       S2: "X           XXXXX           XXXXX           XXXXX           XXXX"
