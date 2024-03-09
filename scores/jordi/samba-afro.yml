@@ -143,14 +143,14 @@ sections:
     tracks:
       #   "1---2---3---4---"
       DD: "X     X X   X   "
-      AG: "X               "
-      CH: "X               "
-      RP: "X               "
-      TB: "X               "
-      CX: "X               "
-      S3: "X               "
-      S2: "X               "
-      S1: "X               "
+      AG: "                "
+      CH: "                "
+      RP: "                "
+      TB: "                "
+      CX: "                "
+      S3: "                "
+      S2: "                "
+      S1: "                "
 
   c3s1:
     name: Corte 3 - Surdos 1ª
