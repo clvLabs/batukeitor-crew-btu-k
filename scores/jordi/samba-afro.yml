@@ -24,6 +24,8 @@ score:
   c4
   ---
   base base
+  fin-em
+  mc3-1 mc3-cx mc3-rp
   fin
 
 
@@ -242,12 +244,13 @@ sections:
       S2: "X           X   "
       S1: "X           X   "
 
-  fin:
-    name: Fin
+  fin-em:
+    name: Fin - enlace Matador
     color: "#AA0000"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
+      DD: "                            y   "
       AG: "                  X  X          "
       CH: "                  X  X          "
       RP: "                  X  X          "
@@ -256,3 +259,60 @@ sections:
       S3: "X X     X X     X  X  X         "
       S2: "X X     X X     X  X  X         "
       S1: "X X     X X     X  X  X         "
+
+  mc3-1:
+    name: Matador Corte 3 - Intro
+    color: "#950abd"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "                                                                "
+      RP: "                                                                "
+      TB: "                                                                "
+      CX: "                                                                "
+      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+
+  mc3-cx:
+    name: Matador Corte 3 - Entrada CX/CH
+    color: "#a422c9"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      RP: "                                                                "
+      TB: "                                                                "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
+      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+
+  mc3-rp:
+    name: Matador Corte 3 - Llamada RP
+    color: "#e009b3"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
+      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
+      TB: "                                                                "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
+      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X"
+      RP: "X"
+      TB: "X"
+      CX: "X"
+      S3: "X"
+      S2: "X"
+      S1: "X"
