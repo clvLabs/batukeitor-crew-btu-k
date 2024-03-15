@@ -162,9 +162,9 @@ sections:
       RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       TB: "                                                                "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
-      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXX   X   X   XXXX"
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   XXXX"
-      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   XXXX"
+      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
+      S2: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
 
   fin:
     name: Fin
