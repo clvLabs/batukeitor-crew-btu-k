@@ -83,8 +83,9 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
-      AG: "XX -- X X - -   XX -- X X - -   "
       CH: "- --X XX- --X XX- --X XX- --X XX"
+      # AG: "XX -- X X - -   XX -- X X - -   "
+      AG: "XX -- XX    - - XX -- XX        "
       RP: "  XX  X   XX  X   XX  XX  XX  X "
       TB: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
