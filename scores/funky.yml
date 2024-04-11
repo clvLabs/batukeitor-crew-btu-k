@@ -5,13 +5,13 @@ bpm: 110
 score:
   intro
   ---
-  b44 b44 b44 c1
-  b44 b44 b44 b44
-  b44 b44 intro
+  b44 b44 c1
+  b44 b44
+  b44 intro
   ---
-  b44 b44 b44 c1
-  b44 b44 b44 b44
-  b44 b44 intro
+  b44 b44 c1
+  b44 b44
+  b44 intro
   ---
   i24 i24
   b24 b24 b24 b24  intro
@@ -29,7 +29,8 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       CH: "X   X   X   X   X X X X X-X-X-X-"
-      CC: "X   X   X   X   X X X X XXXXXXXX"
+      AG: "X   X   X   X   X X X X XXXXXXXX"
+     #CC: "X   X   X   X   X X X X XXXXXXXX"
       TB: "X   X   X   X   X X X X XXXXXXXX"
       RP: "X   X   X   X   X X X X XXXXXXXX"
       CX: "X   X   X   X   X X X X XXXXXXXX"
@@ -41,22 +42,24 @@ sections:
     name: Base 4/4
     color: "#006000"
     tracks:
-      #   "1---2---3---4---"
-      CH: "X--XX--XX--XX--X"
-      CC: "X --X --X --X - "
-      TB: "    X  X X  X  X"
-      RP: "    X  X X  X  X"
-      CX: "----X--X-X--X--X"
-      S3: "X     X       X "
-      S2: "X  X  X   X     "
-      S1: "X  X  X   X     "
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X   - X   X -X  X   -   X X - - "
+     #CC: "X --X --X --X - X --X --X --X - "
+      TB: "    X  X X  X  X    X  X X  X  X"
+      RP: "    X  X X  X  X    X  X X  X  X"
+      CX: "----X--X-X--X--X----X--X-X--X--X"
+      S3: "X     X       X X     X       X "
+      S2: "X  X  X   X     X  X  X   X     "
+      S1: "X  X  X   X     X  X  X   X     "
 
   c1:
     name: Corte 1
     color: "#004000"
     tracks:
       #   "1---2---3---4---"
-      CC: "      X       XX"
+      AG: "      X       XX"
+     #CC: "      X       XX"
       TB: "      X       XX"
       RP: "XXXXX X XXXXX XX"
       CX: "XXXXX X XXXXX XX"
@@ -79,7 +82,8 @@ sections:
     tracks:
       #   "1---2---1---2---"
       CH: "X   X   X   X   "
-      CC: "  XX  XX  XX  XX"
+      AG: "  XX  XX  XX  XX"
+     #CC: "  XX  XX  XX  XX"
       TB: "X   X   X   X   "
       RP: "X   X   X   X   "
       CX: "X---X---X---X---"
@@ -94,7 +98,8 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X     X     X     X     "
-      CC: "  X X   X X   X X   X X "
+      AG: "  X X   X X   X X   X X "
+     #CC: "  X X   X X   X X   X X "
       TB: "X     X     X     X     "
       RP: "X     X     X     X     "
       CX: "X - - X - - X - - X - - "
@@ -109,7 +114,8 @@ sections:
     tracks:
       #   "1---2---"
       CH: "X       "
-      CC: "X       "
+      AG: "X       "
+     #CC: "X       "
       TB: "X       "
       RP: "X       "
       CX: "X       "
