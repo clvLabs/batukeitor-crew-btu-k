@@ -38,10 +38,10 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---"
       DD: "                                1   2   3   y   "
-      RP: "X X X X X X X X X                               "
-      AG: "X X X X X X X X X                               "
       CH: "X X X X X X X X X                               "
+      AG: "X X X X X X X X X                               "
       TB: "X X X X X X X X X                               "
+      RP: "X X X X X X X X X                               "
       CX: "X X X X X X X X X--X--X-X--X--X-X--X--X-X--X--X-"
       S3: "X X X X X X X X X                               "
       S2: "X X X X X X X X X                               "
@@ -53,10 +53,10 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      RP: "X             X "
-      AG: "X             X "
       CH: "X             X "
+      AG: "X             X "
       TB: "X             X "
+      RP: "X             X "
       CX: "X--X--X-X--X--X-"
       S3: "X             X "
       S2: "X             X "
@@ -68,10 +68,10 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      RP: "X X             "
-      AG: "X               "
       CH: "X               "
+      AG: "X               "
       TB: "X               "
+      RP: "X X             "
       CX: "X               "
       S3: "X   XXXXXXXXXXXX"
       S2: "X               "
@@ -84,12 +84,12 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       CH: "- --X XX- --X XX- --X XX- --X XX"
-      # AG: "XX -- X X - -   XX -- X X - -   "
+     #AG: "XX -- X X - -   XX -- X X - -   "
       AG: "XX -- XX    - - XX -- XX        "
-      RP: "  XX  X   XX  X   XX  XX  XX  X "
       TB: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
+      RP: "  XX  X   XX  X   XX  XX  XX  X "
       S2: "    X       X X     X       X X "
       S1: "X X     X       X X     X       "
 
@@ -99,12 +99,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "X X  X XX X     "
       CH: "X X  X XX X     "
-      RP: "X X  X XX X     "
+      AG: "X X  X XX X     "
       TB: "X X  X XX X     "
       CX: "X X  X XX X     "
       S3: "X X  X XX X XXXX"
+      RP: "X X  X XX X     "
       S2: "X X  X XX X X   "
       S1: "X X  X XX X X   "
 
@@ -114,12 +114,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "X X ---X ---X --"
       CH: "                "
-      RP: "                "
+      AG: "X X ---X ---X --"
       TB: "                "
       CX: "                "
       S3: "                "
+      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -130,12 +130,12 @@ sections:
     tracks:
       #   "1---2---3---4---"
       DD: "X               "
-      AG: "X X ---X ---X --"
       CH: "X---X---X---X---"
-      RP: "                "
+      AG: "X X ---X ---X --"
       TB: "                "
       CX: "                "
       S3: "                "
+      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -146,12 +146,12 @@ sections:
     tracks:
       #   "1---2---3---4---"
       DD: "X     X X   X   "
-      AG: "                "
       CH: "                "
-      RP: "                "
+      AG: "                "
       TB: "                "
       CX: "                "
       S3: "                "
+      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -161,12 +161,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "                "
       CH: "                "
-      RP: "                "
+      AG: "                "
       TB: "                "
       CX: "                "
       S3: "                "
+      RP: "                "
       S2: "                "
       S1: "XX XX XX X XX X "
 
@@ -176,12 +176,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "                "
       CH: "                "
-      RP: "                "
+      AG: "                "
       TB: "                "
       CX: "                "
       S3: "                "
+      RP: "                "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -191,12 +191,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "                "
       CH: "                "
-      RP: "                "
+      AG: "                "
       TB: "                "
       CX: "                "
       S3: "XX XX XX X XX X "
+      RP: "                "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -206,12 +206,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "XX XX XX X XX X "
       CH: "XX XX XX X XX X "
-      RP: "XX XX XX X XX X "
+      AG: "XX XX XX X XX X "
       TB: "XX XX XX X XX X "
       CX: "XX XX XX X XX X "
       S3: "XX XX XX X XX X "
+      RP: "XX XX XX X XX X "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -221,12 +221,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "X X X X X X X X "
       CH: "X X X X X X X X "
-      RP: "XXXXXXXXXXXXXXXX"
+      AG: "X X X X X X X X "
       TB: "X X X X X X X X "
       CX: "XXXXXXXXXXXXXXXX"
       S3: "X X X X X X X X "
+      RP: "XXXXXXXXXXXXXXXX"
       S2: "X X X X X X X X "
       S1: "X X X X X X X X "
 
@@ -236,12 +236,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      AG: "        X X     "
       CH: "        X X     "
-      RP: "        X X     "
+      AG: "        X X     "
       TB: "        X X     "
       CX: "        X X     "
       S3: "   X XX         "
+      RP: "        X X     "
       S2: "X           X   "
       S1: "X           X   "
 
@@ -252,12 +252,12 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                            y   "
-      AG: "                  X  X          "
       CH: "                  X  X          "
-      RP: "                  X  X          "
+      AG: "                  X  X          "
       TB: "                  X  X          "
       CX: "    XXXX    XXXX                "
       S3: "X X     X X     X  X  X         "
+      RP: "                  X  X          "
       S2: "X X     X X     X  X  X         "
       S1: "X X     X X     X  X  X         "
 
@@ -269,10 +269,10 @@ sections:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       DD: "                                                1   2   3   y   "
       CH: "                                                                "
-      RP: "                                                                "
       TB: "                                                                "
       CX: "                                                                "
       S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      RP: "                                                                "
       S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
 
@@ -283,10 +283,10 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
-      RP: "                                                                "
       TB: "                                                                "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      RP: "                                                                "
       S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
 
@@ -297,10 +297,10 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
-      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       TB: "                                                                "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
       S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
+      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       S2: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
 
@@ -311,9 +311,9 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       CH: "X"
-      RP: "X"
       TB: "X"
       CX: "X"
       S3: "X"
+      RP: "X"
       S2: "X"
       S1: "X"
