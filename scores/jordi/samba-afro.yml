@@ -86,7 +86,7 @@ sections:
       CH: "- --X XX- --X XX- --X XX- --X XX"
      #AG: "XX -- X X - -   XX -- X X - -   "
       AG: "XX -- XX    - - XX -- XX        "
-      TB: "  XX  X   XX  X   XX  XX  XX  X "
+      TB: "  XX  X   XX  X  X X  X X X X X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
       RP: "  XX  X   XX  X   XX  XX  XX  X "
