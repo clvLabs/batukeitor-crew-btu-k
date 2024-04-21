@@ -24,8 +24,6 @@ score:
   c4
   ---
   base base
-  fin-em
-  mc3-1 mc3-cx mc3-rp
   fin
 
 
@@ -87,9 +85,9 @@ sections:
      #AG: "XX -- X X - -   XX -- X X - -   "
       AG: "XX -- XX    - - XX -- XX        "
       TB: "  XX  X   XX  X  X X  X X X X X "
+      RP: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
-      RP: "  XX  X   XX  X   XX  XX  XX  X "
       S2: "    X       X X     X       X X "
       S1: "X X     X       X X     X       "
 
@@ -102,9 +100,9 @@ sections:
       CH: "X X  X XX X     "
       AG: "X X  X XX X     "
       TB: "X X  X XX X     "
+      RP: "X X  X XX X     "
       CX: "X X  X XX X     "
       S3: "X X  X XX X XXXX"
-      RP: "X X  X XX X     "
       S2: "X X  X XX X X   "
       S1: "X X  X XX X X   "
 
@@ -117,9 +115,9 @@ sections:
       CH: "                "
       AG: "X X ---X ---X --"
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "                "
-      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -133,9 +131,9 @@ sections:
       CH: "X---X---X---X---"
       AG: "X X ---X ---X --"
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "                "
-      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -149,9 +147,9 @@ sections:
       CH: "                "
       AG: "                "
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "                "
-      RP: "                "
       S2: "                "
       S1: "                "
 
@@ -164,9 +162,9 @@ sections:
       CH: "                "
       AG: "                "
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "                "
-      RP: "                "
       S2: "                "
       S1: "XX XX XX X XX X "
 
@@ -179,9 +177,9 @@ sections:
       CH: "                "
       AG: "                "
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "                "
-      RP: "                "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -194,9 +192,9 @@ sections:
       CH: "                "
       AG: "                "
       TB: "                "
+      RP: "                "
       CX: "                "
       S3: "XX XX XX X XX X "
-      RP: "                "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -209,9 +207,9 @@ sections:
       CH: "XX XX XX X XX X "
       AG: "XX XX XX X XX X "
       TB: "XX XX XX X XX X "
+      RP: "XX XX XX X XX X "
       CX: "XX XX XX X XX X "
       S3: "XX XX XX X XX X "
-      RP: "XX XX XX X XX X "
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
@@ -224,9 +222,9 @@ sections:
       CH: "X X X X X X X X "
       AG: "X X X X X X X X "
       TB: "X X X X X X X X "
+      RP: "XXXXXXXXXXXXXXXX"
       CX: "XXXXXXXXXXXXXXXX"
       S3: "X X X X X X X X "
-      RP: "XXXXXXXXXXXXXXXX"
       S2: "X X X X X X X X "
       S1: "X X X X X X X X "
 
@@ -239,70 +237,11 @@ sections:
       CH: "        X X     "
       AG: "        X X     "
       TB: "        X X     "
+      RP: "        X X     "
       CX: "        X X     "
       S3: "   X XX         "
-      RP: "        X X     "
       S2: "X           X   "
       S1: "X           X   "
-
-  fin-em:
-    name: Fin - enlace Matador
-    color: "#AA0000"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                            y   "
-      CH: "                  X  X          "
-      AG: "                  X  X          "
-      TB: "                  X  X          "
-      CX: "    XXXX    XXXX                "
-      S3: "X X     X X     X  X  X         "
-      RP: "                  X  X          "
-      S2: "X X     X X     X  X  X         "
-      S1: "X X     X X     X  X  X         "
-
-  mc3-1:
-    name: Matador Corte 3 - Intro
-    color: "#950abd"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      DD: "                                                1   2   3   y   "
-      CH: "                                                                "
-      TB: "                                                                "
-      CX: "                                                                "
-      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      RP: "                                                                "
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-
-  mc3-cx:
-    name: Matador Corte 3 - Entrada CX/CH
-    color: "#a422c9"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
-      TB: "                                                                "
-      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
-      S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      RP: "                                                                "
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-
-  mc3-rp:
-    name: Matador Corte 3 - Llamada RP
-    color: "#e009b3"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
-      TB: "                                                                "
-      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
-      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
-      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
-      S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
 
   fin:
     name: Fin
@@ -310,10 +249,12 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
-      CH: "X"
-      TB: "X"
-      CX: "X"
-      S3: "X"
-      RP: "X"
-      S2: "X"
-      S1: "X"
+      DD: "                                "
+      CH: "                  X  X          "
+      AG: "                  X  X          "
+      TB: "                  X  X          "
+      RP: "                  X  X          "
+      CX: "    XXXX    XXXX                "
+      S3: "X X     X X     X  X  X         "
+      S2: "X X     X X     X  X  X         "
+      S1: "X X     X X     X  X  X         "
