@@ -169,7 +169,7 @@ sections:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
       AG: "                                                                "
-      TB: "                                                                "
+      TB: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
       S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
