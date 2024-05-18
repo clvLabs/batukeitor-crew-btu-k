@@ -61,11 +61,11 @@ sections:
       AG: "      X       XX"
      #CC: "      X       XX"
       TB: "      X       XX"
-      RP: "XXXXX X XXXXX XX"
-      CX: "XXXXX X XXXXX XX"
+      RP: "      X       XX"
+      CX: "      X       XX"
       S3: "XXXXX   XXXXX   "
-      S2: "XXXXX   XXXXX   "
-      S1: "XXXXX   XXXXX   "
+      S2: "                "
+      S1: "                "
 
   i24:
     name: Intro 2/4
