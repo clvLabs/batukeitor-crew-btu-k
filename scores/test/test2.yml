@@ -1,0 +1,22 @@
+# Batukeitor score
+# Basada en: https://youtu.be/EgD2j4X7CP4?list=RDv9A9n-kMjz0&t=154
+name: Test 2
+
+bpm: 100
+score:
+  base
+
+
+sections:
+
+  base:
+    name: Base
+    color: "#a0c312"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      RP: "  X   X   XX XX   X   X   XX XX   X   X   XX XX   XX XX   XX XXX"
+      CX: "--X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X-"
+      S3: "           XXXXXX       X  X  X            XXXXXX       X  X  X "
+      S2: "    X       X       X       X       X       X       X       X   "
+      S1: "X       X       X       X       X       X       X       X       "
