@@ -1,0 +1,141 @@
+# Batukeitor score
+name: FunkyJordi
+
+bpm: 110
+score:
+  intro1 intro2
+  ---
+  base base
+  c1a c1b
+  ---
+  base base
+  c2
+  ---
+  bhh bhh
+  c3
+  ---
+  base base
+
+sections:
+
+  intro1:
+    name: Intro(1/2)
+    color: "#c3a012"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_
+      DD: "                        "
+      CH: "                        "
+      AG: "                        "
+      TB: "X X X X X X X X X X     "
+      RP: "                        "
+      CX: "                        "
+      S3: "                        "
+      S2: "                        "
+      S1: "                        "
+
+  intro2:
+    name: Intro(2/2)
+    color: "#c3a012"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "X     X X   X   "
+      CH: "                "
+      AG: "                "
+      TB: "                "
+      RP: "                "
+      CX: "                "
+      S3: "                "
+      S2: "                "
+      S1: "                "
+
+  base:
+    name: Base
+    color: "#006000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "----X-------X-------X-------X-------X-------X-------X-------X---"
+      AG: "                                                                "
+      TB: "XX    XX  X X   XX    XX  X X   XX    XX  X X   X   X   X       "
+      RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   X   X   X       "
+      CX: "----X-------X-------X-------XXXX----X-------X-------X-------XXXX"
+      S3: "X   X X   X X   X   X X   XXX   X   X X   X X   X   X X   XXX   "
+      S2: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
+      S1: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
+
+  c1a:
+    name: Corte 1 (1/2)
+    color: "#004000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                "
+      CH: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      AG: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      TB: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      CX: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      S3: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      S2: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+      S1: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
+
+  c1b:
+    name: Corte 1 (2/2)
+    color: "#004000"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_
+      DD: "                  X     "
+      CH: "                        "
+      AG: "                        "
+      TB: "X X X X X X X           "
+      RP: "                        "
+      CX: "                        "
+      S3: "                        "
+      S2: "                        "
+      S1: "                        "
+
+  c2:
+    name: Corte 2
+    color: "#0202c4"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "X X X X X X X X "
+      AG: "X X X X X X X X "
+      TB: "X X X X X X X X "
+      RP: "X X X X X X X X "
+      CX: "X X X X X X X X "
+      S3: "X X X X X X X X "
+      S2: "X X X X X X X X "
+      S1: "X X X X X X X X "
+
+  bhh:
+    name: Base HipHop
+    color: "#000060"
+    tracks:
+      DD: ""
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "- - - - - - - - - - - - - -     - - - - - - - - - - - - - -     "
+      AG: "X X X X X X X X X X X X X X X X - - - - - - - - - - - - - - - - "
+      TB: "X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X "
+      RP: "    X       X       X       XXXX    X       X       X       XXXX"
+      CX: "    X       X       X       XXXX    X       X       X       XXXX"
+      S3: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
+      S2: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
+      S1: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
+
+  c3:
+    name: Corte 3
+    color: "#430482"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "    X       X   "
+      AG: "    X       X   "
+      TB: "    X       X   "
+      RP: "    X       X   "
+      CX: "    X       X   "
+      S3: "X        XX     "
+      S2: "X        XX     "
+      S1: "X        XX     "
