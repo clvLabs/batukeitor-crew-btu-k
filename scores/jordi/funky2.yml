@@ -116,7 +116,7 @@ sections:
     tracks:
       DD: ""
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      CH: "- - - - - - - - - - - - - -     - - - - - - - - - - - - - -     "
+      CH: "X X X X X X X X X X X X X X     X X X X X X X X X X X X X X     "
       AG: "X X X X X X X X X X X X X X X X - - - - - - - - - - - - - - - - "
       TB: "X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X "
       RP: "    X       X       X       XXXX    X       X       X       XXXX"
