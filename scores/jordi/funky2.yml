@@ -21,9 +21,9 @@ sections:
   intro1:
     name: Intro(1/2)
     color: "#c3a012"
-    timeSignature: 6/8
+    timeSignature: 12/8
     tracks:
-      #   "1_-_-_2_-_-_1_-_-_2_-_-_
+      #   "1_-_-_2_-_-_3_-_-_4_-_-_
       DD: "                        "
       CH: "                        "
       AG: "                        "
