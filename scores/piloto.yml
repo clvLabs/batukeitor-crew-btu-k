@@ -186,7 +186,7 @@ sections:
     color: "#a80a87"
     tracks:
       #   "1---2---3---4---
-      DD: "X X X X         "
+      DD: "1 2 3 4         "
       CH: "X--XX--XX X X X "
       CC: "X --X --X X X X "
       TB: "X  X  X X X X X "
