@@ -15,6 +15,7 @@ score:
   c3
   ---
   base base
+  intro1 fin
 
 sections:
 
@@ -139,3 +140,19 @@ sections:
       S3: "X        XX     "
       S2: "X        XX     "
       S1: "X        XX     "
+
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "X     X X   X                   "
+      CH: "                X               "
+      AG: "                X               "
+      TB: "                X               "
+      RP: "                X               "
+      CX: "                X               "
+      S3: "                X               "
+      S2: "                X               "
+      S1: "                X               "
