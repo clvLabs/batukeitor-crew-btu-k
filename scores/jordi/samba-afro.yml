@@ -139,7 +139,7 @@ sections:
 
   batuka:
     name: Baaatuka-hey!
-    color: "#6eb9fa"
+    color: "#83c4fc"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -155,7 +155,7 @@ sections:
 
   c3rp:
     name: Corte 3 - SOLO REPE
-    color: "#f2670a"
+    color: "#f2aa79"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -169,8 +169,8 @@ sections:
       S1: "                "
 
   c3rptb:
-    name: Corte 3 - Repe+Tamborimª
-    color: "#f2aa79"
+    name: Corte 3 - Repe+Tamborim
+    color: "#f2775e"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -185,7 +185,7 @@ sections:
 
   c3t:
     name: Corte 3 - TODOS
-    color: "#f2c7aa"
+    color: "#f2440a"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -200,7 +200,7 @@ sections:
 
   crescendo:
     name: Crescendo
-    color: "#f09595"
+    color: "#f71638"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -215,7 +215,7 @@ sections:
 
   c4:
     name: Corte 4
-    color: "#754fd6"
+    color: "#8e6fde"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
