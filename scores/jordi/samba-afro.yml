@@ -15,9 +15,9 @@ score:
   batuka
   ---
   base base
-  c3s1 base
-  c3s2 base
-  c3s3 base
+  c3rp base
+  c3t base
+  c3rptb base
   c3t crescendo
   ---
   base base
@@ -153,8 +153,8 @@ sections:
       S2: "                "
       S1: "                "
 
-  c3s1:
-    name: Corte 3 - Surdos 1ª
+  c3rp:
+    name: Corte 3 - SOLO REPE
     color: "#f2670a"
     timeSignature: 4/4
     tracks:
@@ -162,41 +162,26 @@ sections:
       CH: "                "
       AG: "                "
       TB: "                "
-      RP: "                "
+      RP: "XX XX XX X XX X "
       CX: "                "
       S3: "                "
       S2: "                "
-      S1: "XX XX XX X XX X "
+      S1: "                "
 
-  c3s2:
-    name: Corte 3 - Surdos 2ª
-    color: "#f58a42"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---"
-      CH: "                "
-      AG: "                "
-      TB: "                "
-      RP: "                "
-      CX: "                "
-      S3: "                "
-      S2: "XX XX XX X XX X "
-      S1: "XX XX XX X XX X "
-
-  c3s3:
-    name: Corte 3 - Surdos 3ª
+  c3rptb:
+    name: Corte 3 - Repe+Tamborimª
     color: "#f2aa79"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
       CH: "                "
       AG: "                "
-      TB: "                "
-      RP: "                "
+      TB: "XX XX XX X XX X "
+      RP: "XX XX XX X XX X "
       CX: "                "
-      S3: "XX XX XX X XX X "
-      S2: "XX XX XX X XX X "
-      S1: "XX XX XX X XX X "
+      S3: "                "
+      S2: "                "
+      S1: "                "
 
   c3t:
     name: Corte 3 - TODOS
