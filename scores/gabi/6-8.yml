@@ -15,6 +15,11 @@ score:
   base base base c1
   base base base intro_fin
   ---
+  intro_44rp1 intro_44rp2 intro_44rp2 intro_44rp2
+  intro_44cx_ch intro_44cx_ch intro_44cx_ch intro_44llamada
+  ---
+  base44
+  ---
   fin
 
 sections:
@@ -59,7 +64,7 @@ sections:
       CC: "X                                                           "
       TB: "X                                                           "
       RP: "X                                                           "
-      CX: "X - X - X X X X - X - X X - X -    XX X X X X - X X - X -   "
+      CX: "X - X - X X X X - X -              XX X X X X - X X - X -   "
       S3: "X                                                           "
       S2: "X                                                           "
       S1: "X                                                           "
@@ -72,8 +77,8 @@ sections:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CC: "X     X     X     X     "
       TB: "X     X     X     X     "
-      RP: "X - X - X X - X - X - X "
-      CX: "-     -     -     -     "
+      RP: "X   X   X X   X   X   X "
+      CX: "X     X     X     X     "
       S3: "        X X         X X "
       S2: "      X           X     "
       S1: "X           X           "
@@ -103,7 +108,7 @@ sections:
       CH: "X - - - - - X - - - - - "
       CC: "X   X   X X   X   X   X "
       TB: "X   X   X X   X   X   X "
-      RP: "X - X - X X - X - X - X "
+      RP: "X   X   X X   X   X   X "
       CX: "X - X - X X - X - X - X "
       S3: "        X X         X X "
       S2: "      X           X     "
@@ -138,6 +143,65 @@ sections:
       S3: "X X X   X X X   X X X   "
       S2: "X X X   X X X   X X X   "
       S1: "X X X   X X X   X X X   "
+
+  intro_44rp1:
+    name: Intro 4/4 RP 1
+    color: "#c74657"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X               "
+      CC: "X               "
+      TB: "X               "
+      CX: "X               "
+      RP: "----X-------X---"
+      S3: "X               "
+      S2: "X               "
+      S1: "X               "
+
+  intro_44rp2:
+    name: Intro 4/4 RP 2
+    color: "#c74657"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      RP: "----X-------X---"
+
+  intro_44cx_ch:
+    name: Intro 4/4 CX+CH
+    color: "#c74657"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X---X---X---X---"
+      CX: "----X-------X---"
+      RP: "----X-------X---"
+
+  intro_44llamada:
+    name: Intro 4/4 Llamada
+    color: "#c74657"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "----X-------X---"
+      CX: "----X-------X---"
+      RP: "XXXXX X XXXXX X "
+
+  base44:
+    name: Base 4/4
+    color: "#365747"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X-X-X-X-X-X-X-X-"
+      CC: "                "
+      TB: "                "
+      CX: "--XX--XX--XX--XX"
+      #   "1---2---3---4---"
+      RP: ""
+      S3: "      XX      XX"
+      S2: "    XX      XX  "
+      S1: "X       X       "
 
   fin:
     name: Fin
