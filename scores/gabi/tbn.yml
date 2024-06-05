@@ -1,0 +1,108 @@
+# Batukeitor score
+name: Fin 6/8 (a renombrar)
+
+bpm: 160
+score:
+  intro_rp
+  intro_cx_ch
+  intro_llamada
+  ---
+  base base
+  c1
+  base base
+  c1
+  base base
+  c2 c2
+  fin
+
+sections:
+
+  intro_rp:
+    name: Intro (RP)
+    color: "#1d2404"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      RP: "- - X - - - X - - - X - - - X - "
+
+
+  intro_cx_ch:
+    name: Intro (CX+CH)
+    color: "#323d06"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X - X - X - X - X - X - X - X - "
+      CX: "- - X - - - X - - - X - - - X - "
+      RP: "- - X - - - X - - - X - - - X - "
+
+  intro_llamada:
+    name: Intro (Llamada)
+    color: "#4b5c08"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      CH: "X - X - X - X - "
+      CX: "XXXXX X XXXXX X "
+      RP: "XXXXX X XXXXX X "
+
+  base:
+    name: Base
+    color: "#006000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---"
+      CH: "X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - "
+      AG: "X   -   X   - - X   -   X   - - X   -   X   - - X - -   X   - - "
+      TB: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      CX: "- - X X - - X X - - X X - - X X - - X X - - X X XXXXX X XXXXX X "
+      RP: "    X X     X X     X X     X X     X X     X X     X X     X X "
+      S3: "            X X             X X             X X     X X     X X "
+      S2: "        X X             X X             X X             X X     "
+      S1: "X               X               X               X X             "
+
+  c1:
+    name: Corte 1
+    color: "#c3a012"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---"
+      DD: "                1   2   3   y                                   "
+      CH: "X - X - X - X - X - X - X - X -                                 "
+      AG: "X   -   X   - - X   -   X   - -                                 "
+      TB: "X   X   X   X   X   X   X   X                                   "
+      CX: "- - X X - - X X - - X X - - X X XXXXX X XXXXX X                 "
+      RP: "    X X     X X     X X     X X XXXXX X XXXXX X                 "
+      S3: "            X X             X X                 XXXXX X XXXXX X "
+      S2: "        X X             X X                     XXXXX X XXXXX X "
+      S1: "X               X                               XXXXX X XXXXX X "
+
+  c2:
+    name: Corte 2
+    color: "#4657c7"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---"
+      CH: "X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - X - "
+      AG: "X   -   X   - - X   -   X   - - X   -   X   - - X - -   X   - - X   -   X   - - X   -   X   - - X   -   X   - - X - -   X   - - "
+      TB: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
+      CX: "- - X X - - X X - - X X - - X X - - X X - - X X XXXXX X XXXXX X - - X X - - X X - - X X - - X X - - X X - - X X XXXXX X XXXXX X "
+      RP: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      S3: "            X X             X X             X X     X X     X X             X X             X X             X X     X X     X X "
+      S2: "        X X             X X             X X             X X             X X             X X             X X             X X     "
+      S1: "X               X               X               X X             X               X               X               X X             "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---1---2---"
+      CH: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      AG: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      TB: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      CX: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      RP: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      S3: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      S2: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
+      S1: "X X     X X     X X     XXXXX       X   X   X   XXXXX       XXXXX   X   X   X   X   X   XXX XXX X                               "
