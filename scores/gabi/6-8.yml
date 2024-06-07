@@ -26,7 +26,7 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X X   X X   X X   X X   "
-      CC: "X X   X X   X X   X X   "
+      AG: "X X   X X   X X   X X   "
       TB: "X X   X X   X X   X X   "
       RP: "X X   X X   X X   X X   "
       CX: "X X   X X   X X   X X   "
@@ -42,7 +42,7 @@ sections:
     tracks:
       #   "1---2---1---2---1---2---"
       CH: "X                       "
-      CC: "X                       "
+      AG: "X                       "
       TB: "X                       "
       RP: "X                       "
       CX: "X-X-XX-X-X-XX-X-XX-X-X-X"
@@ -57,7 +57,7 @@ sections:
     tracks:
       #   "1---2---1---2---1---2---"
       CH: "X                       "
-      CC: "X                       "
+      AG: "X                       "
       TB: "X                       "
       RP: "X                       "
       CX: "X-X-XX-X-X- XXXXX-XX-X- "
@@ -71,7 +71,7 @@ sections:
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      CC: "X     X     X     X     "
+      AG: "X     X     X     X     "
       TB: "X     X     X     X     "
       RP: "X   X   X X   X   X   X "
       CX: "X     X     X     X     "
@@ -87,7 +87,7 @@ sections:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       DD: "      2     3     y     "
       CH: "X                       "
-      CC: "X                       "
+      AG: "X                       "
       TB: "X                       "
       RP: "X                       "
       CX: "X                       "
@@ -102,7 +102,7 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X - - - - - X - - - - - "
-      CC: "X   X   X X   X   X   X "
+      AG: "X   X   X X   X   X   X "
       TB: "X   X   X X   X   X   X "
       RP: "X   X   X X   X   X   X "
       CX: "X - X - X X - X - X - X "
@@ -117,7 +117,7 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X X X X X X X X X X X X "
-      CC: "X X X X X X X X X X X X "
+      AG: "X X X X X X X X X X X X "
       TB: "X X X X X X X X X X X X "
       RP: "X X X X X X X X X X X X "
       CX: "X X X X X X X X X X X X "
@@ -132,7 +132,7 @@ sections:
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
       CH: "X X X   X X X   X X X   "
-      CC: "X X X   X X X   X X X   "
+      AG: "X X X   X X X   X X X   "
       TB: "X X X   X X X   X X X   "
       RP: "X X X   X X X   X X X   "
       CX: "X X X   X X X   X X X   "
@@ -147,7 +147,7 @@ sections:
     tracks:
       #   "1---2---"
       CH: "X       "
-      CC: "X       "
+      AG: "X       "
       TB: "X       "
       RP: "X       "
       CX: "X       "
