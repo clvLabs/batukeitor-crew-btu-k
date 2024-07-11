@@ -137,9 +137,9 @@ sections:
       TB: "    X       X   "
       RP: "    X       X   "
       CX: "    X       X   "
-      S3: "X        XX     "
-      S2: "X        XX     "
-      S1: "X        XX     "
+      S3: "X         XX    "
+      S2: "X         XX    "
+      S1: "X         XX    "
 
 
   fin:
