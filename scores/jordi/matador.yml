@@ -6,7 +6,7 @@ score:
   intro
   base base
   ---
-  c1-s c1-t c1-c
+  c1-e c1-s c1-t c1-c
   base base
   ---
   c2-1 c2
@@ -50,9 +50,25 @@ sections:
       S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
       S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
 
+  c1-e:
+    name: Corte 1 - Entrada
+    color: "#008000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                1   2   3   y   "
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---    "
+      AG: "X X - - XX - -- X X - - XX - -- X X - - XX - -- X X - - XX -    "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX    "
+      S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
+      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+      S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+
   c1-s:
     name: Corte 1 - Intro surdos
-    color: "#008000"
+    color: "#00A000"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
@@ -68,7 +84,7 @@ sections:
 
   c1-t:
     name: Corte 1 - Todos
-    color: "#00A000"
+    color: "#00C000"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
