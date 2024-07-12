@@ -16,7 +16,7 @@ score:
   ---
   base base
   c3rp base
-  c3t base
+  c3tct base
   c3rptb base
   c3t crescendo
   ---
@@ -167,6 +167,21 @@ sections:
       S3: "                "
       S2: "                "
       S1: "                "
+
+  c3tct:
+    name: Corte 3 - casi TODOS
+    color: "#f2440a"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "XX XX XX X XX X "
+      AG: "XX XX XX X XX X "
+      TB: "XX XX XX X XX X "
+      RP: "XX XX XX X XX X "
+      CX: "XX XX XX X XX X "
+      S3: "                "
+      S2: "XX XX XX X XX X "
+      S1: "XX XX XX X XX X "
 
   c3rptb:
     name: Corte 3 - Repe+Tamborim
