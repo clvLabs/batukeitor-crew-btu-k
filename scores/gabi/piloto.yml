@@ -171,30 +171,30 @@ sections:
     name: Base 3
     color: "#e009b3"
     tracks:
-      #   "1---2---3---4---"
-      CH: "X--XX--XX--XX--X"
-      CC: "X --X --X --X - "
-      TB: "X  X  X   X  X  "
-      RP: "X  X  X   X  X X"
-      CX: "X--X--X---X--X--"
-      S3: "X     X XXXXXXXX"
-      S2: "    X       X   "
-      S1: "X       X       "
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      CC: "X --X --X --X - X --X --X --X - "
+      TB: "X  X  X   X  X  X  X  X   X  X  "
+      RP: " XXX  X  XXX  X  XXX XXX XXX  X "
+      CX: "X--X--X---X--X--X--X--X---X--X--"
+      S3: "X     X XXXXXXXXX     X XXXXXXXX"
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
 
   c4:
     name: Corte 4
     color: "#a80a87"
     tracks:
-      #   "1---2---3---4---
-      DD: "1 2 3 4         "
-      CH: "X--XX--XX X X X "
-      CC: "X --X --X X X X "
-      TB: "X  X  X X X X X "
-      RP: "X  X  X X X X X "
-      CX: "X--X--X-X X X X "
-      S3: "X     X X X X X "
-      S2: "    X   X X X X "
-      S1: "X       X X X X "
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                1 2 3 4         "
+      CH: "X--XX--XX--XX--XX--XX--XX X X X "
+      CC: "X --X --X --X - X --X --X X X X "
+      TB: "X  X  X   X  X  X  X  X X X X X "
+      RP: " XXX  X  XXX  X X X X X X X X X "
+      CX: "X--X--X---X--X--X--X--X-X X X X "
+      S3: "X     X XXXXXXXXX     X X X X X "
+      S2: "    X       X       X   X X X X "
+      S1: "X       X       X       X X X X "
 
   fin:
     name: Fin
