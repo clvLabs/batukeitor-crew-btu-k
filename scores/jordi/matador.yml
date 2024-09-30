@@ -6,7 +6,8 @@ score:
   intro
   base base
   ---
-  c1-e c1-s c1-t c1-c
+  base c1-e
+  c1-s c1-t c1-c
   base base
   ---
   c2-1 c2
