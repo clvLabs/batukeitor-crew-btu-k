@@ -1,0 +1,71 @@
+# Batukeitor score
+name: SinNombre
+
+bpm: 105
+score:
+  intro
+  base base
+  c1
+  base base
+  ---
+  fin
+
+
+sections:
+  intro:
+    name: Intro
+    color: "#c3a012"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "                                "
+      TB: "    X     X               X X   "
+      RP: "    X     X     X  X   X        "
+      CX: "    X     X                     "
+      S3: "XXXX  XXXX  XXXX                "
+      S2: "XXXX  XXXX  XXXX                "
+      S1: "XXXX  XXXX  XXXX                "
+
+  base:
+    name: Base
+    color: "#006000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---"
+      TB: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "     XX      XX      XX      XX "
+      S2: "    X       X       X       X X "
+      S1: "X       X       X       X X     "
+
+  c1:
+    name: Corte 1
+    color: "#008000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "            X   "
+      CH: "X X X X X       "
+      TB: "X X X X X       "
+      RP: "X X X X X       "
+      CX: "X X X X X       "
+      S3: "X X X X X       "
+      S2: "X X X X X       "
+      S1: "X X X X X       "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X               "
+      TB: "X               "
+      RP: "X               "
+      CX: "X               "
+      S3: "X               "
+      S2: "X               "
+      S1: "X               "
