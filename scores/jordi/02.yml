@@ -7,6 +7,8 @@ score:
   base base
   c1
   base base
+  c2
+  base base
   ---
   fin
 
@@ -55,6 +57,21 @@ sections:
       S3: "X X X X X       "
       S2: "X X X X X       "
       S1: "X X X X X       "
+
+  c2:
+    name: Corte 2
+    color: "#00B000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "                                "
+      TB: "X  X   X        XX X X X        "
+      RP: "X  X   X        XX X X X        "
+      CX: "X  X   X        XX X X X        "
+      S3: "          X X            XXXX   "
+      S2: "          X X            XXXX   "
+      S1: "          X X            XXXX   "
 
   fin:
     name: Fin
