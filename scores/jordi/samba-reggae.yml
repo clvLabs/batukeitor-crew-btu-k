@@ -9,6 +9,8 @@ score:
   base base
   c2
   base base
+  c3i c3es c3 c3 c3 c3 c3f
+  base base
   ---
   fin
 
@@ -25,7 +27,7 @@ sections:
       TB: "    X     X               X X   "
       RP: "    X     X     X  X   X        "
       CX: "    X     X                     "
-      S3: "XXXX  XXXX  XXXX                "
+      S3: "XXXX  XXXX  XXXX              XX"
       S2: "XXXX  XXXX  XXXX                "
       S1: "XXXX  XXXX  XXXX                "
 
@@ -45,7 +47,7 @@ sections:
 
   c1:
     name: Corte 1
-    color: "#008000"
+    color: "#00B000"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
@@ -60,7 +62,7 @@ sections:
 
   c2:
     name: Corte 2
-    color: "#00B000"
+    color: "#09F6A1"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
@@ -72,6 +74,66 @@ sections:
       S3: "          X X            XXXX   "
       S2: "          X X            XXXX   "
       S1: "          X X            XXXX   "
+
+  c3i:
+    name: Corte 3 - Intro
+    color: "#0929f6"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      TB: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "                                "
+      S2: "                                "
+      S1: "                                "
+
+  c3es:
+    name: Corte 3 - Entrada surdos
+    color: "#6d19e9"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                1   2   3       "
+      CH: "X---X---X---X---X---X---X---X---"
+      TB: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "                            XXXX"
+      S2: "                                "
+      S1: "                                "
+
+  c3:
+    name: Corte 3
+    color: "#b400cc"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      TB: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "X    XX X    XX X           XXXX"
+      S2: "    X       X       X       X X "
+      S1: "X       X       X       X X     "
+
+  c3f:
+    name: Corte 3 - Fin
+    color: "#f0479c"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      TB: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "X    XX X    XX XXXXXXXXXXXXXXXX"
+      S2: "    X       X       X       X X "
+      S1: "X       X       X       X X     "
 
   fin:
     name: Fin
