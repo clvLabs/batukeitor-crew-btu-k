@@ -9,10 +9,10 @@ score:
   base base
   c2
   base base
-  c3i c3es c3 c3 c3 c3 c3f
+  c3i c3es c3 c3 c3v12 c3v12 c3f
   base base
   ---
-  fin
+  c3f fin
 
 
 sections:
@@ -117,12 +117,12 @@ sections:
       RP: "X  X   X  X X   X  X   X  X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
       S3: "X    XX X    XX X           XXXX"
-      S2: "    X       X       X       X X "
-      S1: "X       X       X       X X     "
+      S2: "X    XX X    XX X           XXXX"
+      S1: "X    XX X    XX X           XXXX"
 
-  c3f:
-    name: Corte 3 - Fin
-    color: "#f0479c"
+  c3v12:
+    name: Corte 3 - Variación S1S2
+    color: "#bc43cc"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
@@ -131,9 +131,24 @@ sections:
       TB: "X  X   X  X X   X  X   X  X X   "
       RP: "X  X   X  X X   X  X   X  X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
-      S3: "X    XX X    XX XXXXXXXXXXXXXXXX"
+      S3: "X    XX X    XX X           XXXX"
       S2: "    X       X       X       X X "
       S1: "X       X       X       X X     "
+
+  c3f:
+    name: Corte 3 - Fin
+    color: "#f0479c"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "X    XX X    XX "
+      TB: "X    XX X    XX "
+      RP: "X    XX X    XX "
+      CX: "X    XX X    XX "
+      S3: "X    XX X    XX "
+      S2: "X    XX X    XX "
+      S1: "X    XX X    XX "
 
   fin:
     name: Fin
