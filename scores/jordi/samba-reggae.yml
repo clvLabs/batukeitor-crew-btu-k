@@ -9,10 +9,11 @@ score:
   base base
   c2
   base base
-  c3i c3es c3 c3 c3v12 c3v12 c3f
+  c3i c3et c3 c3
+  c3v12 c3v12f c3f
   base base
   ---
-  c3f fin
+  fin
 
 
 sections:
@@ -82,28 +83,28 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
-      CH: "X---X---X---X---X---X---X---X---"
-      TB: "X  X   X  X X   X  X   X  X X   "
+      CH: "                                "
+      TB: "                                "
       RP: "X  X   X  X X   X  X   X  X X   "
-      CX: "X--X---X--X-X---X--X---X--X-X---"
+      CX: "                                "
       S3: "                                "
       S2: "                                "
       S1: "                                "
 
-  c3es:
-    name: Corte 3 - Entrada surdos
-    color: "#6d19e9"
+  c3et:
+    name: Corte 3 - Entrada todos
+    color: "#0929f6"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                1   2   3       "
-      CH: "X---X---X---X---X---X---X---X---"
-      TB: "X  X   X  X X   X  X   X  X X   "
+      CH: "                            XXXX"
+      TB: "                            XXXX"
       RP: "X  X   X  X X   X  X   X  X X   "
-      CX: "X--X---X--X-X---X--X---X--X-X---"
+      CX: "                            XXXX"
       S3: "                            XXXX"
-      S2: "                                "
-      S1: "                                "
+      S2: "                            XXXX"
+      S1: "                            XXXX"
 
   c3:
     name: Corte 3
@@ -112,10 +113,10 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
-      CH: "X---X---X---X---X---X---X---X---"
-      TB: "X  X   X  X X   X  X   X  X X   "
+      CH: "X    XX X    XX X           XXXX"
+      TB: "X    XX X    XX X           XXXX"
       RP: "X  X   X  X X   X  X   X  X X   "
-      CX: "X--X---X--X-X---X--X---X--X-X---"
+      CX: "X    XX X    XX X           XXXX"
       S3: "X    XX X    XX X           XXXX"
       S2: "X    XX X    XX X           XXXX"
       S1: "X    XX X    XX X           XXXX"
@@ -135,20 +136,35 @@ sections:
       S2: "    X       X       X       X X "
       S1: "X       X       X       X X     "
 
+  c3v12f:
+    name: Corte 3 - Variación S1S2 (fin)
+    color: "#bc43cc"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---    "
+      TB: "X  X   X  X X   X  X   X  X     "
+      RP: "X  X   X  X X   X  X   X  X     "
+      CX: "X--X---X--X-X---X--X---X--X-    "
+      S3: "X    XX X    XX X           XXXX"
+      S2: "    X       X       X           "
+      S1: "X       X       X       X X     "
+
   c3f:
     name: Corte 3 - Fin
     color: "#f0479c"
     timeSignature: 4/4
     tracks:
-      #   "1---2---3---4---"
-      DD: "                "
-      CH: "X    XX X    XX "
-      TB: "X    XX X    XX "
-      RP: "X    XX X    XX "
-      CX: "X    XX X    XX "
-      S3: "X    XX X    XX "
-      S2: "X    XX X    XX "
-      S1: "X    XX X    XX "
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "     XX X    XX X  X   X  X X   "
+      TB: "     XX X    XX X  X   X  X X   "
+      RP: "     XX X    XX X  X   X  X X   "
+      CX: "     XX X    XX X  X   X  X X   "
+      S3: "X    XX X    XX X  X   X  X X XX"
+      S2: "     XX X    XX X  X   X  X X   "
+      S1: "     XX X    XX X  X   X  X X   "
 
   fin:
     name: Fin
