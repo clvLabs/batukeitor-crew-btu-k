@@ -140,8 +140,8 @@ sections:
       RP: "X  X   X  X X   X  X   X  X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
       S3: "X    XX X    XX X           XXXX"
-      S2: "    X       X       X       X X "
-      S1: "X       X       X       X X     "
+      S2: "    X       X       X       X   "
+      S1: "X       X       X       X       "
 
   c3v12f:
     name: Corte 3 - Variación S1S2 (fin)
@@ -157,7 +157,7 @@ sections:
       CX: "X--X---X--X-X---X--X---X--X-    "
       S3: "X    XX X    XX X           XXXX"
       S2: "    X       X       X           "
-      S1: "X       X       X       X X     "
+      S1: "X       X       X       X       "
 
   c3f:
     name: Corte 3 - Fin
