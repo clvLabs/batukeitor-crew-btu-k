@@ -76,7 +76,7 @@ sections:
       TB: "X  X   X        XX X X X        "
       RP: "X  X   X        XX X X X        "
       CX: "X  X   X        XX X X X        "
-      S3: "          X X            XXXX   "
+      S3: "          X X            XXXX XX"
       S2: "          X X            XXXX   "
       S1: "          X X            XXXX   "
 
