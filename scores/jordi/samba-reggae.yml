@@ -12,6 +12,10 @@ score:
   c3i c3et c3 c3
   c3v12 c3v12f c3f
   base base
+  c4 c4
+  base base
+  c5
+  base base
   ---
   fin
 
@@ -204,6 +208,39 @@ sections:
       S3: "X    XX X    XX X  X   X  X X XX"
       S2: "     XX X    XX X  X   X  X X   "
       S1: "     XX X    XX X  X   X  X X   "
+
+  c4:
+    name: Corte 4
+    color: "#de8912"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "                                                                "
+      AG: "                                                                "
+      TB: "                                                                "
+      RP: "X       XX XX X X       X X X X X       XX XX X   X   X   X   X "
+      CX: "--X---X---X---X---X---X---X---X---X---X---X---X-  X   X   X   X "
+      S3: "  X   X   X   X   X   X   X   X   X   X   X   X X X X X X X X X "
+      S2: "    X       X       X       X       X       X   X   X   X   X   "
+      S1: "X       X       X       X       X       X       X   X   X   X   "
+
+
+  c5:
+    name: Corte 5
+    color: "#bd2b5e"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "                "
+      AG: "                "
+      TB: "                "
+      RP: "      XX XX X X "
+      CX: "      XX XX X X "
+      S3: "XX XX       X X "
+      S2: "XX XX       X X "
+      S1: "XX XX       X X "
 
   fin:
     name: Fin
