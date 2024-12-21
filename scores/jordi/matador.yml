@@ -11,7 +11,7 @@ score:
   base base
   ---
   c2-1 c2
-  base base
+  baseadr base
   ---
   c3-1 c3-cx c3-rp
   base base
@@ -46,6 +46,21 @@ sections:
       AG: "X X - - XX - -- X X - - XX - -- X X - - XX - -- X X - - XX - -- "
       TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
+      S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
+      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+      S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+
+  baseadr:
+    name: Base (adorno repe)
+    color: "#0060A0"
+    timeSignature: 4/4
+    tracks:
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      AG: "X X - - XX - -- X X - - XX - -- X X - - XX - -- X X - - XX - -- "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      RP: "XXXXXXXXX       X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
       S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
