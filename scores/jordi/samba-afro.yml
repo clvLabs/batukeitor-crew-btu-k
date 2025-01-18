@@ -17,7 +17,7 @@ score:
   base base
   c3rp base
   c3tct base
-  c3rptb base
+  c3ag base
   c3t crescendo
   ---
   base base
@@ -183,14 +183,14 @@ sections:
       S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
-  c3rptb:
-    name: Corte 3 - Repe+Tamborim
+  c3ag:
+    name: Corte 3 - Agudos
     color: "#f2775e"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---"
-      CH: "                "
-      AG: "                "
+      CH: "XX XX XX X XX X "
+      AG: "XX XX XX X XX X "
       TB: "XX XX XX X XX X "
       RP: "XX XX XX X XX X "
       CX: "                "
