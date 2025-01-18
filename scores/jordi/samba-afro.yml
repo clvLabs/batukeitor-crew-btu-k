@@ -128,9 +128,9 @@ sections:
     tracks:
       #   "1---2---3---4---"
       DD: "X               "
-      CH: "X---X---X---X---"
+      CH: "                "
       AG: "X X ---X ---X --"
-      TB: "                "
+      TB: "  X X   X  X  X "
       RP: "                "
       CX: "                "
       S3: "                "
