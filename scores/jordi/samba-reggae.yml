@@ -8,7 +8,7 @@ score:
   c1
   base base
   c2
-  base bvc1 bvc2 base
+  base bllc1 bllc2 base
   c3i c3et c3 c3
   c3v12 c3v12f c3f
   base base
@@ -52,8 +52,8 @@ sections:
       S2: "    X       X       X       X X "
       S1: "X       X       X       X X     "
 
-  bvc1:
-    name: Base-Var.Cortas 1
+  bllc1:
+    name: Base-Llamada Cortas 1
     color: "#008000"
     timeSignature: 4/4
     tracks:
@@ -67,8 +67,8 @@ sections:
       S2: "    X       X       X       X X "
       S1: "X       X       X       X X     "
 
-  bvc2:
-    name: Base-Var.Cortas 2
+  bllc2:
+    name: Base-Llamada Cortas 2
     color: "#00A000"
     timeSignature: 4/4
     tracks:
