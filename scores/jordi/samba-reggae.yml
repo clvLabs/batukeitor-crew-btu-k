@@ -12,7 +12,7 @@ score:
   c3i c3et c3 c3
   c3v12 c3v12f c3f
   base base
-  c4 c4
+  c4 c4 c4u
   base base
   c5
   base base
@@ -212,6 +212,22 @@ sections:
   c4:
     name: Corte 4
     color: "#de8912"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "                                                                "
+      AG: "                                                                "
+      TB: "X       XX XX X X       X X X X X       XX XX X   X   X   X   X "
+      RP: "X  X   X  X X   X  X   X  X X   X  X   X  X X     X   X   X   X "
+      CX: "X--X---X--X-X---X--X---X--X-X---X--X---X--X-X-----X---X---X---X-"
+      S3: "      XX      XX      XX      XX      XX      XX  X   X   X   X "
+      S2: "-   -   -   -   -   -   -   -   -   -   -   X   X   X   X   X   "
+      S1: "X       X       X       X       X       X       X   X   X   X   "
+
+  c4u:
+    name: Corte 4 - Última
+    color: "#945c0d"
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
