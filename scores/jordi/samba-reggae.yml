@@ -222,8 +222,8 @@ sections:
       RP: "X  X   X  X X   X  X   X  X X   X  X   X  X X     X   X   X   X "
       CX: "X--X---X--X-X---X--X---X--X-X---X--X---X--X-X-----X---X---X---X-"
       S3: "      XX      XX      XX      XX      XX      XXX   X   X   X   "
-      S2: "-   -   -   -   -   -   -   -   -   -   -   X   X   X   X   X   "
-      S1: "X       X       X       X       X       X       X   X   X   X   "
+      S2: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
+      S1: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
 
   c4u:
     name: Corte 4 - Última
@@ -238,8 +238,8 @@ sections:
       RP: "X  X   X  X X   X  X   X  X X   X  X   X  X X     X   X   X   X "
       CX: "X--X---X--X-X---X--X---X--X-X---X--X---X--X-X--   X   X   X   X "
       S3: "      XX      XX      XX      XX      XX      XXX   X   X   X   "
-      S2: "-   -   -   -   -   -   -   -   -   -   -   X   X   X   X   X   "
-      S1: "X       X       X       X       X       X       X   X   X   X   "
+      S2: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
+      S1: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
 
 
   c5:
