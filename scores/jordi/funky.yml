@@ -1,21 +1,32 @@
 # Batukeitor score
-name: FunkyJordi
+name: Funky
 
 bpm: 110
 score:
   intro1 intro2
   ---
   base base
-  c1a c1b
+  c1 fc1
   ---
   base base
   c2
   ---
   bhh bhh
+  fc2
+  ---
+  base base
   c3
   ---
   base base
-  c2 intro1 fin
+  c4
+  ---
+  i24 i24
+  b24 b24 b24 b24  c4
+  b68 b68 b68 b68  c4
+  b24 b24 b24 b24  c4
+  b68 b68 b68 b68  c4
+  ---
+  fin
 
 sections:
 
@@ -65,8 +76,8 @@ sections:
       S2: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
       S1: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
 
-  c1a:
-    name: Corte 1 (1/2)
+  c1:
+    name: Corte 1
     color: "#004000"
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---"
@@ -80,8 +91,8 @@ sections:
       S2: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
       S1: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
 
-  c1b:
-    name: Corte 1 (2/2)
+  fc1:
+    name: FIN Corte 1
     color: "#004000"
     timeSignature: 6/8
     tracks:
@@ -126,8 +137,8 @@ sections:
       S2: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
       S1: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
 
-  c3:
-    name: Corte 3
+  fc2:
+    name: FIN Corte 2
     color: "#430482"
     tracks:
       #   "1---2---3---4---"
@@ -141,18 +152,85 @@ sections:
       S2: "X         XX    "
       S1: "X         XX    "
 
+  c3:
+    name: Corte 3
+    color: "#cf6b1f"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "      X       XX"
+      AG: "      X       XX"
+      TB: "      X       XX"
+      RP: "      X       XX"
+      CX: "      X       XX"
+      S3: "XXXXX   XXXXX   "
+      S2: "                "
+      S1: "                "
+
+  c4:
+    name: Corte 4
+    color: "#1bcc82"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X   X   X   X   X X X X X-X-X-X-"
+      AG: "X   X   X   X   X X X X XXXXXXXX"
+      TB: "X   X   X   X   X X X X XXXXXXXX"
+      RP: "X   X   X   X   X X X X XXXXXXXX"
+      CX: "X   X   X   X   X X X X XXXXXXXX"
+      S3: "X   X   X   X   X X X X XXXXXXXX"
+      S2: "X   X   X   X   X X X X XXXXXXXX"
+      S1: "X   X   X   X   X X X X XXXXXXXX"
+
+  i24:
+    name: Intro 2/4
+    color: "#02d6d6"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      RP: "----X-------X---"
+
+  b24:
+    name: Base 2/4
+    color: "#00a0a0"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---1---2---"
+      CH: "X   X   X   X   "
+      AG: "  XX  XX  XX  XX"
+      TB: "X   X   X   X   "
+      CX: "X   X   X   X   "
+      RP: "----X-------X---"
+      S3: "X   X   X   X   "
+      S2: "X   X   X   X   "
+      S1: "X   X   X   X   "
+
+  b68:
+    name: Base 6/8
+    color: "#9d09ff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CH: "X     X     X     X     "
+      AG: "  X X   X X   X X   X X "
+      TB: "X     X     X     X     "
+      CX: "X     X     X     X     "
+      RP: "X - - X - - X - - X - - "
+      S3: "X     X     X     X     "
+      S2: "X     X     X     X     "
+      S1: "X     X     X     X     "
 
   fin:
     name: Fin
     color: "#AA0000"
     tracks:
       #   "1---2---3---4---"
-      DD: "X     X X   X   "
-      CH: "                "
-      AG: "                "
-      TB: "                "
-      RP: "                "
-      CX: "                "
-      S3: "                "
-      S2: "                "
-      S1: "                "
+      DD: "                "
+      CH: "X               "
+      AG: "X               "
+      TB: "X               "
+      CX: "X               "
+      RP: "X               "
+      S3: "X               "
+      S2: "X               "
+      S1: "X               "
