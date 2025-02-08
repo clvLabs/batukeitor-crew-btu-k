@@ -11,11 +11,11 @@ score:
   base bllc1 bllc2 base
   c3i c3et c3 c3
   c3v12 c3v12f c3f
-  base base
+  baserps baserps
   c4 c4 c4u
-  base base
+  baserps baserps
   c5
-  base base
+  baserps baserps
   ---
   fin
 
@@ -38,7 +38,7 @@ sections:
       S1: "XXXX  XXXX  XXXX                "
 
   base:
-    name: Base
+    name: Base (RP Rumba)
     color: "#006000"
     timeSignature: 4/4
     tracks:
@@ -47,6 +47,21 @@ sections:
       AG: "XX - -- X X - - XX - -- X X - - "
       TB: " X X  XX  XX  X  X X  XX  XX  X "
       RP: "X  X   X  X X   X  X   X  X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "      XX      XX      XX      XX"
+      S2: "    X       X       X       X X "
+      S1: "X       X       X       X X     "
+
+  baserps:
+    name: Base (RP Son)
+    color: "#005500"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "XX - -- X X - - XX - -- X X - - "
+      TB: " X X  XX  XX  X  X X  XX  XX  X "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
       S3: "      XX      XX      XX      XX"
       S2: "    X       X       X       X X "
@@ -200,14 +215,14 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
-      CH: "X    XX X    XX X  X   X  X X   "
-      AG: "X    XX X    XX X  X   X  X X   "
-      TB: "X    XX X    XX X  X   X  X X   "
-      RP: "X    XX X    XX X  X   X  X X   "
-      CX: "X    XX X    XX X  X   X  X X   "
-      S3: "X    XX X    XX X  X   X  X X   "
-      S2: "X    XX X    XX X  X   X  X X   "
-      S1: "X    XX X    XX X  X   X  X X   "
+      CH: "X    XX X    XX X  X  X   X X   "
+      AG: "X    XX X    XX X  X  X   X X   "
+      TB: "X    XX X    XX X  X  X   X X   "
+      RP: "X    XX X    XX X  X  X   X X   "
+      CX: "X    XX X    XX X  X  X   X X   "
+      S3: "X    XX X    XX X  X  X   X X   "
+      S2: "X    XX X    XX X  X  X   X X   "
+      S1: "X    XX X    XX X  X  X   X X   "
 
   c4:
     name: Corte 4
