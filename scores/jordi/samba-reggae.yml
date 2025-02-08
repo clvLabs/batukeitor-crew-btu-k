@@ -33,7 +33,7 @@ sections:
       TB: "    X     X               X X   "
       RP: "    X     X     X  X   X        "
       CX: "    X     X                     "
-      S3: "XXXX  XXXX  XXXX                "
+      S3: "XXXX  XXXX  XXXX              XX"
       S2: "XXXX  XXXX  XXXX                "
       S1: "XXXX  XXXX  XXXX                "
 
@@ -109,7 +109,7 @@ sections:
       TB: "X X X X X       "
       RP: "X X X X X       "
       CX: "X X X X X       "
-      S3: "X X X X X       "
+      S3: "X X X X X     XX"
       S2: "X X X X X       "
       S1: "X X X X X       "
 
@@ -125,7 +125,7 @@ sections:
       TB: "X  X   X        XX X X X        "
       RP: "X  X   X        XX X X X        "
       CX: "X  X   X        XX X X X        "
-      S3: "          X X            XXXX   "
+      S3: "          X X            XXXX XX"
       S2: "          X X            XXXX   "
       S1: "          X X            XXXX   "
 
@@ -220,7 +220,7 @@ sections:
       TB: "X    XX X    XX X  X  X   X X   "
       RP: "X    XX X    XX X  X  X   X X   "
       CX: "X    XX X    XX X  X  X   X X   "
-      S3: "X    XX X    XX X  X  X   X X   "
+      S3: "X    XX X    XX X  X  X   X X XX"
       S2: "X    XX X    XX X  X  X   X X   "
       S1: "X    XX X    XX X  X  X   X X   "
 
@@ -252,7 +252,7 @@ sections:
       TB: "X       XX XX X X       X X X X X       XX XX X   X   X   X   X "
       RP: "X  X   X  X X   X  X   X  X X   X  X   X  X X     X   X   X   X "
       CX: "X--X---X--X-X---X--X---X--X-X---X--X---X--X-X--   X   X   X   X "
-      S3: "X     XX      XX      XX      XX      XX      XXX   X   X   X   "
+      S3: "X     XX      XX      XX      XX      XX      XXX   X   X   X XX"
       S2: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
       S1: "-   -   -   -   -   -   -   -   -   -   -   -   X   X   X   X   "
 
