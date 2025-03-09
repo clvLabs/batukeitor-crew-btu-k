@@ -5,24 +5,26 @@ bpm: 110
 score:
   intro1 intro2
   ---
-  base base
+  bfnk bfnk
   c1 fc1
   ---
-  base base
+  bfnk bfnk
   c2
   ---
   bhh bhh
   fc2
   ---
-  base base
+  bfnk bfnk
   c3
   ---
-  base base
+  bfnk bfnk
   c4
   ---
   i24 i24
-  b24 b24 b24 b24  c4
-  b68 b68 b68 b68  c4
+  n24 n24 n24 n24  c4
+  n68 n68 n68 n68  c4
+  ---
+  b68 b68 b68 b68
   ---
   fin
 
@@ -59,8 +61,8 @@ sections:
       S2: "                "
       S1: "                "
 
-  base:
-    name: Base
+  bfnk:
+    name: Base Funky
     color: "#006000"
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
@@ -188,8 +190,8 @@ sections:
       #   "1---2---1---2---"
       RP: "----X-------X---"
 
-  b24:
-    name: Base 2/4
+  n24:
+    name: Negras 2/4
     color: "#00a0a0"
     timeSignature: 2/4
     tracks:
@@ -203,8 +205,8 @@ sections:
       S2: "X   X   X   X   "
       S1: "X   X   X   X   "
 
-  b68:
-    name: Base 6/8
+  n68:
+    name: Negras 6/8
     color: "#9d09ff"
     timeSignature: 6/8
     tracks:
@@ -217,6 +219,45 @@ sections:
       S3: "X     X     X     X     "
       S2: "X     X     X     X     "
       S1: "X     X     X     X     "
+
+  b68:
+    name: Base 6/8
+    color: "#ac2fff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CH: "                        "
+      AG: "                        "
+      TB: "                        "
+      CX: "                        "
+      RP: "X   X   X X   X   X   X "
+      S3: "    X       X X X X X X "
+      S2: "X           X           "
+      S1: "      X           X     "
+
+  b68cx1:
+    name: Base 6/8 Caixa 1
+    color: "#ac2fff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CX: "X - - X - - X - - X - - "
+
+  b68cx2:
+    name: Base 6/8 Caixa 2
+    color: "#ac2fff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CX: "X - - X - - X - - X - X "
+
+  b68cx3:
+    name: Base 6/8 Caixa 3
+    color: "#ac2fff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      CX: "X - - X - - X - - X - X X - - X - - X - X - X - "
 
   fin:
     name: Fin
