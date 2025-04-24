@@ -4,18 +4,18 @@ name: Samba Reggae
 bpm: 105
 score:
   intro
-  basecr basecr
+  base base
   c1
-  basecr basecr
+  base base
   c2
-  basecr bllc1 bllc2 basecr
+  base bllc1 bllc2 base
   c3i c3et c3 c3
   c3v12 c3v12f c3f
-  basecs basecs
+  base base
   c4 c4 c4u
-  basecs basecs
+  base base
   c5
-  basecs basecs
+  base base
   ---
   fin
 
@@ -37,8 +37,8 @@ sections:
       S2: "XXXX  XXXX  XXXX                "
       S1: "XXXX  XXXX  XXXX                "
 
-  basecr:
-    name: Base (Clave Rumba)
+  base:
+    name: Base
     color: "#006000"
     timeSignature: 4/4
     tracks:
@@ -46,7 +46,7 @@ sections:
       CH: "X---X---X---X---X---X---X---X---"
       AG: "XX - -- X X - - XX - -- X X - - "
       TB: " X X  XX  XX  X  X X  XX  XX  X "
-      RP: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
       S3: "      XX      XX      XX      XX"
       S2: "    X       X       X       X X "
@@ -82,21 +82,6 @@ sections:
       S2: "    X       X       X       X X "
       S1: "X       X       X       X X     "
 
-  basecs:
-    name: Base (Clave Son)
-    color: "#005500"
-    timeSignature: 4/4
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      CH: "X---X---X---X---X---X---X---X---"
-      AG: "XX - -- X X - - XX - -- X X - - "
-      TB: " X X  XX  XX  X  X X  XX  XX  X "
-      RP: "X  X  X   X X   X  X  X   X X   "
-      CX: "X--X--X---X-X---X--X--X---X-X---"
-      S3: "      XX      XX      XX      XX"
-      S2: "    X       X       X       X X "
-      S1: "X       X       X       X X     "
-
   c1:
     name: Corte 1
     color: "#00B000"
@@ -120,11 +105,11 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
-      CH: "X  X   X        XX X X X        "
-      AG: "X  X   X        XX X X X        "
-      TB: "X  X   X        XX X X X        "
-      RP: "X  X   X        XX X X X        "
-      CX: "X  X   X        XX X X X        "
+      CH: "X  X  X         XX X X X        "
+      AG: "X  X  X         XX X X X        "
+      TB: "X  X  X         XX X X X        "
+      RP: "X  X  X         XX X X X        "
+      CX: "X  X  X         XX X X X        "
       S3: "          X X            XXXX XX"
       S2: "          X X            XXXX   "
       S1: "          X X            XXXX   "
@@ -138,7 +123,7 @@ sections:
       DD: "                                "
       CH: "                                "
       TB: "                                "
-      RP: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "                                "
       S3: "                                "
       S2: "                                "
@@ -154,7 +139,7 @@ sections:
       CH: "                            XXXX"
       AG: "                            XXXX"
       TB: "                            XXXX"
-      RP: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "                            XXXX"
       S3: "                            XXXX"
       S2: "                            XXXX"
@@ -170,7 +155,7 @@ sections:
       CH: "X    XX X    XX X           XXXX"
       AG: "X    XX X    XX X           XXXX"
       TB: "X    XX X    XX X           XXXX"
-      RP: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "X    XX X    XX X           XXXX"
       S3: "X    XX X    XX X           XXXX"
       S2: "X    XX X    XX X           XXXX"
@@ -186,7 +171,7 @@ sections:
       CH: "X---X---X---X---X---X---X---X---"
       AG: "XX - -- X X - - XX - -- X X - - "
       TB: "X    XX X    XX X           XXXX"
-      RP: "X  X   X  X X   X  X   X  X X   "
+      RP: "X  X  X   X X   X  X  X   X X   "
       CX: "X--X---X--X-X---X--X---X--X-X---"
       S3: "X    XX X    XX X           XXXX"
       S2: "X   X   X   X   X   X   X   X   "
@@ -202,14 +187,14 @@ sections:
       CH: "X---X---X---X---X---X---X---XXXX"
       AG: "XX - -- X X - - XX - -- X X XXXX"
       TB: "X    XX X    XX X           XXXX"
-      RP: "X  X   X  X X   X  X   X  X XXXX"
+      RP: "X  X  X   X X   X  X  X   X XXXX"
       CX: "X--X---X--X-X---X--X---X--X-XXXX"
       S3: "X    XX X    XX X           XXXX"
       S2: "X   X   X   X   X   X   X   XXXX"
       S1: "X   X   X   X   X   X   X   XXXX"
 
   c3f:
-    name: Corte 3 - Fin (cambio clave Son)
+    name: Corte 3 - Fin
     color: "#f0479c"
     timeSignature: 4/4
     tracks:
