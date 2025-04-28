@@ -99,7 +99,7 @@ sections:
       S1: "X X X X X       "
 
   c2:
-    name: Corte 2
+    name: Corte 2 'Vacile'
     color: "#09F6A1"
     timeSignature: 4/4
     tracks:
@@ -210,7 +210,7 @@ sections:
       S1: "X    XX X    XX X  X  X   X X   "
 
   c4:
-    name: Corte 4
+    name: Corte 4 'Rebombori'
     color: "#de8912"
     timeSignature: 4/4
     tracks:
