@@ -30,10 +30,10 @@ sections:
       DD: "                                "
       CH: "    X     X                     "
       AG: "    X     X                     "
-      TB: "    X     X               X X   "
+      TB: "    X     X                     "
       RP: "    X     X     X  X   X        "
-      CX: "    X     X                     "
-      S3: "XXXX  XXXX  XXXX              XX"
+      CX: "    X     X     X  X   X        "
+      S3: "XXXX  XXXX  XXXX          X X XX"
       S2: "XXXX  XXXX  XXXX                "
       S1: "XXXX  XXXX  XXXX                "
 
