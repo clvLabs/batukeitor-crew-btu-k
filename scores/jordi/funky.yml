@@ -9,7 +9,7 @@ score:
   c1 fc1
   ---
   bfnk bfnk
-  c2
+  c2is c2
   ---
   bhh bhh
   fc2
@@ -105,6 +105,21 @@ sections:
       S3: "                        "
       S2: "                        "
       S1: "                        "
+
+  c2is:
+    name: Corte 2 intro surdos
+    color: "#2424c9"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                                                                "
+      CH: "----X-------X-------X-------X-------X-------X-------X-------X---"
+      AG: "                                                                "
+      TB: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
+      RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
+      CX: "----X-------X-------X-------XXXX----X-------X-------X-------XXXX"
+      S3: "X   X X   X X   X   X X   XXX   X   X X   X X   X   X X   XXX   "
+      S2: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      S1: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
   c2:
     name: Corte 2
