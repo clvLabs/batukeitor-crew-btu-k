@@ -121,13 +121,14 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
-      CH: "                                "
-      TB: "                                "
+      AG: "X                               "
+      CH: "X                               "
+      TB: "X                               "
       RP: "X  X  X   X X   X  X  X   X X   "
-      CX: "                                "
-      S3: "                                "
-      S2: "                                "
-      S1: "                                "
+      CX: "X                               "
+      S3: "X                               "
+      S2: "X                               "
+      S1: "X                               "
 
   c3et:
     name: Corte 3 - Entrada todos
