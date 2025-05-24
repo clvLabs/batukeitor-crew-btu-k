@@ -1,0 +1,62 @@
+# Batukeitor score
+name: Calango
+
+bpm: 100
+score:
+  intro
+  ---
+  base base base base
+  ---
+  fin
+
+
+
+sections:
+
+  intro:
+    name: Intro
+    color: "#1d2404"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                "
+      CH: "                                                "
+      AG: "                                                "
+      TB: "               XX XX XX X   X X X       X       "
+      RP: "X  X  XX  X X  XX XX XX X   X X X       X       "
+      CX: "               XX XX XX X   X X X       X       "
+      S3: "               XX XX XX X   X X X       X   X X "
+      S2: "               XX XX XX X   X X X       X   X X "
+      S1: "               XX XX XX X   X X X       X   X X "
+
+  base:
+    name: Base
+    color: "#a0c312"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "XX - -- X X - - XX - -- X X -   "
+      TB: "XX XX XX XX X X XX XX XX  X X   "
+      RP: "XX XX XX XX X X XX XX XX  X X   "
+      CX: "--X---X---X--XX---X---X---X--XX-"
+      S3: "X  XX  XX  XX X X  XX  XX  XX X "
+      S2: "X   X   X   X X X   X   X   X X "
+      S1: "X   X   X   X X X   X   X   X X "
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                "
+      CH: "X                                               "
+      AG: "X                                               "
+      TB: "X                                               "
+      RP: "X                                               "
+      CX: "X                                               "
+      S3: "X                                               "
+      S2: "X                                               "
+      S1: "X                                               "
