@@ -6,6 +6,8 @@ score:
   intro
   ---
   base base base base
+  c2t1 c2t2 c2t3 c2t4
+  base base base base
   ---
   fin
 
@@ -44,6 +46,70 @@ sections:
       S3: "X  XX  XX  XX X X  XX  XX  XX X "
       S2: "X   X   X   X X X   X   X   X X "
       S1: "X   X   X   X X X   X   X   X X "
+
+  c2t1:
+    name: Corte 2-1 (marca Todos)
+    color: "#9B99E4"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X XX XX X XX XX X---X---X---X---"
+      AG: "                                "
+      TB: "                X X XX  XX X XX "
+      RP: "                X X XX  XX X XX "
+      CX: "X XX XX X XX XX --X---X---X--XX-"
+      S3: "X XX XX X XX XX X   X   X   X   "
+      S2: "X XX XX X XX XX X   X   X   X   "
+      S1: "X XX XX X XX XX X   X   X   X   "
+
+  c2t2:
+    name: Corte 2-2 (marca Todos)
+    color: "#706DDC"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X XX XX X XX XX X---X---X---X---"
+      AG: "                                "
+      TB: "                X  X  X  X  X X "
+      RP: "                X  X  X  X  X X "
+      CX: "X XX XX X XX XX --X---X---X--XX-"
+      S3: "X XX XX X XX XX X   X   X   X   "
+      S2: "X XX XX X XX XX X   X   X   X   "
+      S1: "X XX XX X XX XX X   X   X   X   "
+
+  c2t3:
+    name: Corte 2-3 (marca Todos)
+    color: "#4E4ADE"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X XX XX X XX XX X---X---X---X---"
+      AG: "                                "
+      TB: "                XX XX XX XX X X "
+      RP: "                XX XX XX XX X X "
+      CX: "X XX XX X XX XX --X---X---X--XX-"
+      S3: "X XX XX X XX XX X   X   X   X   "
+      S2: "X XX XX X XX XX X   X   X   X   "
+      S1: "X XX XX X XX XX X   X   X   X   "
+
+  c2t4:
+    name: Corte 2-4 FIN (marca Todos)
+    color: "#201BEB"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X XX XX X XX XX XXXXXXXXXXXXXXXX"
+      AG: "                                "
+      TB: "                XXXXXXXXXXXXXXXX"
+      RP: "                XXXXXXXXXXXXXXXX"
+      CX: "X XX XX X XX XX XXXXXXXXXXXXXXXX"
+      S3: "X XX XX X XX XX X X X X X X X X "
+      S2: "X XX XX X XX XX X X X X X X X X "
+      S1: "X XX XX X XX XX X X X X X X X X "
 
   fin:
     name: Fin
