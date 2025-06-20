@@ -9,7 +9,9 @@ score:
   c1r c1r c1s1 c1s2
   base base
   c2t1 c2t2 c2t3 c2t4
-  base base base base
+  base base
+  ctj
+  base base
   ---
   fin
 
@@ -161,6 +163,22 @@ sections:
       S2: "X XX XX X XX XX X X X X X X X X "
       S1: "X XX XX X XX XX X X X X X X X X "
 
+  ctj:
+    name: Corte "tijeras"
+    color: "#35D6F2"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX           "
+      AG: "      XXX X X         XXX X X       X       X       X           "
+      TB: "      XXX X X         XXX X X       X       X       X           "
+      RP: "      XXX X X         XXX X X       X       X       X           "
+      CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX           "
+      S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX XXX  X  X "
+      S2: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
+      S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
+
   fin:
     name: Fin
     color: "#AA0000"
@@ -168,11 +186,11 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---"
       DD: "                                                "
-      CH: "X                                               "
-      AG: "X                                               "
-      TB: "X                                               "
-      RP: "X                                               "
-      CX: "X                                               "
-      S3: "X                                               "
-      S2: "X                                               "
-      S1: "X                                               "
+      CH: "XXXXXXXXXXXXXXXX  X   X         X               "
+      AG: "X X X X X X X X   X   X         X               "
+      TB: "XXXXXXXXXXXXXXXX  X   X         X               "
+      RP: "XXXXXXXXXXXXXXXX  X   X         X               "
+      CX: "XXXXXXXXXXXXXXXX  X   X   XXXXXXX               "
+      S3: "XXXXXXXXXXXXXXXXX   X   X       X               "
+      S2: "XXXXXXXXXXXXXXXXX   X   X       X               "
+      S1: "XXXXXXXXXXXXXXXXX   X   X       X               "
