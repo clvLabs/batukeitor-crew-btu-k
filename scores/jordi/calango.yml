@@ -5,7 +5,9 @@ bpm: 110
 score:
   intro
   ---
-  base base base base
+  base base
+  c1r c1r c1s1 c1s2
+  base base
   c2t1 c2t2 c2t3 c2t4
   base base base base
   ---
@@ -46,6 +48,54 @@ sections:
       S3: "X  XX  XX  XX X X  XX  XX  XX X "
       S2: "X   X   X   X X X   X   X   X X "
       S1: "X   X   X   X X X   X   X   X X "
+
+  c1r:
+    name: Corte 1 - repe (marca X)
+    color: "#D39B66"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "                                "
+      AG: "                                "
+      TB: "                                "
+      RP: "X  X  X X  X  X X  X  X XXXXXXXX"
+      CX: "                                "
+      S3: "                                "
+      S2: "                                "
+      S1: "                                "
+
+  c1s1:
+    name: Corte 1 - Surdos_1 (marca X)
+    color: "#F0923B"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "                                "
+      AG: "                                "
+      TB: "                                "
+      RP: "X  X  X X  X  X X  X  X XXXXXXXX"
+      CX: "                                "
+      S3: "X  X            X  X            "
+      S2: "X  X            X  X            "
+      S1: "X  X            X  X            "
+
+  c1s2:
+    name: Corte 1 - Surdos_2 (marca X)
+    color: "#FF8412"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "                                "
+      AG: "                                "
+      TB: "                                "
+      RP: "X  X  X X  X  X X  X  X XXXXXXXX"
+      CX: "                                "
+      S3: "X  X    X  X    X  X            "
+      S2: "X  X    X  X    X  X            "
+      S1: "X  X    X  X    X  X            "
 
   c2t1:
     name: Corte 2-1 (marca Todos)
