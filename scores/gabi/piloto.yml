@@ -157,11 +157,11 @@ sections:
     color: "#950abd"
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      DD: "XX  XX  XX  XX                                                  "
+      DD: "                                                                "
       CH: "X--XX--XX--XX--XX--XX--XX--XX--XXX  XX  XX  XX  X               "
       CC: "X --X --X --X - X --X --X --X - XX  XX  XX  XX  X               "
       TB: "X  X  X   X  X  X  X  X   X  X  XX  XX  XX  XX  X               "
-      RP: "X  X  X   X  X  XX  XX  XX  XX  XX  XX  XX  XX  X               "
+      RP: "XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  X               "
       CX: "X--X--X---X--X--XX--XX--XX--XX--XX  XX  XX  XX  X               "
       S3: "      X       X       X       X XX  XX  XX  XX  X     XX  X   X "
       S2: "    X       X       X       X   XX  XX  XX  XX  X               "
