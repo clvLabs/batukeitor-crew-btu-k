@@ -10,8 +10,10 @@ score:
   base base
   c2t1 c2t2 c2t3 c2t4
   base base
-  ctj
+  ctjv
   base base
+  ctjh
+  baser baser
   ---
   fin
 
@@ -50,6 +52,22 @@ sections:
       S3: "X  XX  XX  XX X X  XX  XX  XX X "
       S2: "X   X   X   X X X   X   X   X X "
       S1: "X   X   X   X X X   X   X   X X "
+
+  baser:
+    name: Base rápida
+    color: "#D1FF18"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "XX - -- X X - - XX - -- X X -   "
+      TB: "XX XX XX XX X X XX XX XX  X X   "
+      RP: "XX XX XX XX X X XX XX XX  X X   "
+      CX: "--X---X---X---X---X---X---X---X-"
+      S3: "X   X   X   X   X   X   X   X   "
+      S2: "X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   "
 
   c1r:
     name: Corte 1 - repe (marca X)
@@ -163,8 +181,8 @@ sections:
       S2: "X XX XX X XX XX X X X X X X X X "
       S1: "X XX XX X XX XX X X X X X X X X "
 
-  ctj:
-    name: Corte "tijeras"
+  ctjv:
+    name: Corte "tijeras" vertical
     color: "#35D6F2"
     timeSignature: 4/4
     tracks:
@@ -178,6 +196,22 @@ sections:
       S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX XXX  X  X "
       S2: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
       S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
+
+  ctjh:
+    name: Corte "tijeras" horizontal
+    color: "#2490A3"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                                "
+      CH: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX                           "
+      AG: "      XXX X X         XXX X X       X       X       X                           "
+      TB: "      XXX X X         XXX X X       X       X       X                           "
+      RP: "      XXX X X         XXX X X       X       X       X                           "
+      CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX                           "
+      S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                 XXX  X  X "
+      S2: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                           "
+      S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                           "
 
   fin:
     name: Fin
