@@ -35,7 +35,6 @@ sections:
       RP: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
       CX: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
       S3: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
-      S2: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
       S1: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
 
   base:
@@ -49,8 +48,7 @@ sections:
       RP: "X  X  X   X  X  "
       CX: "X--X--X---X--X--"
       S3: "      X       X "
-      S2: "    X       X   "
-      S1: "X       X       "
+      S1: "X   X   X   X   "
 
   c1:
     name: Corte 1
@@ -64,7 +62,6 @@ sections:
       RP: "X         X  X  "
       CX: "X         X  X  "
       S3: "X         X  X  "
-      S2: "X         X  X  "
       S1: "X         X  X  "
 
   c2:
@@ -79,8 +76,7 @@ sections:
       RP: "X  X  X   X  X XX  XX  XX  XXXXX"
       CX: "X--X--X---X--X-XX  XX  XX  XXXXX"
       S3: "      X       XXX  XX  XX  XXXXX"
-      S2: "    X       X  XX  XX  XX  XXXXX"
-      S1: "X       X      XX  XX  XX  XXXXX"
+      S1: "X   X   X   X  XX  XX  XX  XXXXX"
 
   v3as:
     name: Variación 3as
@@ -93,8 +89,7 @@ sections:
       RP: "X  X  X   X  X  "
       CX: "X--X--X---X--X--"
       S3: "X  XX  XXX XXX X"
-      S2: "    X       X   "
-      S1: "X       X       "
+      S1: "X   X   X   X   "
 
   base2:
     name: Base 2
@@ -107,8 +102,7 @@ sections:
       RP: "X  XX X XX XX X "
       CX: "X--X--X---X--X--"
       S3: "      X       X "
-      S2: "    X       X   "
-      S1: "X       X       "
+      S1: "X   X   X   X   "
 
   cb2:
     name: Corte Base 2
@@ -121,7 +115,6 @@ sections:
       RP: "X  XX X XX XX X "
       CX: "X--X--X---X--X--"
       S3: "X       XX  XX  "
-      S2: "X       XX  XX  "
       S1: "X       XX  XX  "
 
   v3asfin:
@@ -135,8 +128,7 @@ sections:
       RP: "X  XX X XX XX X "
       CX: "X--X--X---X--X--"
       S3: "X  XX  XXX XXX X"
-      S2: "    X       X   "
-      S1: "X       X       "
+      S1: "X   X   X   X   "
 
   finBase2:
     name: Fin Base 2
@@ -149,7 +141,6 @@ sections:
       RP: "X X X X XX XX X "
       CX: "X X X X XX XX X "
       S3: "X X X X XX XX X "
-      S2: "X X X X XX XX X "
       S1: "X X X X XX XX X "
 
   introb3:
@@ -164,8 +155,7 @@ sections:
       RP: "XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  X               "
       CX: "X--X--X---X--X--XX--XX--XX--XX--XX  XX  XX  XX  X               "
       S3: "      X       X       X       X XX  XX  XX  XX  X     XX  X   X "
-      S2: "    X       X       X       X   XX  XX  XX  XX  X               "
-      S1: "X       X       X       X       XX  XX  XX  XX  X               "
+      S1: "X   X   X   X   X   X   X   X   XX  XX  XX  XX  X               "
 
   base3:
     name: Base 3
@@ -178,8 +168,7 @@ sections:
       RP: " XXX  X  XXX  X  XXX XXX XXX  X "
       CX: "X--X--X---X--X--X--X--X---X--X--"
       S3: "X     X XXXXXXXXX     X XXXXXXXX"
-      S2: "    X       X       X       X   "
-      S1: "X       X       X       X       "
+      S1: "X   X   X   X   X   X   X   X   "
 
   c4:
     name: Corte 4
@@ -193,8 +182,7 @@ sections:
       RP: " XXX  X  XXX  X X X X X X X X X "
       CX: "X--X--X---X--X--X--X--X-X X X X "
       S3: "X     X XXXXXXXXX     X X X X X "
-      S2: "    X       X       X   X X X X "
-      S1: "X       X       X       X X X X "
+      S1: "X   X   X   X   X   X   X X X X "
 
   fin:
     name: Fin
@@ -208,5 +196,4 @@ sections:
       RP: "X       "
       CX: "X       "
       S3: "X       "
-      S2: "X       "
       S1: "X       "

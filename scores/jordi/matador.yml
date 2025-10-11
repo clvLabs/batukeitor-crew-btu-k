@@ -33,7 +33,6 @@ sections:
       RP: "                                                "
       CX: "             ---X  X   X  X X---X  X   X  X     "
       S3: "                                            XXXX"
-      S2: "                                            XXXX"
       S1: "                                            XXXX"
 
   base:
@@ -48,7 +47,6 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
-      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
       S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
 
   baseadr:
@@ -63,7 +61,6 @@ sections:
       RP: "XXXXXXXXX       X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
-      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
       S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
 
   c1-e:
@@ -79,7 +76,6 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX    "
       S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
-      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
       S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
 
   c1-s:
@@ -95,7 +91,6 @@ sections:
       RP: "                                                                "
       CX: "                                                                "
       S3: "  XX X XX         XX X XX         XX X XX         XX X XX       "
-      S2: "X           XXXXX           XXXXX           XXXXX           XXXX"
       S1: "X           XXXXX           XXXXX           XXXXX           XXXX"
 
   c1-t:
@@ -111,7 +106,6 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X     "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX    "
       S3: "  XX X XX         XX X XX         XX X XX         XX X XX   XXXX"
-      S2: "X           XXXXX           XXXXX           XXXXX           XXXX"
       S1: "X           XXXXX           XXXXX           XXXXX           XXXX"
 
   c1-c:
@@ -126,7 +120,6 @@ sections:
       RP: "  X       X   XX  XX  XX  XX    "
       CX: "  X       X   XX  XX  XX  XX    "
       S3: "X   XXXXX   X   X   X   X   XXXX"
-      S2: "X   XXXXX   X   X   X   X   XXXX"
       S1: "X   XXXXX   X   X   X   X   XXXX"
 
   c2-1:
@@ -142,7 +135,6 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "                                                                "
-      S2: "                                                                "
       S1: "                                                                "
 
 
@@ -158,7 +150,6 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X         "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX-       "
       S3: "X               X               X       X       XXXXXXXXX   XXXX"
-      S2: "X               X               X       X       X   X   X   XXXX"
       S1: "X               X               X       X       X   X   X   XXXX"
 
 
@@ -175,7 +166,6 @@ sections:
       RP: "                                                                "
       CX: "                                                                "
       S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
 
   c3-cx:
@@ -190,7 +180,6 @@ sections:
       RP: "                                                                "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
       S3: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   "
 
   c3-rp:
@@ -205,7 +194,6 @@ sections:
       RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
       S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
-      S2: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
       S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
 
   fin:
@@ -220,5 +208,4 @@ sections:
       RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X X       "
       CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX-  X  X X       "
       S3: "X     X     XXXXX     X     XXXXX     X     XXXXX  X  X X       "
-      S2: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX  X  X X       "
       S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX  X  X X       "

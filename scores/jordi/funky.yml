@@ -42,7 +42,6 @@ sections:
       RP: "                        "
       CX: "                        "
       S3: "                        "
-      S2: "                        "
       S1: "                        "
 
   intro2:
@@ -57,7 +56,6 @@ sections:
       RP: "                "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   bfnk:
@@ -72,7 +70,6 @@ sections:
       RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
       CX: "----X-------X-------X-------XXXX----X-------X-------X-------XXXX"
       S3: "X   X X   X X   X   X X   XXX   X   X X   X X   X   X X   XXX   "
-      S2: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
       S1: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
 
   c1:
@@ -87,7 +84,6 @@ sections:
       RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
       CX: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
       S3: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
-      S2: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
       S1: "XX    XX  X X   XX    XX  X X   XX    XX  X X   "
 
   fc1:
@@ -103,7 +99,6 @@ sections:
       RP: "                        "
       CX: "                        "
       S3: "                        "
-      S2: "                        "
       S1: "                        "
 
   c2is:
@@ -118,7 +113,6 @@ sections:
       RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
       CX: "----X-------X-------X-------XXXX----X-------X-------X-------XXXX"
       S3: "X   X X   X X   X   X X   XXX   X   X X   X X   X   X X   XXX   "
-      S2: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       S1: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
   c2:
@@ -133,7 +127,6 @@ sections:
       RP: "X X X X X X X X "
       CX: "X X X X X X X X "
       S3: "X X X X X X X X "
-      S2: "XXXXXXXXXXXXXXXX"
       S1: "XXXXXXXXXXXXXXXX"
 
   bhh:
@@ -148,7 +141,6 @@ sections:
       RP: "    X       X XX    X       XXXX    X       X XX    X       XXXX"
       CX: "    X       X XX    X       XXXX    X       X XX    X       XXXX"
       S3: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
-      S2: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
       S1: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
 
   fc2:
@@ -163,7 +155,6 @@ sections:
       RP: "    X       X   "
       CX: "    X       X   "
       S3: "X         XX    "
-      S2: "X         XX    "
       S1: "X         XX    "
 
   c3:
@@ -178,7 +169,6 @@ sections:
       RP: "      X       XX"
       CX: "      X       XX"
       S3: "XXXXX   XXXXX   "
-      S2: "                "
       S1: "                "
 
   c4:
@@ -193,7 +183,6 @@ sections:
       RP: "X   X   X   X   X X X X XXXXXXXX"
       CX: "X   X   X   X   X X X X XXXXXXXX"
       S3: "X   X   X   X   X X X X XXXXXXXX"
-      S2: "X   X   X   X   X X X X XXXXXXXX"
       S1: "X   X   X   X   X X X X XXXXXXXX"
 
   i24:
@@ -216,7 +205,6 @@ sections:
       CX: "X   X   X   X   "
       RP: "----X-------X---"
       S3: "X   X   X   X   "
-      S2: "X   X   X   X   "
       S1: "X   X   X   X   "
 
   n68:
@@ -231,7 +219,6 @@ sections:
       CX: "X     X     X     X     "
       RP: "X - - X - - X - - X - - "
       S3: "X     X     X     X     "
-      S2: "X     X     X     X     "
       S1: "X     X     X     X     "
 
   b68:
@@ -246,8 +233,7 @@ sections:
       CX: "X - - X - - X - - X - X "
       RP: "X   X   X X   X   X   X "
       S3: "    X       X X X X X X "
-      S2: "X           X           "
-      S1: "      X           X     "
+      S1: "X     X     X     X     "
 
   b68cx1:
     name: Base 6/8 Caixa 1
@@ -285,5 +271,4 @@ sections:
       CX: "X               "
       RP: "X               "
       S3: "X               "
-      S2: "X               "
       S1: "X               "

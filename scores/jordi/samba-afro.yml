@@ -42,7 +42,6 @@ sections:
       RP: "X X X X X X X X X                               "
       CX: "X X X X X X X X X--X--X-X--X--X-X--X--X-X--X--X-"
       S3: "X X X X X X X X X                               "
-      S2: "X X X X X X X X X                               "
       S1: "X X X X X X X X X                               "
 
   intro:
@@ -57,7 +56,6 @@ sections:
       RP: "X             X "
       CX: "X--X--X-X--X--X-"
       S3: "X             X "
-      S2: "X             X "
       S1: "X             X "
 
   intro-fin:
@@ -72,7 +70,6 @@ sections:
       RP: "X X             "
       CX: "X X             "
       S3: "X   XXXXXXXXXXXX"
-      S2: "X               "
       S1: "X               "
 
   base:
@@ -88,8 +85,7 @@ sections:
       RP: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
       S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
-      S2: "    X       X X     X       X X "
-      S1: "X X     X       X X     X       "
+      S1: "X X X   X   X X X X X   X   X X "
 
   c1:
     name: Corte 1
@@ -103,7 +99,6 @@ sections:
       RP: "X X  X XX X X   "
       CX: "X X  X XX X X   "
       S3: "X X  X XX X XXXX"
-      S2: "X X  X XX X X   "
       S1: "X X  X XX X X   "
 
   c2:
@@ -118,7 +113,6 @@ sections:
       RP: "                "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   1234:
@@ -134,7 +128,6 @@ sections:
       RP: "                "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   batuka:
@@ -150,7 +143,6 @@ sections:
       RP: "                "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   c3rp:
@@ -165,7 +157,6 @@ sections:
       RP: "XX XX XX X XX X "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   c3tct:
@@ -180,7 +171,6 @@ sections:
       RP: "XX XX XX X XX X "
       CX: "XX XX XX X XX X "
       S3: "                "
-      S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
   c3ag:
@@ -195,7 +185,6 @@ sections:
       RP: "XX XX XX X XX X "
       CX: "                "
       S3: "                "
-      S2: "                "
       S1: "                "
 
   c3t:
@@ -210,7 +199,6 @@ sections:
       RP: "XX XX XX X XX X "
       CX: "XX XX XX X XX X "
       S3: "XX XX XX X XX X "
-      S2: "XX XX XX X XX X "
       S1: "XX XX XX X XX X "
 
   crescendo:
@@ -225,7 +213,6 @@ sections:
       RP: "XXXXXXXXXXXXXXXX"
       CX: "XXXXXXXXXXXXXXXX"
       S3: "X X X X X X X X "
-      S2: "X X X X X X X X "
       S1: "X X X X X X X X "
 
   c4:
@@ -240,7 +227,6 @@ sections:
       RP: "        X X     "
       CX: "        X X     "
       S3: "   X XX         "
-      S2: "X           X   "
       S1: "X           X   "
 
   fin:
@@ -256,5 +242,4 @@ sections:
       RP: "                  X  X          "
       CX: "    XXXX    XXXX                "
       S3: "X X     X X     X  X  X         "
-      S2: "X X     X X     X  X  X         "
       S1: "X X     X X     X  X  X         "

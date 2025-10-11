@@ -34,7 +34,6 @@ sections:
       RP: "X  X  XX  X X  XX XX XX X   X X X       X       "
       CX: "               XX XX XX X   X X X       X       "
       S3: "               XX XX XX X   X X X       X   X X "
-      S2: "               XX XX XX X   X X X       X   X X "
       S1: "               XX XX XX X   X X X       X   X X "
 
   base:
@@ -50,7 +49,6 @@ sections:
       RP: "XX XX XX XX X X XX XX XX  X X   "
       CX: "--X---X---X--XX---X---X---X--XX-"
       S3: "X  XX  XX  XX X X  XX  XX  XX X "
-      S2: "X   X   X   X X X   X   X   X X "
       S1: "X   X   X   X X X   X   X   X X "
 
   baser:
@@ -66,7 +64,6 @@ sections:
       RP: "XX XX XX XX X X XX XX XX  X X   "
       CX: "--X---X---X---X---X---X---X---X-"
       S3: "X   X   X   X   X   X   X   X   "
-      S2: "X   X   X   X   X   X   X   X   "
       S1: "X   X   X   X   X   X   X   X   "
 
   c1r:
@@ -82,7 +79,6 @@ sections:
       RP: "X  X  X X  X  X X  X  X XXXXXXXX"
       CX: "                                "
       S3: "                                "
-      S2: "                                "
       S1: "                                "
 
   c1s1:
@@ -98,7 +94,6 @@ sections:
       RP: "X  X  X X  X  X X  X  X XXXXXXXX"
       CX: "                                "
       S3: "X  X            X  X            "
-      S2: "X  X            X  X            "
       S1: "X  X            X  X            "
 
   c1s2:
@@ -114,7 +109,6 @@ sections:
       RP: "X  X  X X  X  X X  X  X XXXXXXXX"
       CX: "                                "
       S3: "X  X    X  X    X  X            "
-      S2: "X  X    X  X    X  X            "
       S1: "X  X    X  X    X  X            "
 
   c2t1:
@@ -130,7 +124,6 @@ sections:
       RP: "                X X XX  XX X XX "
       CX: "X XX XX X XX XX --X---X---X--XX-"
       S3: "X XX XX X XX XX X   X   X   X   "
-      S2: "X XX XX X XX XX X   X   X   X   "
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t2:
@@ -146,7 +139,6 @@ sections:
       RP: "                X  X  X  X  X X "
       CX: "X XX XX X XX XX --X---X---X--XX-"
       S3: "X XX XX X XX XX X   X   X   X   "
-      S2: "X XX XX X XX XX X   X   X   X   "
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t3:
@@ -162,7 +154,6 @@ sections:
       RP: "                XX XX XX XX X X "
       CX: "X XX XX X XX XX --X---X---X--XX-"
       S3: "X XX XX X XX XX X   X   X   X   "
-      S2: "X XX XX X XX XX X   X   X   X   "
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t4:
@@ -178,7 +169,6 @@ sections:
       RP: "                XXXXXXXXXXXXXXXX"
       CX: "X XX XX X XX XX XXXXXXXXXXXXXXXX"
       S3: "X XX XX X XX XX X X X X X X X X "
-      S2: "X XX XX X XX XX X X X X X X X X "
       S1: "X XX XX X XX XX X X X X X X X X "
 
   ctjv:
@@ -194,7 +184,6 @@ sections:
       RP: "      XXX X X         XXX X X       X       X       X           "
       CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX           "
       S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX XXX  X  X "
-      S2: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
       S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
 
   ctjh:
@@ -210,7 +199,6 @@ sections:
       RP: "      XXX X X         XXX X X       X       X       X                           "
       CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX                           "
       S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                 XXX  X  X "
-      S2: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                           "
       S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                           "
 
   fin:
@@ -226,5 +214,4 @@ sections:
       RP: "XXXXXXXXXXXXXXXX  X   X         X               "
       CX: "XXXXXXXXXXXXXXXX  X   X   XXXXXXX               "
       S3: "XXXXXXXXXXXXXXXXX   X   X       X               "
-      S2: "XXXXXXXXXXXXXXXXX   X   X       X               "
       S1: "XXXXXXXXXXXXXXXXX   X   X       X               "
