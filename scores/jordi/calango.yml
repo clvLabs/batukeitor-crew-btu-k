@@ -112,7 +112,7 @@ sections:
       S1: "X  X    X  X    X  X            "
 
   c2t1:
-    name: Corte 2-1 (marca Todos)
+    name: Corte 2-1 (marca círculo - "vamos a girar despacito")
     color: "#9B99E4"
     timeSignature: 4/4
     tracks:
@@ -127,7 +127,7 @@ sections:
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t2:
-    name: Corte 2-2 (marca Todos)
+    name: Corte 2-2 (marca círculo)
     color: "#706DDC"
     timeSignature: 4/4
     tracks:
@@ -142,7 +142,7 @@ sections:
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t3:
-    name: Corte 2-3 (marca Todos)
+    name: Corte 2-3 (marca círculo)
     color: "#4E4ADE"
     timeSignature: 4/4
     tracks:
@@ -157,7 +157,7 @@ sections:
       S1: "X XX XX X XX XX X   X   X   X   "
 
   c2t4:
-    name: Corte 2-4 FIN (marca Todos)
+    name: Corte 2-4 FIN (marca círculo)
     color: "#201BEB"
     timeSignature: 4/4
     tracks:
