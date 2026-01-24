@@ -22,10 +22,9 @@ score:
   ---
   i24 i24
   n24 n24 n24 n24  c4
+  n68 n68 n68 n68  c4
   ---
-  b68 b68 b68 b68
-  ---
-  fin
+  intro1 intro2
 
 sections:
 
@@ -209,7 +208,7 @@ sections:
 
   n68:
     name: Negras 6/8
-    color: "#9d09ff"
+    color: "#0081a0"
     timeSignature: 6/8
     tracks:
       #   "1_-_-_2_-_-_1_-_-_2_-_-_"
@@ -220,55 +219,3 @@ sections:
       RP: "X - - X - - X - - X - - "
       S3: "X     X     X     X     "
       S1: "X     X     X     X     "
-
-  b68:
-    name: Base 6/8
-    color: "#ac2fff"
-    timeSignature: 6/8
-    tracks:
-      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      CH: "                        "
-      AG: "                        "
-      TB: "                        "
-      CX: "X - - X - - X - - X - X "
-      RP: "X   X   X X   X   X   X "
-      S3: "    X       X X X X X X "
-      S1: "X     X     X     X     "
-
-  b68cx1:
-    name: Base 6/8 Caixa 1
-    color: "#ac2fff"
-    timeSignature: 6/8
-    tracks:
-      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      CX: "X - - X - - X - - X - - "
-
-  b68cx2:
-    name: Base 6/8 Caixa 2
-    color: "#ac2fff"
-    timeSignature: 6/8
-    tracks:
-      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
-      CX: "X - - X - - X - - X - X "
-
-  b68cx3:
-    name: Base 6/8 Caixa 3
-    color: "#ac2fff"
-    timeSignature: 6/8
-    tracks:
-      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
-      CX: "X - - X - - X - - X - X X - - X - - X - X - X - "
-
-  fin:
-    name: Fin
-    color: "#AA0000"
-    tracks:
-      #   "1---2---3---4---"
-      DD: "                "
-      CH: "X               "
-      AG: "X               "
-      TB: "X               "
-      CX: "X               "
-      RP: "X               "
-      S3: "X               "
-      S1: "X               "
