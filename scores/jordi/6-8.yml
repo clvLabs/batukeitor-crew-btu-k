@@ -21,8 +21,11 @@ score:
   c3_f
   base base base base
   c4
-  base base base base
+  base base
+  c5
+  base base
   ---
+  c1_all
   fin
 
 sections:
@@ -307,6 +310,19 @@ sections:
       RP: "                        X   X   X X   X   X   X                         "
       S3: "                                                X X X X X X X X X X X X "
       S1: "X     X   X X   X X                                                     "
+
+  c5:
+    name: Corte 5
+    color: "#92392C"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                                                                                          X     "
+      CH: "                                                                                                "
+      CX: "                  X   X X                 X   X X     X   X X     X   X X X X X X X X           "
+      RP: "X X   X   X X   X       X X   X   X X   X       X           X           X X X X X X X           "
+      S3: "                  X   X X                 X   X X     X   X X     X   X X X X X X X X           "
+      S1: "                  X   X X                 X   X X     X   X X     X   X X     X     X           "
 
   fin:
     name: Fin
