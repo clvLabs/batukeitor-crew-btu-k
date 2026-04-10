@@ -55,7 +55,7 @@ sections:
     color: "#2d472d"
     tracks:
       #   "1---2---3---4---
-      DD: "                "
+      DD: "1 2 3 4 5       "
       CH: "X         X  X  "
       CC: "X         X  X  "
       TB: "X         X  X  "
