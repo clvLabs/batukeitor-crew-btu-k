@@ -1,0 +1,428 @@
+# Batukeitor score
+name: Medley 2026
+
+
+# Nuevo estático.
+
+#
+# Texto Jordi:
+#
+# - Intro piloto
+# - Enlazamos directamente con el break 3 de matador. (Dejamos 8 negras de los surdos, entran caja y rocard, y despues de 8 negras empieza a preguntar el repe).
+# - Base Matador
+# - Enlazamos con el break 2 del funky (con la subida), y dejamos un rato esa base.
+# - Base del funky.
+# - Pasamos al 6/8 sin el solo de repe.
+# - Intro del 6/8.
+# - Base 6/8.
+# - Break 5 del 6/8.
+# - Hacemos la entrada que usamos para ir del Funky al 6/8 para hacer el Break 2 del Samba Afro (el de la campana).
+# - Base Samba Afro.
+# - Break tijeras de Kalango.
+# - Base Kalango.
+# - Break de las tijeras con el paron. (Esto sera el falso final).
+# - Arrancamos como si quiseramos volver a la base pero enlazamos el break 1 de Samba flor.
+# - Base samba flor (MUY rapida, repe sin semis, y caja sin acentos).
+# - Final del Samba Afro.
+
+#
+# Revisado:
+#
+# - Piloto: Intro
+# - Matador: Break 3
+#     - 8 negras de los surdos
+#     - 8 negras de los surdos + caja + rocar
+#     - Pregunta repe
+# - Matador: Base
+# - Funky: Break 2
+# - Funky: Base hip-hop (dejamos un rato)
+# - Funky: Fin Break 2
+# - Funky: Base (dejamos un rato)
+# - Funky: Final
+# - 6/8: Intro
+# - 6/8: Base (dejamos un rato)
+# - 6/8: Break 5
+# - Funky: Final
+# - Samba Afro: Break 2
+# - Samba Afro: Base (dejamos un rato)
+# - Calango: Break "tijeras vertical"
+# - Calango: Base (dejamos un rato)
+# - Calango: Break "tijeras horizontal" (falso final)
+# - Samba Flor: Break 1
+# - Samba Flor: Base (MUY rapida, repe sin semis, y caja sin acentos)
+# - Samba Afro: Final
+
+
+
+bpm: 110
+score:
+
+  piloto-intro
+  matador-c3-1 matador-c3-cx matador-c3-rp
+  matador-base matador-base
+  ---
+  funky-c2
+  funky-bhh funky-bhh
+  funky-fc2
+  funky-base funky-base
+  funky-fin
+  ---
+  68_intro1 68_intro1 68_intro1 68_intro2
+  68_base 68_base 68_base 68_base 68_base 68_base 68_base 68_base
+  68_c5
+  funky-fin
+  ---
+  afro-c2 afro-c2 afro-c2 afro-c2
+  afro-1234 afro-1234 afro-1234 afro-1234
+  afro-batuka
+  afro-base afro-base afro-base afro-base
+  ---
+  calango-ctjv
+  calango-base calango-base calango-base calango-base
+  calango-ctjh
+  ---
+  flor-c1
+  flor-base flor-base flor-base flor-base
+  ---
+  afro-fin
+
+sections:
+
+  piloto-intro:
+    name: Intro Piloto (P P N N P A 💊😂)
+    color: "#c3a012"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CC: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+      TB: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+      RP: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+      CX: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+      S3: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+      S1: "XXXXX XXXXX XXX XXX XXXXX XXXX  "
+
+  matador-c3-1:
+    name: Matador - Corte 3 - Intro
+    color: "#950abd"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "                                "
+      AG: "                                "
+      TB: "                                "
+      RP: "                                "
+      CX: "                                "
+      S3: "X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   "
+
+  matador-c3-cx:
+    name: Matador - Corte 3 - Entrada CX/CH
+    color: "#a422c9"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "                                "
+      TB: "                                "
+      RP: "                                "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX"
+      S3: "X   X   X   X   X   X   X   X   "
+      S1: "X   X   X   X   X   X   X   X   "
+
+  matador-c3-rp:
+    name: Matador - Corte 3 - Llamada RP
+    color: "#e009b3"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXX XXXXX     "
+      AG: "                                                                "
+      TB: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
+      RP: "XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     XXXXX XXXXX     "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXX XXXXX     "
+      S3: "X   X   X   XXXXX   X   X   XXXXX   X   X   XXXXXXXXX XXXXX XXXX"
+      S1: "X   X   X   X   X   X   X   X   X   X   X   X   XXXXX XXXXX XXXX"
+
+  matador-base:
+    name: Matador - Base
+    color: "#006000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---X---"
+      AG: "X X - - XX - -- X X - - XX - -- X X - - XX - -- X X - - XX - -- "
+      TB: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      RP: "X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  X  X  X   X  X  "
+      CX: "--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX"
+      S3: "X     X     XXXXX     X     XXXXX     X     XXXXX   X X X   XXXX"
+      S1: "X   X   X   XXXXX   X X X   XXXXX   X   X   XXXXX   X X X   XXXX"
+
+  funky-c2:
+    name: Funky - Corte 2
+    color: "#0202c4"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "X X X X X X X X "
+      AG: "X X X X X X X X "
+      TB: "X X X X X X X X "
+      RP: "X X X X X X X X "
+      CX: "X X X X X X X X "
+      S3: "X X X X X X X X "
+      S1: "XXXXXXXXXXXXXXXX"
+
+  funky-bhh:
+    name: Funky - Base HipHop
+    color: "#000060"
+    tracks:
+      DD: ""
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X X X X X X X X X X X X X X     X X X X X X X X X X X X X X     "
+      AG: "X X X X X X X X X X X X X X X X - - - - - - - - - - - - - - - - "
+      TB: "X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X "
+      RP: "    X       X XX    X       XXXX    X       X XX    X       XXXX"
+      CX: "    X       X XX    X       XXXX    X       X XX    X       XXXX"
+      S3: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
+      S1: "X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   X  X- X X  X-   "
+
+  funky-fc2:
+    name: Funky - FIN Corte 2
+    color: "#430482"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "                "
+      CH: "    X       X   "
+      AG: "    X       X   "
+      TB: "    X       X   "
+      RP: "    X       X   "
+      CX: "    X       X   "
+      S3: "X         XX    "
+      S1: "X         XX    "
+
+  funky-base:
+    name: Funky - Base
+    color: "#006000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "----X-------X-------X-------X-------X-------X-------X-------X---"
+      AG: "                                                                "
+      TB: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
+      RP: "XX    XX  X X   XX    XX  X X   XX    XX  X X   XXX XXX X       "
+      CX: "----X-------X-------X-------XXXX----X-------X-------X-------XXXX"
+      S3: "X   X X   X X   X   X X   XXX   X   X X   X X   X   X X   XXX   "
+      S1: "X   - X   X - X X   -   X X - - X   - X   X - X X   -   X X - - "
+
+  funky-fin:
+    name: Funky - Fin
+    color: "#1bcc82"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X   X   X   X   X X X X X-X-X-X-"
+      AG: "X   X   X   X   X X X X XXXXXXXX"
+      TB: "X   X   X   X   X X X X XXXXXXXX"
+      RP: "X   X   X   X   X X X X XXXXXXXX"
+      CX: "X   X   X   X   X X X X XXXXXXXX"
+      S3: "X   X   X   X   X X X X XXXXXXXX"
+      S1: "X   X   X   X   X X X X XXXXXXXX"
+
+  68_intro1:
+    name: 6/8 - Intro
+    color: "#ac2f44"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      CH: "X                                               "
+      CX: "X                                               "
+      RP: "X   X   X X   X   X   X X   X   X X   X   X   X "
+      S3: "X                                               "
+      S1: "X                                               "
+
+  68_intro2:
+    name: 6/8 - Intro (fin)
+    color: "#e83f5c"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "      2     3     4     "
+      CH: "X                       "
+      CX: "X                       "
+      RP: "X                       "
+      S3: "X                       "
+      S1: "X                       "
+
+  68_base:
+    name: 6/8 - Base
+    color: "#ac2fff"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_"
+      CH: "X - - X - - X - - X - - "
+      CX: "X - - X - - X - - X - X "
+      RP: "X   X   X X   X   X   X "
+      S3: "    X       X X X X X X "
+      S1: "X     X   X X   X X     "
+
+  68_c5:
+    name: 6/8 - Corte 5
+    color: "#92392C"
+    timeSignature: 6/8
+    tracks:
+      #   "1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_1_-_-_2_-_-_"
+      DD: "                                                                                          X     "
+      CH: "                                                                                                "
+      CX: "                  X   X X                 X   X X     X   X X     X   X X X X X X X X           "
+      RP: "X X   X   X X   X       X X   X   X X   X       X           X           X X X X X X X           "
+      S3: "                  X   X X                 X   X X     X   X X     X   X X X X X X X X           "
+      S1: "                  X   X X                 X   X X     X   X X     X   X X     X     X           "
+
+  afro-c2:
+    name: Samba Afro- Corte 2
+    color: "#2d47ff"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      CH: "                "
+      AG: "X X ---X ---X --"
+      TB: "                "
+      RP: "                "
+      CX: "                "
+      S3: "                "
+      S1: "                "
+
+  afro-1234:
+    name: Samba Afro- 1..2..3..4..
+    color: "#2d9dff"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "X               "
+      CH: "                "
+      AG: "X X ---X ---X --"
+      TB: "  X X   X  X  X "
+      RP: "                "
+      CX: "                "
+      S3: "                "
+      S1: "                "
+
+  afro-batuka:
+    name: Samba Afro- Baaatuka-hey!
+    color: "#83c4fc"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "X     X X   X   "
+      CH: "                "
+      AG: "                "
+      TB: "                "
+      RP: "                "
+      CX: "                "
+      S3: "                "
+      S1: "                "
+
+  afro-base:
+    name: Samba Afro - Base
+    color: "#006000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "- --X XX- --X XX- --X XX- --X XX"
+     #AG: "XX -- X X - -   XX -- X X - -   "  # "versión 1"
+      AG: "XX -- XX    - - XX -- XX        "
+      TB: "  XX  X   XX  X  X X  X X X X X "
+      RP: "  XX  X   XX  X   XX  XX  XX  X "
+      CX: "--XX--X---XX--X---XX--X---XX--X-"
+      S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
+      S1: "X X X   X   X X X X X   X   X X "
+
+  calango-ctjv:
+    name: Calango - Corte "tijeras" vertical
+    color: "#35D6F2"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                "
+      CH: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX           "
+      AG: "      XXX X X         XXX X X       X       X       X           "
+      TB: "      XXX X X         XXX X X       X       X       X           "
+      RP: "      XXX X X         XXX X X       X       X       X           "
+      CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX           "
+      S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX XXX  X  X "
+      S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX           "
+
+  calango-base:
+    name: Calango - Base
+    color: "#a0c312"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "XX - -- X X - - XX - -- X X -   "
+      TB: "XX XX XX XX X X XX XX XX  X X   "
+      RP: "XX XX XX XX X X XX XX XX  X X   "
+      CX: "--X---X---X--XX---X---X---X--XX-"
+      S3: "X  XX  XX  XX X X  XX  XX  XX X "
+      S1: "X   X   X   X X X   X   X   X X "
+
+  calango-ctjh:
+    name: Calango - Corte "tijeras" horizontal (FALSO FINAL)
+    color: "#2490A3"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      DD: "                                                                                "
+      CH: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX                           "
+      AG: "      XXX X X         XXX X X       X       X       X                           "
+      TB: "      XXX X X         XXX X X       X       X       X                           "
+      RP: "      XXX X X         XXX X X       X       X       X                           "
+      CX: "--X---X---X---X---X---X---X---X-XXXXX   XXXXX   XXXXX                           "
+      S3: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                 XXX  X  X "
+      S1: "XXXXX           XXXXX           XXXXX   XXXXX   XXXXX                           "
+
+  flor-c1:
+    name: Samba Flor - Corte 1
+    color: "#00B000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---"
+      DD: "            X   "
+      CH: "X X X X X       "
+      AG: "X X X X X       "
+      TB: "X X X X X       "
+      RP: "X X X X X       "
+      CX: "X X X X X       "
+      S3: "X X X X X     XX"
+      S1: "X X X X X       "
+
+  flor-base:
+    name: Samba Flor - Base
+    color: "#006000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      CH: "X---X---X---X---X---X---X---X---"
+      AG: "XX - -- X X - - XX - -- X X - - "
+      TB: " X X  XX  XX  X  X X  XX  XX  X "
+      RP: "X  X  X   X X   X  X  X   X X   "
+      CX: "X--X---X--X-X---X--X---X--X-X---"
+      S3: "      XX      XX      XX      XX"
+      S1: "X   X   X   X   X   X   X   X   "
+
+  afro-fin:
+    name: Samba Afro- Fin
+    color: "#AA0000"
+    timeSignature: 4/4
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                            X   "
+      CH: "                  X  X          "
+      AG: "                  X  X          "
+      TB: "                  X  X          "
+      RP: "                  X  X          "
+      CX: "    XXXX    XXXX                "
+      S3: "X X     X X     X  X  X         "
+      S1: "X X     X X     X  X  X         "
+
+
+
