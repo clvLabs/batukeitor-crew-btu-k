@@ -10,12 +10,13 @@ name: Medley 2026
 # - Intro piloto
 # - Enlazamos directamente con el break 3 de matador. (Dejamos 8 negras de los surdos, entran caja y rocard, y despues de 8 negras empieza a preguntar el repe).
 # - Base Matador
-# - Enlazamos con el break 2 del funky (con la subida), y dejamos un rato esa base.
+# - Enlazamos con el break 2 del funky (con la subida) (Hacer 2 compases en vez de 1 para dar tiempo a bajar velocidad - Añadido 260417), y dejamos un rato esa base.
 # - Base del funky.
 # - Pasamos al 6/8 sin el solo de repe.
 # - Intro del 6/8.
 # - Base 6/8.
 # - Break 5 del 6/8.
+# - Base 6/8.  (Añadido 260417)
 # - Hacemos la entrada que usamos para ir del Funky al 6/8 para hacer el Break 2 del Samba Afro (el de la campana).
 # - Base Samba Afro.
 # - Break tijeras de Kalango.
@@ -34,19 +35,20 @@ name: Medley 2026
 #     - 8 negras de los surdos + caja + rocar
 #     - Pregunta repe
 # - Matador: Base
-# - Funky: Break 2
-# - Funky: Base hip-hop (dejamos un rato)
+# - Funky: Break 2 (Hacer 2 compases en vez de 1 para dar tiempo a bajar velocidad - Añadido 260417)
+# - Funky: Base hip-hop
 # - Funky: Fin Break 2
-# - Funky: Base (dejamos un rato)
+# - Funky: Base
 # - Funky: Final
 # - 6/8: Intro
-# - 6/8: Base (dejamos un rato)
+# - 6/8: Base
 # - 6/8: Break 5
+# - 6/8: Base (Añadido 260417)
 # - Funky: Final
 # - Samba Afro: Break 2
-# - Samba Afro: Base (dejamos un rato)
+# - Samba Afro: Base
 # - Calango: Break "tijeras vertical"
-# - Calango: Base (dejamos un rato)
+# - Calango: Base
 # - Calango: Break "tijeras horizontal" (falso final)
 # - Samba Flor: Break 1
 # - Samba Flor: Base (MUY rapida, repe sin semis, y caja sin acentos)
