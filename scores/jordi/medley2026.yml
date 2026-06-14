@@ -418,7 +418,7 @@ sections:
     timeSignature: 4/4
     tracks:
       #   "1---2---3---4---1---2---3---4---"
-      DD: "                            X   "
+      DD: "                          X X X "
       CH: "                  X  X          "
       AG: "                  X  X          "
       TB: "                  X  X          "
