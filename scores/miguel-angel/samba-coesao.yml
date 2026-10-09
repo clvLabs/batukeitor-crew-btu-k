@@ -1,0 +1,85 @@
+# Batukeitor score
+name: Samba de coesão
+
+bpm: 90
+score:
+  intro
+  ---
+  base base
+  c1
+  base base
+  c2
+  base base
+  ---
+  fin
+
+
+sections:
+
+  intro:
+    name: Intro
+    color: "#c3a012"
+    tracks:
+      #   "1---2---3---4---"
+      DD: "1   2   3       "
+      CH: "                "
+      AG: "              --"
+      TB: "                "
+      RP: "                "
+      CX: "                "
+      S3: "           XX XX"
+      S1: "                "
+
+  base:
+    name: Base
+    color: "#006000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X --X --X --X --X --X --X --X --X --X --X --X --XXXXXXXXXXXXX X "
+      AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX --"
+      TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
+      RP: "X  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XXXXXXXXXXXXXX X "
+      CX: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---XXXXXXXXXXXXX X "
+      S3: "X       X   XXXXX       X  XX XXX       X   XXXXX       X  XX XX"
+      S1: "    X       X       X       X       X       X       X       X   "
+
+  c1:
+    name: Corte 1
+    color: "#0000E0"
+    tracks:
+      #   "1---2---3---4---"
+      CH: "    X     X X   "
+      AG: "    X     X X   "
+      TB: "    X     X X   "
+      RP: "    X     X X   "
+      CX: "    X     X X   "
+      S3: "XXXX  XXXX XX XX"
+      S1: "XXXX  XXXX      "
+
+  c2:
+    name: Corte 2
+    color: "#00E0E0"
+    tracks:
+      #   "1---2---3---4---"
+      CH: "X     X         "
+      AG: "X     X         "
+      TB: "X     X         "
+      RP: "X     X         "
+      CX: "X     X         "
+      S3: "  X X   X XXX XX"
+      S1: "  X X   X X     "
+
+
+  fin:
+    name: Fin
+    color: "#AA0000"
+    timeSignature: 2/4
+    tracks:
+      #   "1---2---"
+      CH: "X       "
+      AG: "X       "
+      TB: "X       "
+      RP: "X       "
+      CX: "X       "
+      S3: "X       "
+      S1: "X       "
