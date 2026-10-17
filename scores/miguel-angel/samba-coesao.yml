@@ -35,7 +35,7 @@ sections:
     color: "#006000"
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      CH: "X --X --X --X --X --X --X --X --X --X --X --X --XXXXXXXXXXXXX X "
+      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXXXXXXXXXX X "
       AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX - "
       TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
       RP: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---XXXXXXXXXXXXX X "
