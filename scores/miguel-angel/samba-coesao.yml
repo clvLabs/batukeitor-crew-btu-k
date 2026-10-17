@@ -38,8 +38,8 @@ sections:
       CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXXXXXXXXXX X "
       AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX - "
       TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
-      RP: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---XXXXXXXXXXXXX X "
-      CX: "X  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XXXXXXXXXXXXXX X "
+      RP: "X  X  X   X X   X  X  X   X X   X  X  X   X X   XXXXXXXXXXXXX X "
+      CX: "X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXXXXXXXXX X "
       S3: "X       X   XXXXX       X  XX XXX       X   XXXXX       X  XX XX"
       S1: "    X       X       X       X       X       X       X       X   "
 
