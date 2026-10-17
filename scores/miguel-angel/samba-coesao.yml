@@ -23,7 +23,7 @@ sections:
       #   "1---2---3---4---"
       DD: "1   2   3       "
       CH: "                "
-      AG: "              --"
+      AG: "                "
       TB: "                "
       RP: "                "
       CX: "                "
@@ -36,7 +36,7 @@ sections:
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       CH: "X --X --X --X --X --X --X --X --X --X --X --X --XXXXXXXXXXXXX X "
-      AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX --"
+      AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX - "
       TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
       RP: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---XXXXXXXXXXXXX X "
       CX: "X  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XX  XXXXXXXXXXXXXX X "
