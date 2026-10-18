@@ -7,11 +7,15 @@ score:
   ---
   base base
   c1
-  base base
+  base
   c2
+  base
+  c3
+  base
+  c4
   base base
   ---
-  fin
+  c1fin
 
 
 sections:
@@ -45,7 +49,7 @@ sections:
 
   c1:
     name: Corte 1
-    color: "#0000E0"
+    color: "#21FFFF"
     tracks:
       #   "1---2---3---4---"
       CH: "    X     X X   "
@@ -58,7 +62,7 @@ sections:
 
   c2:
     name: Corte 2
-    color: "#00E0E0"
+    color: "#32B5B5"
     tracks:
       #   "1---2---3---4---"
       CH: "X     X         "
@@ -69,17 +73,42 @@ sections:
       S3: "  X X   X XXX XX"
       S1: "  X X   X X     "
 
-
-  fin:
-    name: Fin
-    color: "#AA0000"
-    timeSignature: 2/4
+  c3:
+    name: Corte 3
+    color: "#4D85B4"
     tracks:
-      #   "1---2---"
-      CH: "X       "
-      AG: "X       "
-      TB: "X       "
-      RP: "X       "
-      CX: "X       "
-      S3: "X       "
-      S1: "X       "
+      CH: "    XX          "
+      AG: "    XX          "
+      TB: "    XX          "
+      RP: "    XX          "
+      CX: "    XX          "
+      #   "1---2---3---4---"
+      S3: "X X    XX XXX XX"
+      S1: "X X    XX X     "
+
+  c4:
+    name: Corte 4
+    color: "#063FA2"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                 X   X   X       "
+      AG: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                 X   X   X       "
+      TB: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
+      RP: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
+      CX: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
+      S3: "X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X            XX XX"
+      S1: "X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 "
+
+
+  c1fin:
+    name: Corte1/Fin
+    color: "#AA0000"
+    tracks:
+      #   "1---2---3---4---"
+      CH: "    X     X X   "
+      AG: "    X     X X   "
+      TB: "    X     X X   "
+      RP: "    X     X X   "
+      CX: "    X     X X   "
+      S3: "XXXX  XXXX      "
+      S1: "XXXX  XXXX      "
