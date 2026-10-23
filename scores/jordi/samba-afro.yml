@@ -84,7 +84,7 @@ sections:
       TB: "  XX  X   XX  X  X X  X X X X X "
       RP: "  XX  X   XX  X   XX  XX  XX  X "
       CX: "--XX--X---XX--X---XX--X---XX--X-"
-      S3: "X   XXXXXXXXXXXXX   XXXXXXXXXXXX"
+      S3: "X   XXXXX X XXXXX   XXXXX X XXXX"
       S1: "X X X   X   X X X X X   X   X X "
 
   c1:
