@@ -13,7 +13,12 @@ score:
   c3
   base
   c4
-  base base
+  base2 base2
+  c5i
+  c5s c5s
+  c5ch c5rp c5ag c5cx
+  c5fin
+  base2 base2
   ---
   c1fin
 
@@ -28,7 +33,7 @@ sections:
       DD: "1   2   3       "
       CH: "                "
       AG: "                "
-      TB: "                "
+    # TB: "                "
       RP: "                "
       CX: "                "
       S3: "           XX XX"
@@ -37,12 +42,15 @@ sections:
   base:
     name: Base
     color: "#006000"
+    #
+    # Si hay TB, RP debería hacer "X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXXXXXXXXX X "
+    #
     tracks:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
-      CH: "X---X---X---X---X---X---X---X---X---X---X---X---XXXXXXXXXXXXX X "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXXXXXXXXX X "
       AG: "- XXX -- X XX --- XXX -- X XX --- XXX -- X XX   XXXXXXXXXXXXX - "
-      TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
-      RP: "X  X  X   X X   X  X  X   X X   X  X  X   X X   XXXXXXXXXXXXX X "
+    # TB: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
+      RP: "  XX  X   XX  X   XX  X   XX  X   XX  X   XX  X XXXXXXXXXXXXX X "
       CX: "X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXXXXXXXXX X "
       S3: "X       X   XXXXX       X  XX XXX       X   XXXXX       X  XX XX"
       S1: "    X       X       X       X       X       X       X       X   "
@@ -54,7 +62,7 @@ sections:
       #   "1---2---3---4---"
       CH: "    X     X X   "
       AG: "    X     X X   "
-      TB: "    X     X X   "
+    # TB: "    X     X X   "
       RP: "    X     X X   "
       CX: "    X     X X   "
       S3: "XXXX  XXXX XX XX"
@@ -67,7 +75,7 @@ sections:
       #   "1---2---3---4---"
       CH: "X     X         "
       AG: "X     X         "
-      TB: "X     X         "
+    # TB: "X     X         "
       RP: "X     X         "
       CX: "X     X         "
       S3: "  X X   X XXX XX"
@@ -79,7 +87,7 @@ sections:
     tracks:
       CH: "    XX          "
       AG: "    XX          "
-      TB: "    XX          "
+    # TB: "    XX          "
       RP: "    XX          "
       CX: "    XX          "
       #   "1---2---3---4---"
@@ -93,11 +101,140 @@ sections:
       #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
       CH: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                 X   X   X       "
       AG: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                 X   X   X       "
-      TB: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
+    # TB: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
       RP: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
       CX: "                X   X   X   X                   XX XXX XXX XX X                 XXXXXXXXXXXXX X                   X   X   X     "
       S3: "X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X            XX XX"
       S1: "X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 X  XX  XX  XX X                 "
+
+  base2:
+    name: Base 2
+    color: "#00A000"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---1---2---3---4---1---2---3---4---"
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XX--XXXXXXXXXXXXXX X "
+      AG: "-  -  X X - - XX-  -  X X - - XX-  -  X X - - XXXXXXXXXXXXXXX X "
+    # TB: "X  X  X   X X   X  X  X   X X   X  X  X   X X   XXXXXXXXXXXXX X "
+      RP: "X  X  X   X X   X  X  X   X X   X  X  X   X X   XXXXXXXXXXXXX X "
+      CX: "X--X--X---X-X---X--X--X---X-X---X--X--X---X-X---XXXXXXXXXXXXX X "
+      S3: "X       X   XXXXX       X  XX XXX       X   XXXXX       X  XX XX"
+      S1: "    X       X       X       X       X       X       X       X   "
+
+  c5i:
+    name: Corte 5 (intro)
+    color: "#3F24BC"
+    tracks:
+      #   "1---2---3---4---
+      DD: "            X   "
+      CH: "X  X  X X       "
+      AG: "X  X  X X       "
+    # TB: "X  X  X X       "
+      RP: "X  X  X X       "
+      CX: "X  X  X X       "
+      S3: "X  X  X X       "
+      S1: "X  X  X X       "
+
+  c5s:
+    name: Corte 5 (surdos)
+    color: "#5D45CD"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "    X       X       X       X   "
+      AG: "    X       X       X       X   "
+    # TB: "    X       X       X       X   "
+      RP: "    X       X       X       X   "
+      CX: "    X       X       X       X   "
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  c5ch:
+    name: Corte 5 (rocar)
+    color: "#715CD0"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "    X       X       X       X   "
+    # TB: "    X       X       X       X   "
+      RP: "    X       X       X       X   "
+      CX: "    X       X       X       X   "
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  #
+  # Si hubiese tamborim, el orden de entrada sería:
+  # - CH
+  # - TB
+  # - AG
+  # - RP
+  # - CX
+  #
+  # (alternando metal/parche)
+  #
+
+  c5tb:
+    name: Corte 5 (tamborim)
+    color: "#8574D6"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "    X       X       X       X   "
+    # TB: "X X X  X X XX   X X X  X X XX   "
+      RP: "    X       X       X       X   "
+      CX: "    X       X       X       X   "
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  c5rp:
+    name: Corte 5 (repe)
+    color: "#8574D6"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "    X       X       X       X   "
+    # TB: "X X X  X X XX   X X X  X X XX   "
+      RP: "X X X  X X XX   X X X  X X XX   "
+      CX: "    X       X       X       X   "
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  c5ag:
+    name: Corte 5 (campanas)
+    color: "#9788DA"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "- - X  - - X XX - - X  - - X XX "
+    # TB: "X X X  X X XX   X X X  X X XX   "
+      RP: "X X X  X X XX   X X X  X X XX   "
+      CX: "    X       X       X       X   "
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  c5cx:
+    name: Corte 5 (caixa)
+    color: "#AD88DA"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "- - X  - - X XX - - X  - - X XX "
+    # TB: "X X X  X X XX   X X X  X X XX   "
+      RP: "X X X  X X XX   X X X  X X XX   "
+      CX: "X-X-X--X-X-XX---X-X-X--X-X-XX---"
+      S3: "X  XX XX            XXXX        "
+      S1: "X  XX XX            XXXX        "
+
+  c5fin:
+    name: Corte 5 (fin)
+    color: "#CC88DA"
+    tracks:
+      #   "1---2---3---4---
+      CH: "XX              "
+      AG: "XX              "
+    # TB: "XX              "
+      RP: "XX              "
+      CX: "XX              "
+      S3: "XX         XX XX"
+      S1: "XX              "
 
 
   c1fin:
@@ -107,7 +244,7 @@ sections:
       #   "1---2---3---4---"
       CH: "    X     X X   "
       AG: "    X     X X   "
-      TB: "    X     X X   "
+    # TB: "    X     X X   "
       RP: "    X     X X   "
       CX: "    X     X X   "
       S3: "XXXX  XXXX      "
